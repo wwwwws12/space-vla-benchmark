@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "space-vla-benchmark"
+version = "0.1.0rc1"
+description = "Core source and numerical results for fixed-route visual grounding and stopping"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+images = ["Pillow>=10"]
+terrain = ["numpy>=1.26"]
+
+[tool.setuptools.packages.find]
+include = ["sfb*"]

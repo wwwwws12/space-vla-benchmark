@@ -1,0 +1,11 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "hfov_deg": 90.0,
+  "vfov_deg": 58.7,
+  "near_m": 0.1,
+  "far_m": 100000.0,
+  "stage_up_axis": "Z",
+  "stage_meters_per_unit": 1.0,
+  "rgb_order_on_disk": "RGB"
+}

@@ -1,0 +1,155 @@
+{
+  "core_and_assets": [
+    {
+      "source": "sfb/__init__.py",
+      "destination": "sfb/__init__.py",
+      "sha256": "db71ac7547fbb4d4a4997365b38eb5dba619e6759dca3eebe354c69418eed2e1"
+    },
+    {
+      "source": "sfb/actions.py",
+      "destination": "sfb/actions.py",
+      "sha256": "75dc98d5fb2c78e395a42ac972b6a9d7f7aff37310e2f72a5400283704bf0818"
+    },
+    {
+      "source": "sfb/camera.py",
+      "destination": "sfb/camera.py",
+      "sha256": "8059d3503a4433daebb04e0a6ab062f69b94d54cc8e1b67af861b810765ec251"
+    },
+    {
+      "source": "sfb/scene.py",
+      "destination": "sfb/scene.py",
+      "sha256": "0625123d5b29248132f56c1bdebea3c9186b65bbf2488e096d4d5ed681daec53"
+    },
+    {
+      "source": "sfb/scene_navigation.py",
+      "destination": "sfb/scene_navigation.py",
+      "sha256": "6f5efd3b7533b9ccf21eb6950b2404f23478fd65e6d43bdc5eac6bf75bc849d9"
+    },
+    {
+      "source": "sfb/records.py",
+      "destination": "sfb/records.py",
+      "sha256": "1068ccde28b2505fba891dec3be6a24738de9faedd96a40e6444f62faf1f937d"
+    },
+    {
+      "source": "sfb/png.py",
+      "destination": "sfb/png.py",
+      "sha256": "10ca4ad39f777bd71e6c28bd15a4248242c596c40c4810496d6200623fc1bd13"
+    },
+    {
+      "source": "sfb/trace_online.py",
+      "destination": "sfb/trace_online.py",
+      "sha256": "c51248a543e0b7bcf24cc72719a251fcaada5c39eb1d7e2d6d1128ac0af8d611"
+    },
+    {
+      "source": "sfb/trace_replay.py",
+      "destination": "sfb/trace_replay.py",
+      "sha256": "30e4dcfde50657dd806e5b5ddbda824a155c909dc73676baaf3048fdcfa550ed"
+    },
+    {
+      "source": "sfb/judger_input.py",
+      "destination": "sfb/judger_input.py",
+      "sha256": "a70548d6bae105eb2292ad132bf975f482b31ddf8b679ccde8b82a0738773206"
+    },
+    {
+      "source": "sfb/judger_online.py",
+      "destination": "sfb/judger_online.py",
+      "sha256": "e575579a67f7c9dc41a7c95808c1b1a3233d3d097e74c88df6380655017dd6ed"
+    },
+    {
+      "source": "sfb/lance_judger.py",
+      "destination": "sfb/lance_judger.py",
+      "sha256": "90790ff8d9bf05e2bd69a78b4f5b232450ebf24e26b5b4368c99d674907a7d76"
+    },
+    {
+      "source": "sfb/lance_prefix_v3.py",
+      "destination": "sfb/lance_prefix_v3.py",
+      "sha256": "9a5bac282e9a76a560dd25fcd33f59fd3b9d33bb5a8e2b15d029243b22cae81e"
+    },
+    {
+      "source": "sfb/nova_judger.py",
+      "destination": "sfb/nova_judger.py",
+      "sha256": "f2cde135b2cbb250eb015f77b7493bb4295dc59d7501082e90aeb2da426b4c1d"
+    },
+    {
+      "source": "sfb/nova_evaluation_v2.py",
+      "destination": "sfb/nova_evaluation_v2.py",
+      "sha256": "7ed4184efd0d9f6e5d37dc2b612b550c42f1f1215d215a3bca8671a36e89b7a6"
+    },
+    {
+      "source": "sfb/judger_prefix_answer_v1.py",
+      "destination": "sfb/judger_prefix_answer_v1.py",
+      "sha256": "65f0e0bb97c84817474371de7ad2f5736ee45332ba597b1cbb462e4809bcecba"
+    },
+    {
+      "source": "sfb/common_test_judgers_v1.py",
+      "destination": "sfb/common_test_judgers_v1.py",
+      "sha256": "708eb6849366946911c1a6a979bf978c8e7107e9d0611695b5e23b6ec8fbd6d2"
+    },
+    {
+      "source": "sfb/pilot_visibility.py",
+      "destination": "sfb/pilot_visibility.py",
+      "sha256": "0541a4a0c289e6343b5789b3102f50ef47d6aa264a8e0a24c75e429417f3fd6b"
+    },
+    {
+      "source": "datasets/verify_dataset.py",
+      "destination": "tools/verify_dataset.py",
+      "sha256": "60e127d8622766c14d21973982730b2be99209de075d92e1f330c429b29adbce"
+    },
+    {
+      "source": "configs/actions.json",
+      "destination": "configs/actions.json",
+      "sha256": "b6d49505f4f198dce5a780ada114ab543973e5cd448146e4f86e8b5243942699"
+    },
+    {
+      "source": "configs/camera.json",
+      "destination": "configs/camera.json",
+      "sha256": "d1afe18a5c16adfd16577d4b21b22fde75f2da707018a86e2764842e7552c48c"
+    },
+    {
+      "source": "protocols/dataset_format_v1.json",
+      "destination": "protocols/dataset_format_v1.json",
+      "sha256": "269a8378a29156efca51d675ac83451277fd48e7f3350da6c01a5431d0c2988c"
+    },
+    {
+      "source": "datasets/standard_v1/isaac_mars_a/baseline/T/mars_a_formal_007/rgb/frame_011.png",
+      "destination": "site/dist/assets/mars_baseline.png",
+      "sha256": "a5d065b3ac11d04a11af11de87b9b6d9446ee85d24ba5b8740886f71eb952e97"
+    },
+    {
+      "source": "datasets/paired_lighting_v1_20261102_standalone/isaac_mars_a/low_sun/T/mars_a_formal_007/rgb/frame_011.png",
+      "destination": "site/dist/assets/mars_second.png",
+      "sha256": "d20335c87769a4c527652a08eb589d70567839a47854f4e30c6cf9f11963a2b9"
+    },
+    {
+      "source": "datasets/standard_v1/isaac_moon_c/psr/T/moon_c_formal_003/rgb/frame_011.png",
+      "destination": "site/dist/assets/moon_baseline.png",
+      "sha256": "d0d65550c954e1768e426188e8a501290bd6f46aab5a16fc2cf5c8635ba4d0b8"
+    },
+    {
+      "source": "datasets/paired_lighting_v1_20261102_standalone/isaac_moon_c/sunlit/T/moon_c_formal_003/rgb/frame_011.png",
+      "destination": "site/dist/assets/moon_second.png",
+      "sha256": "b473cb01bce41dd260989aff7112c508559aa0c99eae62970b9332bb4eb21c38"
+    },
+    {
+      "source": "datasets/standard_v1/isaac_cabin_a/normal/T/cabin_a_formal_v2_000/rgb/frame_012.png",
+      "destination": "site/dist/assets/cabin_baseline.png",
+      "sha256": "3d9d993f2ff2608a8b30572742113007209e6e48ba60fdc4dd779f7d854c9f29"
+    },
+    {
+      "source": "datasets/paired_lighting_v1_20261102_standalone/isaac_cabin_a/dim/T/cabin_a_formal_v2_000/rgb/frame_012.png",
+      "destination": "site/dist/assets/cabin_second.png",
+      "sha256": "bc440c3f28519528315111296c9c1756429da1c4e92d2c99ee9146aaae782241"
+    },
+    {
+      "source": "runs/deliveries/benchmark_delivery_20261105_02/charts/01_trace_sr_paired.png",
+      "destination": "site/dist/assets/01_trace_sr_paired.png",
+      "sha256": "68bc0fff3bcf5707b6d0994dfc6f6d95cc1640b99fc19048fc385c9311874a87"
+    },
+    {
+      "source": "runs/deliveries/benchmark_delivery_20261105_02/charts/02_trace_delay_gap.png",
+      "destination": "site/dist/assets/02_trace_delay_gap.png",
+      "sha256": "ace9c42760e687a2481c53a49d66d2a2997de4a61393dc377c3e64d0f6ebe011"
+    }
+  ],
+  "note": "Original relative source paths are identifiers for audit, not runtime dependencies in this package."
+}

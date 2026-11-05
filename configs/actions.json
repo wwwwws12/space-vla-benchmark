@@ -1,0 +1,19 @@
+{
+  "source": "太空VLA_Benchmark_制作流程_v3.pdf, section 2",
+  "yaw_positive": "counterclockwise_from_positive_x",
+  "pos_ratio": {"mars": 1.0, "moon": 1.0, "cabin": 10.0},
+  "actions": {
+    "0": {"name": "stop"},
+    "1": {"name": "forward", "distance_units": 3.0},
+    "2": {"name": "turn_left", "degrees": 30.0},
+    "3": {"name": "turn_right", "degrees": -30.0},
+    "4": {"name": "up", "available_in_benchmark": false},
+    "5": {"name": "down", "available_in_benchmark": false},
+    "6": {"name": "translate_left", "distance_units": 3.0, "scale_status": "provisional_verify_vlnv1_statistics"},
+    "7": {"name": "translate_right", "distance_units": 3.0, "scale_status": "provisional_verify_vlnv1_statistics"},
+    "8": {"name": "forward", "distance_units": 6.0},
+    "9": {"name": "forward", "distance_units": 9.0}
+  },
+  "pilot_routes_use_only": [0, 1, 2, 3, 8, 9],
+  "note": "Actions 4/5 are blocked in all three benchmark worlds. Lateral magnitudes are not adequately evidenced by the PDF extract and must be verified against the local vlnv1 checkpoint before use; route generation is planar."
+}

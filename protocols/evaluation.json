@@ -1,0 +1,104 @@
+{
+  "schema": "space-vla.public-evaluation-protocol.v1",
+  "status": "local_publication_candidate",
+  "source_protocol_sha256": {
+    "protocols/dataset_evaluation_v1.json": "b0b6d8787da37e5b3bb25521ba3c3f06f5b64e792f3576be9d02631f3cb722b0",
+    "protocols/common_test_v1.json": "3145602635ee37d8fe709a5d1f92565b44299bf54ff0069961651a229ef285fa",
+    "protocols/judger_prefix_answer_v1.json": "c319f3f18f1bf709a68e161e6f2ab442aaf6844eecef2526a0846f39902727f1"
+  },
+  "frozen_selection_sha256": "5e4209f54f61f563ba9fd2916cdaddb6666a486f12a13cda2e9921dc7df9b569",
+  "route_split": {
+    "worlds": 3,
+    "scenes_per_world": 3,
+    "routes_per_scene": 100,
+    "dev_per_scene": 20,
+    "test_per_scene": 80
+  },
+  "selection": {
+    "split": "baseline dev",
+    "models_equal_weight": true,
+    "dev_per_model_per_world": 60,
+    "candidate_K": [
+      2,
+      3
+    ],
+    "candidate_q": [
+      1,
+      2,
+      3
+    ],
+    "tie_break": [
+      "SR descending",
+      "SPL descending",
+      "queries ascending",
+      "K ascending",
+      "q ascending"
+    ],
+    "frozen": {
+      "mars": [
+        3,
+        3
+      ],
+      "moon": [
+        2,
+        3
+      ],
+      "cabin": [
+        3,
+        3
+      ]
+    },
+    "test_grid_K": [
+      1,
+      2,
+      3
+    ],
+    "test_grid_q": [
+      1,
+      2,
+      3
+    ]
+  },
+  "prompt": "Is {target_description} visible in this image? Answer Yes or No only.",
+  "image": {
+    "mode": "RGB",
+    "width": 1920,
+    "height": 1080,
+    "encoding": "JPEG Q85 once; hash the transmitted original JPEG bytes"
+  },
+  "model_input": "Current image and target phrase only; no truth, pose, distance, route history or previous answers.",
+  "TRACE": "Native STOP first; query t=0,q,2q; stop on K consecutive Yes, reset on No, decide before action.",
+  "delay_only": "Wait (K-1)*q action steps after the first Yes; native STOP retains priority.",
+  "oracle_visibility": "Replace model answers by target-pixel visibility; not a distance-success upper bound.",
+  "visibility": {
+    "target_pixels_min": 400,
+    "Moon_mean_target_luma_min": 10,
+    "truth_for_evaluation_only": true
+  },
+  "success": "Distance strictly < R; R=20m for Mars/Moon, R=2m for Cabin.",
+  "parser": "Approved leading independent Yes/No interpretation; reject ambiguity/contradiction/refusal. Preserve raw 422 and derived label separately. Unknown outcomes are never No.",
+  "failures": "No automatic retries. Explicit input-bound replacement attempts remain linked to original failures.",
+  "campaign_match_verified": false,
+  "models": [
+    {
+      "name": "Qwen2.5-VL-3B-Instruct",
+      "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+      "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3"
+    },
+    {
+      "name": "Lance_3B",
+      "model_id": "bytedance-research/Lance/Lance_3B",
+      "revision": "7395315758865e6f56ab87ad06a88c7ac172f056"
+    },
+    {
+      "name": "Nova Lite 1.0",
+      "model_id": "amazon.nova-lite-v1:0",
+      "gateway": "amazon/nova-lite-v1",
+      "provider_endpoint": "amazon-bedrock/eu-west-1",
+      "contract": "space-nova-lite-openrouter-judger-v2",
+      "max_tokens": 8,
+      "temperature": 1e-05,
+      "top_k": 1
+    }
+  ]
+}

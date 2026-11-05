@@ -1,0 +1,188 @@
+{
+  "aggregation_source_sha256": "1a2a75b1b30ecf2e827a00a2666b93d5b65b25dcde6598c269222d1b0d26d400",
+  "original_project_index_sha256": "83c901e9dcca8a81ac6886cd2722ed8bcf1be33b872fa881ea802d7491dd2d6d",
+  "reports": [
+    {
+      "lighting": "baseline",
+      "world": "mars",
+      "model": "qwen",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "ac38683cb7a5ae6b04f5ca76a5be803faeb7f4933c51b50fbdc2042b914023d1"
+    },
+    {
+      "lighting": "second",
+      "world": "mars",
+      "model": "qwen",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "6ddec3f6aa2f8c339e453c76f7195e3df9320c4e240a51c132ebdba62df07ba3"
+    },
+    {
+      "lighting": "baseline",
+      "world": "mars",
+      "model": "lance",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "4e92ab5c89f3deab6b43c8512f47f5e995354d7856bb5778841691bb2437bfe8"
+    },
+    {
+      "lighting": "second",
+      "world": "mars",
+      "model": "lance",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "b9a45e556ffe004dd6ccce16b1440d8855906f93f3668472aa08ea0da0bb0d6f"
+    },
+    {
+      "lighting": "baseline",
+      "world": "mars",
+      "model": "nova",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "5150a259904257704c17b9705e23502b5c6ea0ee107104b6462f71be61aa3e8e"
+    },
+    {
+      "lighting": "second",
+      "world": "mars",
+      "model": "nova",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "37dfe234e7df176040954a3379d40d15db7560095b4429728bbf0f6d60f5bbc3"
+    },
+    {
+      "lighting": "baseline",
+      "world": "moon",
+      "model": "qwen",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 2,
+      "primary_q": 3,
+      "metrics_sha256": "196bbab76fc5f4e5163bf93a5c8e8591608128416da1e5a9748aca314585e55f"
+    },
+    {
+      "lighting": "second",
+      "world": "moon",
+      "model": "qwen",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 2,
+      "primary_q": 3,
+      "metrics_sha256": "9f410349f153969f4ba93c8f58208dfb797e2245f34ef31f6ef720932c4be51b"
+    },
+    {
+      "lighting": "baseline",
+      "world": "moon",
+      "model": "lance",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 2,
+      "primary_q": 3,
+      "metrics_sha256": "e910708fa368614b669b0b856c14d48049ab2ad8430f46445cd616c51b141cb9"
+    },
+    {
+      "lighting": "second",
+      "world": "moon",
+      "model": "lance",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 2,
+      "primary_q": 3,
+      "metrics_sha256": "9dbfb195d16a4b8d765b836a3d9f2d6323ecab412a3a47db732acfe721cd9d9f"
+    },
+    {
+      "lighting": "baseline",
+      "world": "moon",
+      "model": "nova",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 2,
+      "primary_q": 3,
+      "metrics_sha256": "85d795f4a981baba64f2575777632d95ea007412ccdc3633ce6611033f12de28"
+    },
+    {
+      "lighting": "second",
+      "world": "moon",
+      "model": "nova",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 2,
+      "primary_q": 3,
+      "metrics_sha256": "0c90773cccd9d4d1c9ddeaa797e9f1f43cd07fb1439194c49293eae3ffb2285e"
+    },
+    {
+      "lighting": "baseline",
+      "world": "cabin",
+      "model": "qwen",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "a7b215c3b5963d3d6cf463d36b06bb3445df3d40a0cb7ea5751ac2de7c4bd6dd"
+    },
+    {
+      "lighting": "second",
+      "world": "cabin",
+      "model": "qwen",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "c446a9fe2419dc80c51a6841ee3bbdb3bce966ebb0710e035104a19a03f34b04"
+    },
+    {
+      "lighting": "baseline",
+      "world": "cabin",
+      "model": "lance",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "cae9e04ff4b4e2a794d27b6426617600eb3f1403845562a7e1da7cf233db116c"
+    },
+    {
+      "lighting": "second",
+      "world": "cabin",
+      "model": "lance",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "1d1ee254898b505e07794dee650a35096aaeed7543ff34cf4d6839400b5db455"
+    },
+    {
+      "lighting": "baseline",
+      "world": "cabin",
+      "model": "nova",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "0eb3ae4ce6882f30ff60a1304cfe642fbc2c33c6ac404acedc964fea4653a556"
+    },
+    {
+      "lighting": "second",
+      "world": "cabin",
+      "model": "nova",
+      "routes": 240,
+      "replay_rows": 6720,
+      "primary_K": 3,
+      "primary_q": 3,
+      "metrics_sha256": "bb327cd03f83bed6fd1a8e9bba3372c8c06235c70b55f355285aab93959f791b"
+    }
+  ],
+  "projection": "Whitelisted numerical route metrics only; no HTTP payload, credentials, request ledger or raw model text. Original failures and authorized replacements remain in the private audit.",
+  "limitations": "This is not a complete per-request audit or from-image reproduction bundle."
+}

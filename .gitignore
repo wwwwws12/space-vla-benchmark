@@ -1,0 +1,21 @@
+# Private state, environments and experiment output
+.venv*/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.ssh/
+.aws/
+.codex/
+runs/
+backup/
+datasets/
+worlds/
+weights/
+*.safetensors
+*.pt
+*.pem
+*.key
+*.log
+# Published figures, result exports and site/dist are intentionally tracked.

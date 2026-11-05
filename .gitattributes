@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.yml text eol=lf
+*.png binary
+*.gz binary
+
+# Preserve the exact bytes of checksummed copied exports.
+results/source_inventory.json -text
+site/dist/downloads/*.md -text

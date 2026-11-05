@@ -1,0 +1,55 @@
+{
+  "examples": [
+    {
+      "world": "mars",
+      "scene_id": "isaac_mars_a",
+      "route_id": "mars_a_formal_007",
+      "frame_idx": 11,
+      "files": {
+        "baseline": {
+          "file": "site/dist/assets/mars_baseline.png",
+          "sha256": "a5d065b3ac11d04a11af11de87b9b6d9446ee85d24ba5b8740886f71eb952e97"
+        },
+        "second": {
+          "file": "site/dist/assets/mars_second.png",
+          "sha256": "d20335c87769a4c527652a08eb589d70567839a47854f4e30c6cf9f11963a2b9"
+        }
+      }
+    },
+    {
+      "world": "moon",
+      "scene_id": "isaac_moon_c",
+      "route_id": "moon_c_formal_003",
+      "frame_idx": 11,
+      "files": {
+        "baseline": {
+          "file": "site/dist/assets/moon_baseline.png",
+          "sha256": "d0d65550c954e1768e426188e8a501290bd6f46aab5a16fc2cf5c8635ba4d0b8"
+        },
+        "second": {
+          "file": "site/dist/assets/moon_second.png",
+          "sha256": "b473cb01bce41dd260989aff7112c508559aa0c99eae62970b9332bb4eb21c38"
+        }
+      }
+    },
+    {
+      "world": "cabin",
+      "scene_id": "isaac_cabin_a",
+      "route_id": "cabin_a_formal_v2_000",
+      "frame_idx": 12,
+      "files": {
+        "baseline": {
+          "file": "site/dist/assets/cabin_baseline.png",
+          "sha256": "3d9d993f2ff2608a8b30572742113007209e6e48ba60fdc4dd779f7d854c9f29"
+        },
+        "second": {
+          "file": "site/dist/assets/cabin_second.png",
+          "sha256": "bc440c3f28519528315111296c9c1756429da1c4e92d2c99ee9146aaae782241"
+        }
+      }
+    }
+  ],
+  "unchanged_original_png_bytes": true,
+  "selection": "Reuse the three pre-existing paired-light dev illustrations; not newly selected by success.",
+  "rights": "Local preview only until image/asset publication review is complete."
+}

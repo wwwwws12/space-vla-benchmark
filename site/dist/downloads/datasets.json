@@ -1,0 +1,259 @@
+{
+  "packages": [
+    {
+      "lighting": "baseline",
+      "scene_id": "isaac_cabin_a",
+      "world": "cabin",
+      "variant": "normal",
+      "routes": 100,
+      "frames": 3920,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "6662ec3a7f0cd6a25b36df73caaf37724e89f74e6ef007529ecfc443cd88f174",
+      "freeze_sha256": "c31a4443423cd283bbbaef05c9b8223ce71e80d7cd5512f7576875c34d630881"
+    },
+    {
+      "lighting": "baseline",
+      "scene_id": "isaac_cabin_b",
+      "world": "cabin",
+      "variant": "normal",
+      "routes": 100,
+      "frames": 4052,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "6a8be372195e61f2782e92e6b7f51fcd9fb5043480746d0edc4c4b4035d4f75d",
+      "freeze_sha256": "0b19a80aa3ded7f7aa753b7234945e83203d2fc2cc2aa60d49ca2786d5305efd"
+    },
+    {
+      "lighting": "baseline",
+      "scene_id": "isaac_cabin_c",
+      "world": "cabin",
+      "variant": "normal",
+      "routes": 100,
+      "frames": 4128,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "fd1e6895fc10debe71b64b833029612f407cf637c7c96162d468d41d78dd5546",
+      "freeze_sha256": "8f16e33d3b69537ee9034c0847cfa7f271b79c75b633649bac5575f3c610c357"
+    },
+    {
+      "lighting": "baseline",
+      "scene_id": "isaac_mars_a",
+      "world": "mars",
+      "variant": "baseline",
+      "routes": 100,
+      "frames": 3310,
+      "split": {
+        "test": 80,
+        "dev": 20
+      },
+      "manifest_sha256": "d647f4d10ce2f3e77a6f2ed86c78067be18fff640d94a4ea43b88a7541ce5dc6",
+      "freeze_sha256": "549144e74c1bdac4295b2b55bfce43706c67622e2524efb686c9007529f5e03a"
+    },
+    {
+      "lighting": "baseline",
+      "scene_id": "isaac_mars_b",
+      "world": "mars",
+      "variant": "baseline",
+      "routes": 100,
+      "frames": 3259,
+      "split": {
+        "test": 80,
+        "dev": 20
+      },
+      "manifest_sha256": "8b9f1c8b153ede89672c7c1ce7bfd191451f180bd400336e7c548c823e9c2f3c",
+      "freeze_sha256": "f073a42db686cd17ce11ed47177d328900be66bc133d56726e6c8c24082c2f23"
+    },
+    {
+      "lighting": "baseline",
+      "scene_id": "isaac_mars_c",
+      "world": "mars",
+      "variant": "baseline",
+      "routes": 100,
+      "frames": 3310,
+      "split": {
+        "test": 80,
+        "dev": 20
+      },
+      "manifest_sha256": "3aa8f1ab86e640935fe5ac5d5143ae91567ca1e4857890a7f8f0de81304c4889",
+      "freeze_sha256": "0c0ec56903f513b37b899ab8d05d0382283c9ebe74a9259e59b7033cd727892b"
+    },
+    {
+      "lighting": "baseline",
+      "scene_id": "isaac_moon_a",
+      "world": "moon",
+      "variant": "sunlit",
+      "routes": 100,
+      "frames": 3575,
+      "split": {
+        "test": 80,
+        "dev": 20
+      },
+      "manifest_sha256": "17fb663e86c8e5b5f10b0d1a35065342b5a9b90587afb947bdf7f3b8bb240f75",
+      "freeze_sha256": "cb8b07dfdeee6e390a34c2e131f5d45fa4e7450ed83669a53e1396a34199a031"
+    },
+    {
+      "lighting": "baseline",
+      "scene_id": "isaac_moon_b",
+      "world": "moon",
+      "variant": "sunlit",
+      "routes": 100,
+      "frames": 3638,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "41eb6912d5c818f089a0a43c6125e2e930d8693689007c9fb3f38cc59613b423",
+      "freeze_sha256": "ea0641e6128c540567718fde1861915f1f71d899ff0d035e73c0ef9ea4c1d43f"
+    },
+    {
+      "lighting": "baseline",
+      "scene_id": "isaac_moon_c",
+      "world": "moon",
+      "variant": "psr",
+      "routes": 100,
+      "frames": 3608,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "d7579750a1ffdc6c5a2b66f55ae11a4edddf9acd8ba9d9f6e98442af72b1e6d4",
+      "freeze_sha256": "daf7f7981df5d21cdc6279f097e3dc0233b02a51065e2dbc7998057c9002cdff"
+    },
+    {
+      "lighting": "second",
+      "scene_id": "isaac_cabin_a",
+      "world": "cabin",
+      "variant": "dim",
+      "routes": 100,
+      "frames": 3920,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "0a87da808b704a00d1f83dab9b31bb23be8f117a2ddf9d911d1291352c1a6c1b",
+      "freeze_sha256": "c73cddb7db952f376d44f205c4fdb9377ab9f3e907420519e6bc2d62a06930f6"
+    },
+    {
+      "lighting": "second",
+      "scene_id": "isaac_cabin_b",
+      "world": "cabin",
+      "variant": "dim",
+      "routes": 100,
+      "frames": 4052,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "d9aab35d1ebfe3058f6923ff84d9d3c863d4198316df19ebd25b1227aefbb886",
+      "freeze_sha256": "90ab8a9e89392f64f120db1c7f73a8780dc7c390f59326dde25cebd6eb917a6a"
+    },
+    {
+      "lighting": "second",
+      "scene_id": "isaac_cabin_c",
+      "world": "cabin",
+      "variant": "dim",
+      "routes": 100,
+      "frames": 4128,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "735da3623c2921cca6d8b07d00b6f146a468e21674616f953e53cfe3b1690287",
+      "freeze_sha256": "d6a7344e53e79300fcdcceda8214e23f9bca65a11c0f3b759fbae4ede0060617"
+    },
+    {
+      "lighting": "second",
+      "scene_id": "isaac_mars_a",
+      "world": "mars",
+      "variant": "low_sun",
+      "routes": 100,
+      "frames": 3310,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "b43ad4dd22d3ac4d76a22f7bae16fe771615cfc0452a076528f4940b6e0d6dbe",
+      "freeze_sha256": "a7ee542202a2787f2e39aec7beff573f3bd80f6ee3597996b0c0cbeb7ff8eb5f"
+    },
+    {
+      "lighting": "second",
+      "scene_id": "isaac_mars_b",
+      "world": "mars",
+      "variant": "low_sun",
+      "routes": 100,
+      "frames": 3259,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "6e755888a1fbbf8c8e52cc981da3d873a2c998b311675e7b05d0eed183bec03d",
+      "freeze_sha256": "fb7807c0e938cbacca6af0be5ae6e3cc81ccfd9d06a02de61be879b917716041"
+    },
+    {
+      "lighting": "second",
+      "scene_id": "isaac_mars_c",
+      "world": "mars",
+      "variant": "low_sun",
+      "routes": 100,
+      "frames": 3310,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "e2fe1e0b2b9549870b9e693662b91f6e459dfa972ab55a3de9e3b3109eb7a772",
+      "freeze_sha256": "fb4e674c28a5efb8ac064f7a423b031c49388483999756a8ce72aff377badc55"
+    },
+    {
+      "lighting": "second",
+      "scene_id": "isaac_moon_a",
+      "world": "moon",
+      "variant": "sun_east",
+      "routes": 100,
+      "frames": 3575,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "5fe22d90b2e3b2c504ee57f9f1e76947cbce83bc3191966a00112bb7276e50eb",
+      "freeze_sha256": "e1399ff963276995adbd442e87e63d20e6201d3ea129fbf4cee4cc079c943ff0"
+    },
+    {
+      "lighting": "second",
+      "scene_id": "isaac_moon_b",
+      "world": "moon",
+      "variant": "sun_east",
+      "routes": 100,
+      "frames": 3638,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "fb7715b8b791fdbac34348dcba242f8fd848f6d29f0f5ef2c78df76d9c981f2c",
+      "freeze_sha256": "1d9195471b2db1a7d4c0930fd2f4942426d9bab11752631c71a7c4127bcb8518"
+    },
+    {
+      "lighting": "second",
+      "scene_id": "isaac_moon_c",
+      "world": "moon",
+      "variant": "sunlit",
+      "routes": 100,
+      "frames": 3608,
+      "split": {
+        "dev": 20,
+        "test": 80
+      },
+      "manifest_sha256": "6c2d4382fe3df6ab7fd053ea4d1eb1bec0ba7ba5124a3f560d7c36e4444c3fa0",
+      "freeze_sha256": "fd7a9a1304666265779f884c8175e1dff75afc2376e2cbd8cfa58db4577461e3"
+    }
+  ],
+  "unique_routes": 900,
+  "captured_frames": 65600,
+  "image_download_available": false
+}
