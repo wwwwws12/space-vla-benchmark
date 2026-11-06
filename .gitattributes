@@ -7,7 +7,10 @@
 *.yml text eol=lf
 *.png binary
 *.gz binary
+*.mp4 binary
 
 # Preserve the exact bytes of checksummed copied exports.
 results/source_inventory.json -text
 site/dist/downloads/*.md -text
+
+*.webm binary

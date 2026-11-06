@@ -4,7 +4,7 @@ Prepared offline on2026-11-05 for user-authorized private GitHub staging. Public
 
 ## Prepared
 
-- English/Chinese research README and static project page.
+- English/Chinese research README and static project page, including a three-scene video carousel.
 - Real paired dev illustrations with SHA provenance; current Mars8 results only.
 - 18 original core modules and the standalone data verifier.
 - 120960 numerical rollout rows,72 primary result rows, fixed route splits and public protocol projection.
@@ -20,7 +20,7 @@ HTTPS clone URL: `https://github.com/wwwwws12/space-vla-benchmark.git`. The web 
 
 1. Authors, affiliations and public contact (do not invent an institution or paper).
 2. License for project-owned code and numerical data.
-3. Approval/rights for the six rendered examples and any later full-data distribution.
+3. Approval/rights for the six rendered examples, three scene-replay videos and any later full-data distribution.
 
 These decisions can remain pending during private staging. No open-source license has been granted by this candidate.
 

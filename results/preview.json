@@ -1,0 +1,30 @@
+{
+  "file": "site/dist/assets/scene-preview.gif",
+  "sha256": "33692a14aaad3e3715455b4ed121b5e821dbfeb1e8d4693ac9d80cbdfb637338",
+  "bytes": 1633090,
+  "format": "GIF, 720x405, 5fps, 128 colors, silent looping preview",
+  "duration_seconds": 14.4,
+  "sources": [
+    {
+      "file": "site/dist/videos/mars-dev.mp4",
+      "sha256": "2e66aee52fd5add5018ec3ff4abbced702004356a0985de98e7c9d256c0f09de",
+      "start_seconds": 0,
+      "duration_seconds": 4.8
+    },
+    {
+      "file": "site/dist/videos/moon-dev.mp4",
+      "sha256": "7865583a8713261586662a3848ff5b48ec6f5c9e3094599ca31397f1adca13e8",
+      "start_seconds": 0,
+      "duration_seconds": 4.8
+    },
+    {
+      "file": "site/dist/videos/cabin-dev.mp4",
+      "sha256": "0504073da84ac54db1eeaccb1542506dc900773c520f29803874c4829bff8896",
+      "start_seconds": 0,
+      "duration_seconds": 4.8
+    }
+  ],
+  "license": "Same pending source-asset rights as scene videos; project license unselected",
+  "version": "readme-layout-20261105-v1",
+  "role": "Short README preview; full videos remain unchanged"
+}

@@ -6,9 +6,9 @@
 
 > Private repository staging candidate. Author attribution and licenses await owner confirmation; public release and GitHub Pages deployment are pending. See [release status](RELEASE_STATUS.md).
 
-<table><tr><td><img src="site/dist/assets/mars_baseline.png" alt="Mars: simulated Jezero terrain and a blue target container"></td><td><img src="site/dist/assets/moon_second.png" alt="Moon: the controlled sunlit counterpart of a shadowed lunar scene"></td><td><img src="site/dist/assets/cabin_baseline.png" alt="Cabin: simulated ISS interior with an Astrobee target"></td></tr><tr><td>Mars · baseline</td><td>Moon C · second light</td><td>Cabin · baseline</td></tr></table>
+[![Three-scene route video preview](site/dist/assets/scene-preview.gif)](site/dist/index.html#demo)
 
-*Actual simulator RGB from existing dev examples; original PNG bytes. Illustrations show selected views, not performance rankings. [Image provenance and credits](docs/ASSETS.md).*
+Mars → Moon → Cabin, 4.8 seconds per scene in this animated preview. The [full video carousel (local project page)](site/dist/index.html#demo) supports inline playback and scene switching. Exported from existing dev frames; presentation pacing is not real-time operation. [Provenance](results/videos.json).
 
 ## Overview
 
@@ -71,6 +71,15 @@ Main TRACE at the frozen world-specific K/q, **240 test routes in every cell**:
 Across 2,160 model–route pairs, TRACE SR changes from **33.94% to 30.28%** (−3.66 percentage points). Seven of nine model×world groups decrease, two increase. TRACE is below delay-only in **9/9 baseline** and **8/9 second-light** groups. These negative results are retained; the paired differences are descriptive, not claims of statistical significance.
 
 [All primary methods](results/summary.json) · [Full nine-grid numerical export](results/rollouts.jsonl.gz) · [Source hashes](results/provenance.json)
+
+
+### TRACE K/q grids
+
+Panels are arranged by world × Judger. Within each panel, rows are K and columns are q; each cell shows SR (%) over 240 test routes. Orange outlines mark dev-frozen settings, not test-selected optima. Mars second lighting uses the corrected 8° results.
+
+![Baseline lighting TRACE K/q grids](site/dist/assets/trace_grid_baseline.png)
+
+![Second lighting TRACE K/q grids](site/dist/assets/trace_grid_second.png)
 
 ## Quick start: existing results, fully offline
 

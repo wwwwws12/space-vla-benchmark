@@ -6,11 +6,11 @@
 
 > 当前为私有仓库中的发布候选包。作者和许可证待确认，公开发布及GitHub Pages部署尚未进行；第三方素材权利分别处理。见[发布状态](RELEASE_STATUS.md)。
 
-| 火星 | 月球C配对光照 | 太空舱 |
-|---|---|---|
-| ![火星](site/dist/assets/mars_baseline.png) | ![月球](site/dist/assets/moon_second.png) | ![太空舱](site/dist/assets/cabin_baseline.png) |
+[![火星、月球、太空舱轮番视频预览](site/dist/assets/scene-preview.gif)](site/dist/index.zh-CN.html#demo)
 
-以上为已有dev路线的真实仿真图像，保留原PNG字节。[图片来源](docs/ASSETS.md)。
+**火星 → 月球 → 太空舱，自动循环预览。** [打开完整视频轮播](site/dist/index.zh-CN.html#demo)，可在页面内播放并点击切换场景。
+
+README内展示每场景4.8秒的循环动图；完整视频由已有dev路线的真实仿真帧导出，播放节奏不代表实时运行速度。[视频来源](results/videos.json)。
 
 ## 项目研究什么？
 
@@ -47,6 +47,14 @@ Isaac Sim负责渲染，模型只接收当前图像和目标短语。距离、�
 2160个模型×路线对的主TRACE成功率由**33.94%降至30.28%**。9组中7组下降、2组上升。基准9/9、第二光照8/9组TRACE低于delay-only，保留负结果，不宣称普遍改善或统计显著。
 
 网页可切换四种策略查看SR/SPL；结果文件还包含全部九格。Oracle用可见性真值替代模型回答，不是距离成功率的理论上界。
+
+### TRACE 参数九宫图
+
+基准光照与第二光照分别展示世界×模型的九宫图。每幅小图纵轴为K、横轴为q，单元格为240条test路线的成功率（%）；橙框为dev冻结参数，不用test重新选参。Mars第二光照采用8°结果。
+
+![基准光照 TRACE 九宫图](site/dist/assets/trace_grid_baseline.png)
+
+![第二光照 TRACE 九宫图](site/dist/assets/trace_grid_second.png)
 
 ## 本地使用
 

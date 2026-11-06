@@ -22,6 +22,15 @@ Exactly six original PNGs are copied unchanged, using the three pre-existing dev
 
 SHA256 and displayed-condition mapping are in illustrations.json. The website may crop thumbnails through layout; the paired examples display the full16:9 RGB frame. No image generation, repainting, relighting or image re-encoding was used for this candidate.
 
-The two result-chart PNGs are unchanged exports from the current Mars8 report. Original numeric reports are fingerprinted in provenance.json. Complete asset manifests and original failure evidence remain in the private development workspace.
+The four result-chart PNGs are unchanged exports from the current Mars8 report. Original numeric reports are fingerprinted in provenance.json. Complete asset manifests and original failure evidence remain in the private development workspace.
 
 Before publishing: confirm the six render examples' display rights, finalize author/owner attribution, select licenses separately for code and numerical data, and either clear or omit any unresolved asset-bearing material. New licenses must not silently override third-party terms.
+
+
+## Scene replay videos
+
+Three complete baseline dev routes are encoded from the current saved RGB images for the project-page carousel. Each source image is held for0.6s in a silent1920×1080 H.264/MP4 container at30fps. The images are not rerendered, recolored, cropped or interpolated. This is presentation pacing, not live simulator timing or a model-stop demonstration. Original inputs and experimental results are unchanged.
+
+The video routes reuse the already-selected illustration examples: MarsA `mars_a_formal_007`, MoonC `moon_c_formal_003`, CabinA `cabin_a_formal_v2_000`. No route was selected by performance. The existing baseline PNGs serve as unchanged video posters. Frame-level SHA provenance, output sizes, version and source-asset rights are recorded in the video manifest. These clips inherit the same unresolved public-distribution conditions as their source scene imagery; no new license grant is implied.
+
+Two TRACE K/q grid figures (baseline and second lighting) are copied unchanged from the current Mars8 delivery. Orange outlines indicate dev-frozen settings, not test optimization.
