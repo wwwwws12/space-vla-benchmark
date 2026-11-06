@@ -2,13 +2,15 @@
 
 ## Preview now
 
-Open `site/dist/index.html` or `site/dist/index.zh-CN.html`. Both work without a build or server. Optional loopback preview from the repository root:
+Open `site/dist/index.html` or `site/dist/index.zh-CN.html` to view the page. For local dataset downloads, use the loopback preview from the repository root:
 
-```bash
-python -m http.server 8765 --bind 127.0.0.1 --directory site/dist
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\preview_site.ps1
 ```
 
-Then visit http://127.0.0.1:8765/ . The page loads its CSS, JavaScript, six real examples and numerical data locally. No npm install, CDN, analytics or inference endpoint is used.
+Then visit `http://127.0.0.1:8766/index.html` or `http://127.0.0.1:8766/index.zh-CN.html`. The page loads its CSS, JavaScript, scene media and numerical data locally. No npm install, CDN, analytics or inference endpoint is used. Keep the preview window open during downloads. If a preview was already running before the download module was added, stop that preview with Ctrl+C and start it again.
+
+In the development workspace, the launcher locates the prepared packages automatically. For another local copy, pass `-DatasetDirectory 'PATH_TO_PACKAGES'`; keep the accompanying `COMPLETE.json` in that directory's parent. The launcher serves only the listed archive files and manifests. A generic static file server cannot serve these separate data packages.
 
 ## Prepare the new repository
 
@@ -16,7 +18,13 @@ Use [wwwwws12/space-vla-benchmark](https://github.com/wwwwws12/space-vla-benchma
 
 The repository URL is configured. Private staging may retain pending metadata. Before public release, fill owner-approved authors, code/data license and asset permissions in `release-metadata.json` and update `site/dist/release-config.js` as needed. Update README citation/release status accordingly. These fields are intentionally not guessed. Source images are present for local review and still need publication clearance.
 
-The prepared page has no fake Paper/DOI/Dataset download links. When a real public dataset location becomes available, add it with its version, checksum and license. Do not call the small result export the full dataset.
+## Dataset hosting
+
+The six dataset groups are separate from the code checkout and the static site. Their names, sizes and SHA256 values are in `site/dist/downloads/dataset-downloads.json`; `site/dist/dataset-downloads-data.js` contains the same catalog for the page. Local packages have `status: local_ready`; their public `url` fields remain null until the actual files have been hosted.
+
+When publishing the dataset, upload the ZIP files plus `dataset_manifest.json` and `SHA256SUMS` to the chosen dataset host. Set each archive's and both manifest links' `url` to its actual HTTPS download URL in both site catalogs. Preserve filenames, byte sizes and SHA256 values. Confirm the public links before uploading the updated website. The preview-only `local_url` values are ignored on public hosts. Keep large ZIPs outside this code repository and `site/dist/`.
+
+The current local preparation has not uploaded or published these data. See [DOWNLOADS.md](DOWNLOADS.md) for package layout and verification, and [DATASET_ATTRIBUTION.md](DATASET_ATTRIBUTION.md) for source attribution and distribution status.
 
 ## GitHub Pages
 

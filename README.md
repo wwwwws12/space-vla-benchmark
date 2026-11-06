@@ -2,9 +2,7 @@
 
 **Visual grounding and semantic stopping along fixed trajectories in simulated space environments.**
 
-[GitHub](https://github.com/wwwwws12/space-vla-benchmark) · [Project page (local)](site/dist/index.html) · [中文](README.zh-CN.md) · [Protocol](docs/PROTOCOL.md) · [Data](docs/DATASET.md) · [Results](results/summary.json) · [Reproduce tables](docs/REPRODUCIBILITY.md)
-
-> Private repository staging candidate. Author attribution and licenses await owner confirmation; public release and GitHub Pages deployment are pending. See [release status](RELEASE_STATUS.md).
+[GitHub](https://github.com/wwwwws12/space-vla-benchmark) · [Project page (local)](site/dist/index.html) · [中文](README.zh-CN.md) · [Protocol](docs/PROTOCOL.md) · [Data](docs/DATASET.md) · [Dataset downloads](site/dist/index.html#dataset-downloads) · [Results](results/summary.json) · [Reproduce tables](docs/REPRODUCIBILITY.md)
 
 [![Three-scene route video preview](site/dist/assets/scene-preview.gif)](site/dist/index.html#demo)
 
@@ -14,7 +12,7 @@ Mars → Moon → Cabin, 4.8 seconds per scene in this animated preview. The [fu
 
 Space VLA Benchmark examines whether a visual language model recognizes a target, and whether that judgment makes a robot stop at a useful location. It provides fixed scripted T-track trajectories in Mars, Moon and Cabin scenes, paired lighting conditions, and a common evaluation protocol for Qwen2.5-VL-3B, Lance_3B and Nova Lite 1.0.
 
-The local simulator supplies frames and poses. A Judger sees only the current image and target phrase. Saved answers drive TRACE, delay-only and visibility-Oracle comparisons. Distance and visibility truth remain evaluation-only. This release describes a document-based independent implementation, with no claim of autonomous OpenFly navigation, real-robot validation or exact reproduction of an external campaign.
+The local simulator supplies frames and poses. A Judger sees only the current image and target phrase. Saved answers drive TRACE, delay-only and visibility-Oracle comparisons. Distance and visibility truth remain evaluation-only. The benchmark evaluates visual grounding and stopping decisions along fixed trajectories in simulation.
 
 | Scale | Value |
 |---|---:|
@@ -46,9 +44,23 @@ flowchart LR
 | Moon | A/B: sunlit → sun_east; C: psr → sunlit | 2/3 |
 | Cabin | normal → dim; light intensity 60000 → 12000 | 3/3 |
 
-Moon C solar-on is an artificial controlled comparison, not natural illumination of a geographic permanently shadowed region. Earlier Mars 15° runs are excluded from current results.
+Moon C solar-on is an artificial controlled comparison, not natural illumination of a geographic permanently shadowed region.
 
 The three models contribute equally to dev selection in each world. Selection candidates are K∈{2,3}, q∈{1,2,3}; the full reported grid also includes K=1. Test data do not choose models, prompts or parameters. Query frames depend on each model's actual answer sequence. [Detailed protocol](docs/PROTOCOL.md).
+
+## Dataset downloads
+
+The complete baseline and second-light datasets are packaged separately from the code repository, in six world × lighting groups. Together they contain **900 unique paired routes and 65,600 frames**; the two lighting conditions share the same routes.
+
+| World | Baseline frames | Second-light frames | Routes per lighting |
+|---|---:|---:|---:|
+| Mars | 9,879 | 9,879 | 300 |
+| Moon | 10,821 | 10,821 | 300 |
+| Cabin | 12,100 | 12,100 | 300 |
+
+**[Open the dataset download panel](site/dist/index.html#dataset-downloads)** for the actual archive sizes, individual ZIP files, SHA256 checksums and complete manifest. Online download URLs have not been published; local packages are available through the supplied preview launcher once packaging finishes.
+
+Each group includes RGB, semantic IDs and labels, target masks, route records, frozen dev/test splits and evaluation-only truth. Download every ZIP in the selected group, verify SHA256 and extract all ZIPs into the same directory. Each ZIP is independently extractable; do not concatenate files. Third-party scene source assets and model weights are not part of these data packages. [Download and verification guide](docs/DOWNLOADS.md).
 
 ## Results
 
@@ -68,14 +80,14 @@ Main TRACE at the frozen world-specific K/q, **240 test routes in every cell**:
 
 ![Paired lighting TRACE success rates](site/dist/assets/01_trace_sr_paired.png)
 
-Across 2,160 model–route pairs, TRACE SR changes from **33.94% to 30.28%** (−3.66 percentage points). Seven of nine model×world groups decrease, two increase. TRACE is below delay-only in **9/9 baseline** and **8/9 second-light** groups. These negative results are retained; the paired differences are descriptive, not claims of statistical significance.
+Across 2,160 model–route pairs, TRACE SR changes from **33.94% to 30.28%** (−3.66 percentage points). Seven of nine model×world groups decrease, two increase. TRACE is below delay-only in **9/9 baseline** and **8/9 second-light** groups. The paired differences are descriptive and do not establish statistical significance.
 
 [All primary methods](results/summary.json) · [Full nine-grid numerical export](results/rollouts.jsonl.gz) · [Source hashes](results/provenance.json)
 
 
 ### TRACE K/q grids
 
-Panels are arranged by world × Judger. Within each panel, rows are K and columns are q; each cell shows SR (%) over 240 test routes. Orange outlines mark dev-frozen settings, not test-selected optima. Mars second lighting uses the corrected 8° results.
+Panels are arranged by world × Judger. Within each panel, rows are K and columns are q; each cell shows SR (%) over 240 test routes. Orange outlines mark dev-frozen settings, not test-selected optima. Mars second lighting uses an 8° solar elevation.
 
 ![Baseline lighting TRACE K/q grids](site/dist/assets/trace_grid_baseline.png)
 
@@ -94,19 +106,19 @@ python -B analysis/summarize_results.py --all-grid
 
 This **reaggregates saved rollout metrics**. It does not regenerate images, model predictions or rollout outcomes. The release contains 120,960 numerical rollout rows (2 lightings × 3 models × 3 worlds × 240 routes × 28 cells). Repeated rows are not independent routes or additional model calls.
 
-To preview the bilingual project page, open `site/dist/index.html` directly, or run:
+To preview the bilingual page with local dataset downloads, run from the repository root:
 
-```bash
-python -m http.server 8765 --bind 127.0.0.1 --directory site/dist
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\preview_site.ps1
 ```
 
-Then visit `http://127.0.0.1:8765`. The page uses local assets only, with no analytics, CDN or API requests. [GitHub Pages setup](docs/PUBLISHING.md).
+Then visit `http://127.0.0.1:8766/index.html`. Keep the preview window open while downloading. The page uses local assets, with no analytics or external CDN. Opening `site/dist/index.html` directly displays the page, but local dataset downloads require the preview launcher. [GitHub Pages setup](docs/PUBLISHING.md).
 
 ## What is included
 
 | Location | Contents |
 |---|---|
-| `sfb/` | 18 unmodified core modules: actions, poses, TRACE, answer parsing, Judger adapters and visibility utilities |
+| `sfb/` | 18 core modules: actions, poses, TRACE, answer parsing, Judger adapters and visibility utilities |
 | `analysis/` | Standalone aggregation of the supplied results |
 | `results/` | Primary tables, full grid, route splits, dataset metadata and source hashes |
 | `protocols/`, `configs/` | Public protocol projection, original data-format contract, camera/actions |
@@ -114,18 +126,18 @@ Then visit `http://127.0.0.1:8765`. The page uses local assets only, with no ana
 | `site/dist/` | Bilingual static introduction page, real scene examples and results explorer |
 | `docs/` | Methodology, data specification, reproduction boundary, limitations and attribution |
 
-The full RGB/semantic/mask datasets, third-party worlds/meshes, model weights, service-side adapters, private audit logs and workstation campaign launchers are **not included**. Data distribution remains pending. The HTTP clients require independently configured matching services; importing them does not launch inference. See [code scope](docs/CODE_SCOPE.md).
+The full RGB/semantic/mask datasets are distributed as separate [download packages](#dataset-downloads), rather than stored in this code repository. Third-party worlds/meshes, model weights and inference services are not included. The HTTP clients require separately configured matching model services. See [code scope](docs/CODE_SCOPE.md).
 
 ## Limitations and transparency
 
 - Qwen online confirmation covers 180 baseline dev routes: action/pose prefixes and same-answer controller replay match on 180/180; stop frames match on 164/180. It does not cover all three models online.
-- Cabin baseline versus online recapture has 83/1,086 frame pairs below 40 dB PSNR. The offline investigation found no collection-association/annotation error, but cross-process repeatability is not fully resolved.
+- Cabin baseline versus online recapture has 83/1,086 frame pairs below 40 dB PSNR. Cross-process image repeatability remains a limitation.
 - Cabin capture averages 1.273192 s/frame under its documented timing boundary; the HTTP-inclusive online loop averages 1.840710 s. These are different measurements.
-- Cloud Nova weights and all request transformations are not independently observable; `campaign_match_verified=false`. Raw failures and authorized replacement attempts are retained in the private audit; the public metric projection is not a complete request-level audit.
-- The fixed-route T track is the main experiment. N-track historical diagnostics are supplementary and excluded from these tables. External legacy-task compatibility is outside this independently developed delivery's scope.
+- Nova is accessed through a cloud API; its deployed weights and provider-side processing cannot be independently inspected.
+- Results cover fixed scripted trajectories in simulation. Autonomous navigation and real-robot performance are outside the evaluated scope.
 
 [Full limitations](docs/LIMITATIONS.md) · [Licensing and third-party assets](docs/ASSETS.md)
 
 ## Attribution and citation
 
-Author/affiliation metadata and software/data licenses await owner confirmation. No paper, DOI, institution, citation or open-source license is fabricated. The code is a publication candidate until that decision is recorded. Third-party assets require their own notices and distribution review.
+Author and affiliation details and software/data licenses are pending confirmation. Third-party materials retain their own attribution and distribution requirements.

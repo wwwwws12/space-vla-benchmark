@@ -2,9 +2,7 @@
 
 **在太空仿真环境的固定轨迹上，评测视觉目标识别与语义停止策略。**
 
-[GitHub](https://github.com/wwwwws12/space-vla-benchmark) · [项目介绍页（本地）](site/dist/index.zh-CN.html) · [English](README.md) · [评测协议](docs/PROTOCOL.md) · [数据说明](docs/DATASET.md) · [完整结果](results/summary.json)
-
-> 当前为私有仓库中的发布候选包。作者和许可证待确认，公开发布及GitHub Pages部署尚未进行；第三方素材权利分别处理。见[发布状态](RELEASE_STATUS.md)。
+[GitHub](https://github.com/wwwwws12/space-vla-benchmark) · [项目介绍页（本地）](site/dist/index.zh-CN.html) · [English](README.md) · [评测协议](docs/PROTOCOL.md) · [数据说明](docs/DATASET.md) · [数据下载](site/dist/index.zh-CN.html#dataset-downloads) · [完整结果](results/summary.json)
 
 [![火星、月球、太空舱轮番视频预览](site/dist/assets/scene-preview.gif)](site/dist/index.zh-CN.html#demo)
 
@@ -16,7 +14,7 @@ README内展示每场景4.8秒的循环动图；完整视频由已有dev路线�
 
 模型判断“看到了目标”，是否就能让机器人在合适的位置停止？本项目采用Mars、Moon、Cabin各三个场景的脚本T轨，比较Qwen2.5-VL-3B、Lance_3B和Nova Lite 1.0在两种光照下的目标可见性判断，以及TRACE、delay-only、可见性Oracle的停止表现。
 
-Isaac Sim负责渲染，模型只接收当前图像和目标短语。距离、坐标、mask和前次回答不进入模型输入。项目依据制作流程文档独立开发；当前实验是固定轨迹上的感知与停止分析，没有开展自主导航器或真机验证。
+Isaac Sim负责渲染，模型只接收当前图像和目标短语。距离、坐标、mask和前次回答不进入模型输入。本基准评测仿真固定轨迹上的视觉目标识别与停止决策，实验范围不包含自主导航与真机验证。
 
 ## 数据与划分
 
@@ -24,7 +22,21 @@ Isaac Sim负责渲染，模型只接收当前图像和目标短语。距离、�
 - 每场景100条＝20 dev＋80 test；每世界60 dev＋240 test。
 - 三模型基准dev等权共同选参，冻结Mars K3/q3、Moon K2/q3、Cabin K3/q3；test不调参。
 - 第二光照保持路线、目标、相机和划分不变，直接沿用冻结参数。
-- Mars太阳高度角35°→**8°**；Moon A/B改变太阳方位，C为人工solar-on对照；Cabin灯强60000→12000。旧Mars15°结果已退出主表。
+- Mars太阳高度角35°→**8°**；Moon A/B改变太阳方位，C为人工solar-on对照；Cabin灯强60000→12000。
+
+## 数据下载
+
+完整基准光照与第二光照数据按“世界 × 光照”分成六组，独立于代码仓库打包。两种光照共享路线，共 **900 条独立配对路线、65,600 帧**。
+
+| 世界 | 基准光照帧数 | 第二光照帧数 | 每种光照路线数 |
+|---|---:|---:|---:|
+| Mars | 9,879 | 9,879 | 300 |
+| Moon | 10,821 | 10,821 | 300 |
+| Cabin | 12,100 | 12,100 | 300 |
+
+**[打开数据下载区](site/dist/index.zh-CN.html#dataset-downloads)**，查看实际包体积、各 ZIP、SHA256 和完整清单。线上下载地址尚未发布；打包完成后，可通过提供的预览启动器下载本地数据包。
+
+每组包含 RGB、语义 ID 与标签、目标 mask、路线记录、冻结 dev/test 划分及仅供评测的真值。下载所选组的全部 ZIP，校验 SHA256 后统一解压到同一个目录；每个 ZIP 均可独立解压，无需拼接。第三方场景源资产与模型权重不包含在数据包中。[下载与校验说明](docs/DOWNLOADS.md)。
 
 ## 主结果
 
@@ -44,7 +56,7 @@ Isaac Sim负责渲染，模型只接收当前图像和目标短语。距离、�
 
 ![双光照对比](site/dist/assets/01_trace_sr_paired.png)
 
-2160个模型×路线对的主TRACE成功率由**33.94%降至30.28%**。9组中7组下降、2组上升。基准9/9、第二光照8/9组TRACE低于delay-only，保留负结果，不宣称普遍改善或统计显著。
+2160个模型×路线对的主TRACE成功率由**33.94%降至30.28%**。9组中7组下降、2组上升。基准9/9、第二光照8/9组TRACE低于delay-only。上述差异为描述性比较，不代表统计显著性结论。
 
 网页可切换四种策略查看SR/SPL；结果文件还包含全部九格。Oracle用可见性真值替代模型回答，不是距离成功率的理论上界。
 
@@ -67,21 +79,21 @@ python -B analysis/summarize_results.py --method oracle_visibility
 python -B analysis/summarize_results.py --all-grid
 ```
 
-上述命令重新聚合已保存的120960行回放指标，**不是重新推理或从图像重建成绩**。完整图像数据、第三方场景资产和模型权重尚未随候选包分发。
+上述命令重新聚合已保存的120960行回放指标，**不是重新推理或从图像重建成绩**。完整图像通过[独立数据包](#数据下载)提供，不放入代码仓库；第三方场景源资产和模型权重不包含在内。
 
-介绍页双击`site/dist/index.zh-CN.html`即可打开；也可执行：
+在仓库根目录运行以下命令，可预览介绍页并下载本地数据包：
 
 ```powershell
-python -m http.server 8765 --bind 127.0.0.1 --directory site/dist
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\preview_site.ps1
 ```
 
-然后访问`http://127.0.0.1:8765/index.zh-CN.html`。无需Node、前端构建工具或外部CDN。
+然后访问`http://127.0.0.1:8766/index.zh-CN.html`，下载期间保持预览窗口开启。无需Node、前端构建工具或外部CDN。双击`site/dist/index.zh-CN.html`也能查看页面，但本地数据下载需要上述预览服务。
 
 ## 文件导航
 
 | 目录 | 内容 |
 |---|---|
-| `sfb/` | 从当前工程原样提取的18个核心模块 |
+| `sfb/` | 动作、位姿、TRACE、回答解析和模型接口等18个核心模块 |
 | `results/` | 主表、全部九格、路线划分、数据清单与SHA来源 |
 | `analysis/` | 离线汇总入口 |
 | `site/dist/` | 中英文介绍页、真实双光照示例、交互结果表 |
@@ -90,8 +102,8 @@ python -m http.server 8765 --bind 127.0.0.1 --directory site/dist
 
 ## 如实披露的边界
 
-Qwen基准180条dev在线确认完成，动作/位姿前缀与同回答回放180/180一致，停止帧164/180一致。Cabin原光照与在线重拍83/1086组PSNR低于40dB；未发现采集关联/标注错误，但跨进程重复性尚未完全解决。采集1.273192秒/帧与含HTTP在线循环1.840710秒的计时口径不同。
+Qwen基准180条dev在线确认完成，动作/位姿前缀与同回答回放180/180一致，停止帧164/180一致。Cabin原光照与在线重拍83/1086组PSNR低于40dB；跨进程重拍的图像一致性仍存在限制。采集1.273192秒/帧与含HTTP在线循环1.840710秒的计时口径不同。
 
-Nova云端权重和全部变换不能独立观测，保留`campaign_match_verified=false`。原错误、UNKNOWN和显式补测证据保存在原开发工程；公开结果是脱敏后的数值投影，不包含完整逐请求审计。详见[限制](docs/LIMITATIONS.md)。
+Nova通过云端API访问，部署权重与服务端处理过程无法独立检查。详见[限制](docs/LIMITATIONS.md)。
 
-当前包可以用于本地审阅。正式公开前填写作者/单位，确定代码和数据许可证，并处理图片/第三方素材发布范围；不直接套用统一CC0。发布步骤见[维护者说明](docs/PUBLISHING.md)。
+作者、单位及代码和数据许可证待确认。第三方素材保留各自的署名与分发要求。详见[发布说明](docs/PUBLISHING.md)。

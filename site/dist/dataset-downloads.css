@@ -1,0 +1,60 @@
+/* Download catalog: compact academic dataset table, scoped to this section. */
+.dataset-downloads{margin:34px 0 38px}
+.dataset-downloads .download-intro{margin:0 0 20px;color:var(--muted);font-size:15px;max-width:780px}
+.dataset-downloads .download-toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin:0 0 12px}
+.dataset-downloads .download-stats{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.dataset-downloads .download-stats strong{font-size:22px;font-weight:650;letter-spacing:-.4px;color:var(--ink)}
+.dataset-downloads .download-metadata{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.dataset-downloads .download-resource{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border:1px solid var(--line);border-radius:5px;font-size:12px;font-weight:500;line-height:1.4;background:#fff}
+.dataset-downloads .download-resource svg,.dataset-downloads .download-file-link svg{width:14px;height:14px;flex-shrink:0}
+.dataset-downloads .download-status{display:flex;align-items:center;gap:7px;margin:0 0 15px;font-size:12px;color:var(--muted);line-height:1.5}
+.dataset-downloads .download-status:before{content:'';width:6px;height:6px;border-radius:50%;background:#8c959f;flex-shrink:0}
+.dataset-downloads .download-status[data-state="ready"]:before{background:#238636}
+.dataset-downloads .download-catalog{overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+.dataset-downloads .download-table{width:100%;min-width:660px;margin:0;border:0;font-size:14px;border-collapse:collapse}
+.dataset-downloads .download-table th,.dataset-downloads .download-table td{border:0;border-bottom:1px solid #eaeef2;padding:13px 16px;vertical-align:middle;text-align:left;white-space:normal}
+.dataset-downloads .download-table thead th{background:#f6f8fa;font-size:11px;font-weight:600;letter-spacing:.035em;color:var(--muted);padding-top:10px;padding-bottom:10px}
+.dataset-downloads .download-table .download-row{background:#fff}
+.dataset-downloads .download-table .download-row:hover,.dataset-downloads .download-table .download-row.is-open{background:#fafbfc}
+.dataset-downloads .download-table tbody:last-child .download-row:last-child>*{border-bottom:0}
+.dataset-downloads .download-table .download-world{font-size:14px;font-weight:600;min-width:82px}
+.dataset-downloads .download-table .download-world-label{display:flex;align-items:center;gap:9px}
+.dataset-downloads .download-world-dot{height:7px;width:7px;border-radius:50%;flex-shrink:0;background:#a36b48}
+.dataset-downloads .download-world-dot[data-world="moon"]{background:#7f8c9d}
+.dataset-downloads .download-world-dot[data-world="cabin"]{background:#5a8380}
+.dataset-downloads .download-light{min-width:155px}
+.dataset-downloads .download-light strong{font-size:13px;font-weight:500;display:block}
+.dataset-downloads .download-condition{font-size:11px;color:var(--muted);display:block;line-height:1.4;margin-top:3px}
+.dataset-downloads .download-table .download-number{white-space:nowrap;font-variant-numeric:tabular-nums;text-align:right;font-size:13px}
+.dataset-downloads .download-table th.download-number{font-size:11px}
+.dataset-downloads .download-table .download-action{text-align:right;white-space:nowrap;width:120px}
+.dataset-downloads .download-toggle{display:inline-flex;align-items:center;gap:9px;background:#fff;border:1px solid #c4cfda;color:#0969da;border-radius:5px;font-size:12px;font-weight:600;padding:7px 10px;white-space:nowrap}
+.dataset-downloads .download-toggle:hover{background:#f0f6fc;border-color:#8caccb}
+.dataset-downloads .download-chevron{width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .15s}
+.dataset-downloads .download-toggle[aria-expanded="true"] .download-chevron{transform:translateY(2px) rotate(225deg)}
+.dataset-downloads .download-table .download-detail-row>td{padding:0;background:#f6f8fa}
+.dataset-downloads .download-detail{padding:18px 20px 20px}
+.dataset-downloads .download-detail-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.dataset-downloads .download-detail-heading strong{font-size:13px;font-weight:600}
+.dataset-downloads .download-detail-heading span{color:var(--muted);font-size:12px}
+.dataset-downloads .download-parts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;list-style:none;padding:0;margin:0}
+.dataset-downloads .download-parts li{margin:0;background:#fff;border:1px solid #d8dee4;border-radius:5px;padding:10px 12px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.dataset-downloads .download-part-label{display:block;font-size:12px;font-weight:600}
+.dataset-downloads .download-part-size{display:block;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:1px}
+.dataset-downloads .download-file-link{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;font-size:12px;font-weight:500}
+.dataset-downloads .is-disabled{color:#6e7781;background:#f6f8fa;cursor:default}
+.dataset-downloads .download-file-link.is-disabled{background:none}
+.dataset-downloads .download-checksums{margin-top:14px;font-size:12px;color:var(--muted)}
+.dataset-downloads .download-checksums summary{cursor:pointer;width:max-content;max-width:100%;padding:3px 0}
+.dataset-downloads .download-checksums ul{list-style:none;padding:0;margin:8px 0 0}
+.dataset-downloads .download-checksums li{border-top:1px solid #d8dee4;padding:8px 0;margin:0;overflow-wrap:anywhere}
+.dataset-downloads .download-checksums .download-filename{display:block;color:var(--ink);font-size:11px;margin-bottom:4px}
+.dataset-downloads .download-checksums code{display:block;background:transparent;padding:0;font-size:11px;word-break:break-all}
+.dataset-downloads .download-scope{margin:12px 0 0;font-size:12px;line-height:1.6;color:var(--muted)}
+.dataset-downloads .download-guide{margin-top:18px;border-top:1px solid #d8dee4;padding-top:13px;font-size:13px}
+.dataset-downloads .download-guide>summary{cursor:pointer;width:max-content;max-width:100%;font-weight:500}
+.dataset-downloads .download-guide ol{padding-left:22px;margin:13px 0;font-size:13px}
+.dataset-downloads .download-guide p{font-size:12px;color:var(--muted);margin-bottom:0}
+.dataset-downloads .download-guide pre{font-size:12px;margin:12px 0;padding:12px 15px}
+@media(max-width:750px){.dataset-downloads .download-toolbar{gap:10px}.dataset-downloads .download-parts{grid-template-columns:repeat(2,minmax(0,1fr))}.dataset-downloads .download-detail{padding:14px}.dataset-downloads .download-table th,.dataset-downloads .download-table td{padding:11px 12px}}
+@media(prefers-reduced-motion:reduce){.dataset-downloads .download-chevron{transition:none}}
