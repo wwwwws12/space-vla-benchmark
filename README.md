@@ -12,7 +12,9 @@ Mars → Moon → Cabin, 4.8 seconds per scene in this animated preview. The [fu
 
 Space VLA Benchmark examines whether a visual language model recognizes a target, and whether that judgment makes a robot stop at a useful location. It provides fixed scripted T-track trajectories in Mars, Moon and Cabin scenes, paired lighting conditions, and a common evaluation protocol for Qwen2.5-VL-3B, Lance_3B and Nova Lite 1.0.
 
-The local simulator supplies frames and poses. A Judger sees only the current image and target phrase. Saved model answers drive TRACE and delay-only; pixel-based visibility truth drives the Oracle reference. Distance and visibility truth remain evaluation-only. The benchmark evaluates visual grounding and stopping decisions along fixed trajectories in simulation.
+The local simulator supplies frames and poses. A Judger sees only the current image and target phrase. Poses, masks, target coordinates, distances, visibility labels and prior answers are excluded from its input. Saved model answers drive TRACE and delay-only; pixel-based visibility truth drives the Oracle reference. The benchmark evaluates visual grounding and stopping decisions along fixed trajectories in simulation.
+
+## Dataset and splits
 
 | Scale | Value |
 |---|---:|
@@ -28,20 +30,9 @@ The second lighting uses the same route IDs, targets, camera and split. Its dev 
 
 ## Experimental design
 
-```mermaid
-flowchart LR
-    A[Fixed scripted route] --> B[Current RGB + target phrase]
-    B --> C[Visual Judger]
-    C --> D[Saved Yes / No answers]
-    D --> T[TRACE]
-    D --> L[delay-only]
-    V[Pixel-based visibility truth] --> O[Visibility Oracle: TRACE replay]
-    T --> S[Stop outcomes]
-    L --> S
-    O --> S
-    S --> M[SR / SPL / OSR / NE / PL]
-    G[Distance truth: evaluation only] --> M
-```
+![Experimental design: model stop rules and visibility reference](site/dist/assets/experimental-design.en.svg)
+
+The three rules replay the same fixed routes with world-specific dev-frozen K/q. The Judger receives only current RGB and the target phrase; visibility truth feeds the Oracle and distance truth scores outcomes.
 
 | World | Baseline → second lighting | Frozen K/q |
 |---|---|---|
@@ -85,7 +76,9 @@ Main TRACE at the frozen world-specific K/q, **240 test routes in every cell**:
 
 ![Paired lighting TRACE success rates](site/dist/assets/01_trace_sr_paired.png)
 
-Across 2,160 model–route pairs, TRACE SR changes from **33.94% to 30.28%** (−3.66 percentage points). Seven of nine model×world groups decrease, two increase. TRACE is below delay-only in **9/9 baseline** and **8/9 second-light** groups. The paired differences are descriptive and do not establish statistical significance.
+Across 2,160 model–route pairs, TRACE SR changes from **33.94% to 30.28%** (−3.66 percentage points). Of the 9 model×world groups, 7 decrease and 2 increase. TRACE is below delay-only in **9/9 baseline** and **8/9 second-light** groups. The paired differences are descriptive and do not establish statistical significance.
+
+The website compares four stop rules using SR and SPL; the result files also contain the full K/q grid. The visibility Oracle replaces model answers with visibility truth. It is not a theoretical upper bound on distance-based success.
 
 [All primary methods](results/summary.json) · [Full nine-grid numerical export](results/rollouts.jsonl.gz) · [Source hashes](results/provenance.json)
 
@@ -98,7 +91,7 @@ Panels are arranged by world × Judger. Within each panel, rows are K and column
 
 ![Second lighting TRACE K/q grids](site/dist/assets/trace_grid_second.png)
 
-## Quick start: existing results, fully offline
+## Quick start
 
 Python 3.12+; the table scripts use only the standard library. No GPU, Isaac, model credentials or package installation is needed to aggregate the included numerical export.
 
@@ -119,7 +112,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\preview_site.p
 
 Then visit `http://127.0.0.1:8766/index.html`. Keep the preview window open while downloading. The page uses local assets, with no analytics or external CDN. Opening `site/dist/index.html` directly displays the page, but local dataset downloads require the preview launcher. [GitHub Pages setup](docs/PUBLISHING.md).
 
-## What is included
+## Repository contents
 
 | Location | Contents |
 |---|---|
