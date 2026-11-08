@@ -24,6 +24,12 @@ Isaac Sim负责渲染，模型只接收当前图像和目标短语。距离、�
 - 第二光照保持路线、目标、相机和划分不变，直接沿用冻结参数。
 - Mars太阳高度角35°→**8°**；Moon A/B改变太阳方位，C为人工solar-on对照；Cabin灯强60000→12000。
 
+## 实验设计
+
+![实验设计：模型回答、停止规则与真值参照](site/dist/assets/experimental-design.zh-CN.svg)
+
+模型只接收当前RGB与目标短语，保存的Yes/No回答分别驱动TRACE和delay-only；可见性真值单独驱动Oracle参照，距离真值用于评分。三种规则使用同一固定路线与冻结K/q。
+
 ## 数据下载
 
 完整基准光照与第二光照数据按“世界 × 光照”分成六组，独立于代码仓库打包。两种光照共享路线，共 **900 条独立配对路线、65,600 帧**。
@@ -34,7 +40,7 @@ Isaac Sim负责渲染，模型只接收当前图像和目标短语。距离、�
 | Moon | 10,821 | 10,821 | 300 |
 | Cabin | 12,100 | 12,100 | 300 |
 
-**[打开数据下载区](https://wwwwws12.github.io/space-vla-benchmark/index.zh-CN.html#dataset-downloads)**，查看实际包体积、各 ZIP、SHA256 和完整清单。数据包已上传至 GitHub Release 草稿，尚未开放公开下载；可通过提供的预览启动器下载本地数据包。
+**[打开数据下载区](https://wwwwws12.github.io/space-vla-benchmark/index.zh-CN.html#dataset-downloads)**，查看实际包体积、各 ZIP、SHA256 和完整清单。29个ZIP分包及两份清单均已在 [dataset-v1.0 Release](https://github.com/wwwwws12/space-vla-benchmark/releases/tag/dataset-v1.0) 发布，可直接下载。
 
 每组包含 RGB、语义 ID 与标签、目标 mask、路线记录、冻结 dev/test 划分及仅供评测的真值。下载所选组的全部 ZIP，校验 SHA256 后统一解压到同一个目录；每个 ZIP 均可独立解压，无需拼接。第三方场景源资产与模型权重不包含在数据包中。[下载与校验说明](docs/DOWNLOADS.md)。
 

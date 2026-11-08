@@ -2,13 +2,12 @@
 
 ## Live project page
 
-GitHub Pages was deployed successfully on 2026-11-08 from reviewed commit `f438a34b9b3a53837cb13bcc4f7b17d116b47248`, serving `site/dist/`.
+GitHub Pages serves the reviewed `site/dist/` project page. The website and dataset downloads are public as of 2026-11-08.
 
 - [English project page](https://wwwwws12.github.io/space-vla-benchmark/)
 - [中文项目介绍页](https://wwwwws12.github.io/space-vla-benchmark/index.zh-CN.html)
-- [Successful deployment run](https://github.com/wwwwws12/space-vla-benchmark/actions/runs/42464977840)
 
-The repository is public. The dataset Release remains a draft; deploying the website does not enable its public download links.
+The repository, project website and [dataset-v1.0 Release](https://github.com/wwwwws12/space-vla-benchmark/releases/tag/dataset-v1.0) are public. Both website catalogs use the verified Release asset download URLs.
 
 ## Preview now
 
@@ -30,11 +29,11 @@ The repository URL is configured. Private staging may retain pending metadata. B
 
 ## Dataset hosting
 
-The six dataset groups are separate from the code checkout and the static site. Their names, sizes and SHA256 values are in `site/dist/downloads/dataset-downloads.json`; `site/dist/dataset-downloads-data.js` contains the same catalog for the page. Local packages have `status: local_ready`; their public `url` fields remain null until the actual files have been hosted.
+The six dataset groups are separate from the code checkout and the static site. Their names, sizes, SHA256 values and public HTTPS asset URLs are in `site/dist/downloads/dataset-downloads.json`; `site/dist/dataset-downloads-data.js` contains the same catalog for the page. Both catalogs have `status: published`.
 
 When publishing the dataset, upload the ZIP files plus `dataset_manifest.json` and `SHA256SUMS` to the chosen dataset host. Set each archive's and both manifest links' `url` to its actual HTTPS download URL in both site catalogs. Preserve filenames, byte sizes and SHA256 values. Confirm the public links before uploading the updated website. The preview-only `local_url` values are ignored on public hosts. Keep large ZIPs outside this code repository and `site/dist/`.
 
-The 29 ZIP files and two metadata files have been uploaded and SHA256-verified in the `dataset-v1.0` draft Release. Public dataset downloads are not enabled. See [DOWNLOADS.md](DOWNLOADS.md) for package layout and verification, and [DATASET_ATTRIBUTION.md](DATASET_ATTRIBUTION.md) for source attribution and distribution status.
+The 29 ZIP files and two metadata files are published in `dataset-v1.0`, with byte sizes and GitHub SHA256 digests checked against the original package manifest. See [DOWNLOADS.md](DOWNLOADS.md) for package layout and verification, and [DATASET_ATTRIBUTION.md](DATASET_ATTRIBUTION.md) for source attribution and distribution status.
 
 ## GitHub Pages
 
@@ -42,4 +41,4 @@ The included `.github/workflows/pages.yml` publishes only `site/dist/`. It has a
 
 The workflow completed successfully on 2026-11-08. The Pages source is GitHub Actions and HTTPS is enforced. Action versions/configuration follow the official [GitHub custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), consulted2026-11-05. Future website updates require a new manual workflow run after pushing the reviewed files.
 
-中文：GitHub Pages 已于2026-11-08部署成功，可通过上方中英文链接访问。仓库使用独立发布目录，原工程remote与历史保留。后续网页更新需要在推送审核后的文件后，手动运行上述工作流。数据集Release仍为草稿，公开下载尚未开放；署名、许可证及素材发布范围的待确认状态以相应文档为准。
+中文：GitHub Pages 已于2026-11-08部署成功，可通过上方中英文链接访问。仓库使用独立发布目录，原工程remote与历史保留。后续网页更新需要在推送审核后的文件后，手动运行上述工作流。数据集Release及网页下载链接已公开；署名、许可证及素材发布范围的待确认状态以相应文档为准。

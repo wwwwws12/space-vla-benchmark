@@ -12,7 +12,7 @@ Mars → Moon → Cabin, 4.8 seconds per scene in this animated preview. The [fu
 
 Space VLA Benchmark examines whether a visual language model recognizes a target, and whether that judgment makes a robot stop at a useful location. It provides fixed scripted T-track trajectories in Mars, Moon and Cabin scenes, paired lighting conditions, and a common evaluation protocol for Qwen2.5-VL-3B, Lance_3B and Nova Lite 1.0.
 
-The local simulator supplies frames and poses. A Judger sees only the current image and target phrase. Saved answers drive TRACE, delay-only and visibility-Oracle comparisons. Distance and visibility truth remain evaluation-only. The benchmark evaluates visual grounding and stopping decisions along fixed trajectories in simulation.
+The local simulator supplies frames and poses. A Judger sees only the current image and target phrase. Saved model answers drive TRACE and delay-only; pixel-based visibility truth drives the Oracle reference. Distance and visibility truth remain evaluation-only. The benchmark evaluates visual grounding and stopping decisions along fixed trajectories in simulation.
 
 | Scale | Value |
 |---|---:|
@@ -30,12 +30,17 @@ The second lighting uses the same route IDs, targets, camera and split. Its dev 
 
 ```mermaid
 flowchart LR
-    A[Scripted trajectory] --> B[Current RGB + target phrase]
+    A[Fixed scripted route] --> B[Current RGB + target phrase]
     B --> C[Visual Judger]
-    C --> D[Yes / No observations]
-    D --> E[TRACE or delay-only]
-    E --> F[Stop metrics]
-    G[Evaluation-only truth] --> F
+    C --> D[Saved Yes / No answers]
+    D --> T[TRACE]
+    D --> L[delay-only]
+    V[Pixel-based visibility truth] --> O[Visibility Oracle: TRACE replay]
+    T --> S[Stop outcomes]
+    L --> S
+    O --> S
+    S --> M[SR / SPL / OSR / NE / PL]
+    G[Distance truth: evaluation only] --> M
 ```
 
 | World | Baseline → second lighting | Frozen K/q |
@@ -58,7 +63,7 @@ The complete baseline and second-light datasets are packaged separately from the
 | Moon | 10,821 | 10,821 | 300 |
 | Cabin | 12,100 | 12,100 | 300 |
 
-**[Open the dataset download panel](https://wwwwws12.github.io/space-vla-benchmark/#dataset-downloads)** for the actual archive sizes, individual ZIP files, SHA256 checksums and complete manifest. Dataset archives are uploaded to a draft GitHub Release; public downloads are not enabled. Local packages are available through the supplied preview launcher.
+**[Open the dataset download panel](https://wwwwws12.github.io/space-vla-benchmark/#dataset-downloads)** for the actual archive sizes, individual ZIP files, SHA256 checksums and complete manifest. All 29 ZIP archives and both metadata files are available in the [dataset-v1.0 Release](https://github.com/wwwwws12/space-vla-benchmark/releases/tag/dataset-v1.0).
 
 Each group includes RGB, semantic IDs and labels, target masks, route records, frozen dev/test splits and evaluation-only truth. Download every ZIP in the selected group, verify SHA256 and extract all ZIPs into the same directory. Each ZIP is independently extractable; do not concatenate files. Third-party scene source assets and model weights are not part of these data packages. [Download and verification guide](docs/DOWNLOADS.md).
 

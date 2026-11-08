@@ -5,10 +5,10 @@
   "affiliations": [],
   "code_license": null,
   "numerical_data_license": null,
-  "rendered_examples_publication_approved": false,
-  "dataset_download_url": null,
+  "rendered_examples_publication_approved": true,
+  "dataset_download_url": "https://github.com/wwwwws12/space-vla-benchmark/releases/tag/dataset-v1.0",
   "paper_url": null,
   "doi": null,
-  "publication_state": "PRIVATE_STAGING",
+  "publication_state": "PUBLIC_WEBSITE_AND_DATASET_RELEASED",
   "repository_clone_url": "https://github.com/wwwwws12/space-vla-benchmark.git"
 }

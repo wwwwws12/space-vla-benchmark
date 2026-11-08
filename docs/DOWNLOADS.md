@@ -12,11 +12,11 @@ The full baseline and second-light image datasets are packaged in six world × l
 
 ## Find the files / 查找文件
 
-Open the [English download panel](../site/dist/index.html#dataset-downloads) or [中文下载区](../site/dist/index.zh-CN.html#dataset-downloads). Each group lists the actual ZIP byte sizes, filenames and SHA256 values. A complete dataset manifest and SHA256SUMS file accompany the archives. The metadata list is [dataset-downloads.json](../site/dist/downloads/dataset-downloads.json).
+Open the [English download panel](https://wwwwws12.github.io/space-vla-benchmark/#dataset-downloads) or [中文下载区](https://wwwwws12.github.io/space-vla-benchmark/index.zh-CN.html#dataset-downloads). Each group lists the actual ZIP byte sizes, filenames and SHA256 values. A complete dataset manifest and SHA256SUMS file accompany the archives. The metadata list is [dataset-downloads.json](../site/dist/downloads/dataset-downloads.json).
 
-Online URLs are pending publication. Local download buttons are enabled only when the project preview launcher confirms that the prepared packages are available. Opening the HTML directly displays the package list, but does not expose machine-specific paths or pretend that online downloads are available.
+The [dataset-v1.0 Release](https://github.com/wwwwws12/space-vla-benchmark/releases/tag/dataset-v1.0) contains all 29 ZIP archives plus `dataset_manifest.json` and `SHA256SUMS`. The public project page links to the same Release assets. No GitHub sign-in is required to download them.
 
-目前线上下载地址待发布。使用项目提供的预览启动器，本地数据包就绪后才会启用下载按钮；直接打开 HTML 可以查看清单，不能代替本地文件服务。
+全部29个ZIP分包、`dataset_manifest.json` 与 `SHA256SUMS` 已在 [dataset-v1.0 Release](https://github.com/wwwwws12/space-vla-benchmark/releases/tag/dataset-v1.0) 发布。中英文网页下载按钮指向这些同名附件，无需登录GitHub即可下载。
 
 From the repository root / 在仓库根目录运行：
 
