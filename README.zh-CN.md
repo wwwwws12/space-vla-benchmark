@@ -2,11 +2,11 @@
 
 **在太空仿真环境的固定轨迹上，评测视觉目标识别与语义停止策略。**
 
-[GitHub](https://github.com/wwwwws12/space-vla-benchmark) · [项目介绍页（本地）](site/dist/index.zh-CN.html) · [English](README.md) · [评测协议](docs/PROTOCOL.md) · [数据说明](docs/DATASET.md) · [数据下载](site/dist/index.zh-CN.html#dataset-downloads) · [完整结果](results/summary.json)
+[GitHub](https://github.com/wwwwws12/space-vla-benchmark) · [项目介绍页](https://wwwwws12.github.io/space-vla-benchmark/index.zh-CN.html) · [English](README.md) · [评测协议](docs/PROTOCOL.md) · [数据说明](docs/DATASET.md) · [数据下载](https://wwwwws12.github.io/space-vla-benchmark/index.zh-CN.html#dataset-downloads) · [完整结果](results/summary.json)
 
-[![火星、月球、太空舱轮番视频预览](site/dist/assets/scene-preview.gif)](site/dist/index.zh-CN.html#demo)
+[![火星、月球、太空舱轮番视频预览](site/dist/assets/scene-preview.gif)](https://wwwwws12.github.io/space-vla-benchmark/index.zh-CN.html#demo)
 
-**火星 → 月球 → 太空舱，自动循环预览。** [打开完整视频轮播](site/dist/index.zh-CN.html#demo)，可在页面内播放并点击切换场景。
+**火星 → 月球 → 太空舱，自动循环预览。** [打开完整视频轮播](https://wwwwws12.github.io/space-vla-benchmark/index.zh-CN.html#demo)，可在页面内播放并点击切换场景。
 
 README内展示每场景4.8秒的循环动图；完整视频由已有dev路线的真实仿真帧导出，播放节奏不代表实时运行速度。[视频来源](results/videos.json)。
 
@@ -34,7 +34,7 @@ Isaac Sim负责渲染，模型只接收当前图像和目标短语。距离、�
 | Moon | 10,821 | 10,821 | 300 |
 | Cabin | 12,100 | 12,100 | 300 |
 
-**[打开数据下载区](site/dist/index.zh-CN.html#dataset-downloads)**，查看实际包体积、各 ZIP、SHA256 和完整清单。线上下载地址尚未发布；打包完成后，可通过提供的预览启动器下载本地数据包。
+**[打开数据下载区](https://wwwwws12.github.io/space-vla-benchmark/index.zh-CN.html#dataset-downloads)**，查看实际包体积、各 ZIP、SHA256 和完整清单。数据包已上传至 GitHub Release 草稿，尚未开放公开下载；可通过提供的预览启动器下载本地数据包。
 
 每组包含 RGB、语义 ID 与标签、目标 mask、路线记录、冻结 dev/test 划分及仅供评测的真值。下载所选组的全部 ZIP，校验 SHA256 后统一解压到同一个目录；每个 ZIP 均可独立解压，无需拼接。第三方场景源资产与模型权重不包含在数据包中。[下载与校验说明](docs/DOWNLOADS.md)。
 

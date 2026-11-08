@@ -2,11 +2,11 @@
 
 **Visual grounding and semantic stopping along fixed trajectories in simulated space environments.**
 
-[GitHub](https://github.com/wwwwws12/space-vla-benchmark) · [Project page (local)](site/dist/index.html) · [中文](README.zh-CN.md) · [Protocol](docs/PROTOCOL.md) · [Data](docs/DATASET.md) · [Dataset downloads](site/dist/index.html#dataset-downloads) · [Results](results/summary.json) · [Reproduce tables](docs/REPRODUCIBILITY.md)
+[GitHub](https://github.com/wwwwws12/space-vla-benchmark) · [Project page](https://wwwwws12.github.io/space-vla-benchmark/) · [中文](README.zh-CN.md) · [Protocol](docs/PROTOCOL.md) · [Data](docs/DATASET.md) · [Dataset downloads](https://wwwwws12.github.io/space-vla-benchmark/#dataset-downloads) · [Results](results/summary.json) · [Reproduce tables](docs/REPRODUCIBILITY.md)
 
-[![Three-scene route video preview](site/dist/assets/scene-preview.gif)](site/dist/index.html#demo)
+[![Three-scene route video preview](site/dist/assets/scene-preview.gif)](https://wwwwws12.github.io/space-vla-benchmark/#demo)
 
-Mars → Moon → Cabin, 4.8 seconds per scene in this animated preview. The [full video carousel (local project page)](site/dist/index.html#demo) supports inline playback and scene switching. Exported from existing dev frames; presentation pacing is not real-time operation. [Provenance](results/videos.json).
+Mars → Moon → Cabin, 4.8 seconds per scene in this animated preview. The [full video carousel](https://wwwwws12.github.io/space-vla-benchmark/#demo) supports inline playback and scene switching. Exported from existing dev frames; presentation pacing is not real-time operation. [Provenance](results/videos.json).
 
 ## Overview
 
@@ -58,7 +58,7 @@ The complete baseline and second-light datasets are packaged separately from the
 | Moon | 10,821 | 10,821 | 300 |
 | Cabin | 12,100 | 12,100 | 300 |
 
-**[Open the dataset download panel](site/dist/index.html#dataset-downloads)** for the actual archive sizes, individual ZIP files, SHA256 checksums and complete manifest. Online download URLs have not been published; local packages are available through the supplied preview launcher once packaging finishes.
+**[Open the dataset download panel](https://wwwwws12.github.io/space-vla-benchmark/#dataset-downloads)** for the actual archive sizes, individual ZIP files, SHA256 checksums and complete manifest. Dataset archives are uploaded to a draft GitHub Release; public downloads are not enabled. Local packages are available through the supplied preview launcher.
 
 Each group includes RGB, semantic IDs and labels, target masks, route records, frozen dev/test splits and evaluation-only truth. Download every ZIP in the selected group, verify SHA256 and extract all ZIPs into the same directory. Each ZIP is independently extractable; do not concatenate files. Third-party scene source assets and model weights are not part of these data packages. [Download and verification guide](docs/DOWNLOADS.md).
 
