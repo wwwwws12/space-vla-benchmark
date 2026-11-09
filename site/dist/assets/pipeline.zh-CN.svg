@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 1280 600" role="img" aria-labelledby="title desc">
+<title id="title">Space VLA 评测架构</title>
+<desc id="desc">图像与目标短语输入 Judger；模型回答驱动 TRACE 与 delay-only。可见性真值独立驱动 Oracle，脚本终点与距离评分作为独立参照。</desc>
+<rect width="1280" height="600" fill="#ffffff" />
+<style>text{font-family:Arial,"Microsoft YaHei",sans-serif}.s{font-size:11px;fill:#48515a}.body{font-size:13px;fill:#353d45}.title{font-size:18px;font-weight:600;fill:#20272e}.num{font-size:11px;fill:#29475c;font-family:Consolas,monospace}.cap{font-size:11px;letter-spacing:1px;fill:#48515a;font-weight:600}</style>
+<text x="32" y="38" class="num" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#29475c">01</text>
+<text x="62" y="38" class="cap" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" letter-spacing="1" font-weight="600" fill="#48515a">固定输入</text>
+<text x="328" y="38" class="num" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#29475c">02</text>
+<text x="358" y="38" class="cap" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" letter-spacing="1" font-weight="600" fill="#48515a">视觉判断</text>
+<text x="618" y="38" class="num" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#29475c">03</text>
+<text x="648" y="38" class="cap" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" letter-spacing="1" font-weight="600" fill="#48515a">停止控制</text>
+<text x="1008" y="38" class="num" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#29475c">04</text>
+<text x="1038" y="38" class="cap" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" letter-spacing="1" font-weight="600" fill="#48515a">结果评测</text>
+<rect x="18" y="64" width="892" height="246" rx="3" fill="#f3f4f3" stroke="#d4d9dc" />
+<rect x="18" y="334" width="550" height="116" rx="3" fill="#f2f4f0" stroke="#c8d2c9" />
+<rect x="32" y="85" width="242" height="210" rx="3" fill="#ffffff" stroke="#bbc3ca" />
+<text x="52" y="116" class="title" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="600" fill="#20272e">固定脚本轨迹</text>
+<text x="52" y="137" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">相同路线 · 两种光照</text>
+<rect x="52" y="154" width="202" height="56" rx="3" fill="#eceff1" stroke="#b8c3cc" />
+<rect x="64" y="166" width="32" height="30" rx="3" fill="none" stroke="#5d6c78" />
+<circle cx="87" cy="174" r="3" fill="#5d6c78" /><path d="M65 190 75 179 85 190 91 184 95 190" fill="none" stroke="#5d6c78" stroke-width="1.3" />
+<text x="108" y="181" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">当前 RGB</text>
+<text x="108" y="199" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">1920 × 1080</text>
+<text x="52" y="239" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">+ 目标短语</text>
+<text x="52" y="274" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">模拟器提供观察帧</text>
+<path d="M274 180 H328" fill="none" stroke="#29475c" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="328,180 321,176 321,184" fill="#29475c" />
+<rect x="328" y="85" width="218" height="210" rx="3" fill="#ffffff" stroke="#bbc3ca" />
+<text x="348" y="116" class="title" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="600" fill="#20272e">视觉 Judger</text>
+<text x="348" y="137" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">每次评测使用一个模型</text>
+<rect x="348" y="151" width="178" height="27" rx="3" fill="#f3f4f3" stroke="#c7cfd5" />
+<text x="360" y="169" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">Qwen2.5-VL-3B</text>
+<rect x="348" y="185" width="178" height="27" rx="3" fill="#f3f4f3" stroke="#c7cfd5" />
+<text x="360" y="203" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">Lance_3B</text>
+<rect x="348" y="219" width="178" height="27" rx="3" fill="#f3f4f3" stroke="#c7cfd5" />
+<text x="360" y="237" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">Nova Lite 1.0</text>
+<text x="348" y="276" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">保存 Yes / No 回答</text>
+<path d="M546 180 H580 V128 H618" fill="none" stroke="#29475c" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="618,128 611,124 611,132" fill="#29475c" />
+<path d="M580 180 V233 H618" fill="none" stroke="#29475c" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="618,233 611,229 611,237" fill="#29475c" />
+<circle cx="580" cy="180" r="3" fill="#29475c" />
+<rect x="618" y="85" width="278" height="86" rx="3" fill="#e7ecef" stroke="#91a3b1" />
+<rect x="634" y="100" width="28" height="22" rx="3" fill="#29475c" stroke="#29475c" />
+<text x="642" y="115" style="font:600 12px Arial;fill:#ffffff" font-family="Arial,Microsoft YaHei,sans-serif">K</text>
+<text x="675" y="117" class="title" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="600" fill="#20272e">TRACE</text>
+<text x="638" y="145" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">连续 K 次 Yes</text>
+<text x="638" y="162" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">查询间隔：q 个动作步</text>
+<rect x="618" y="190" width="278" height="86" rx="3" fill="#ffffff" stroke="#bbc3ca" />
+<text x="638" y="220" class="title" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="600" fill="#20272e">delay-only</text>
+<text x="638" y="245" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">首次 Yes → 等待 (K−1)q 步</text>
+<text x="638" y="263" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">等待，不要求再次确认</text>
+<rect x="32" y="350" width="242" height="84" rx="3" fill="#ffffff" stroke="#9eafa2" />
+<text x="52" y="379" class="title" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="600" fill="#20272e">可见性真值</text>
+<text x="52" y="402" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">目标像素 · 月球亮度条件</text>
+<text x="52" y="422" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">仅用于评测</text>
+<text x="312" y="373" class="cap" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" letter-spacing="1" font-weight="600" fill="#48515a">独立参照分支</text>
+<text x="312" y="417" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">不进入模型输入</text>
+<path d="M274 393 H618" fill="none" stroke="#345d49" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" />
+<polygon points="618,393 611,389 611,397" fill="#345d49" />
+<rect x="618" y="350" width="278" height="86" rx="3" fill="#f0f3ef" stroke="#9eafa2" />
+<text x="638" y="380" class="title" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="600" fill="#20272e">可见性 Oracle</text>
+<text x="638" y="406" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">可见性真值 → TRACE 回放</text>
+<text x="638" y="423" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">同一组冻结 K/q</text>
+<rect x="618" y="458" width="278" height="74" rx="3" fill="#f3f4f3" stroke="#bbc3ca" />
+<text x="638" y="486" class="title" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="600" fill="#20272e">脚本终点</text>
+<text x="638" y="512" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">固定路线上的原生 STOP</text>
+<path d="M896 128 H948 V495" fill="none" stroke="#58636c" stroke-width="1.6" stroke-linejoin="round" />
+<path d="M896 233 H948" fill="none" stroke="#29475c" stroke-width="1.6" stroke-linejoin="round" />
+<path d="M896 393 H948" fill="none" stroke="#345d49" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" />
+<path d="M896 495 H948" fill="none" stroke="#58636c" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" />
+<path d="M948 214 H1008" fill="none" stroke="#58636c" stroke-width="1.6" stroke-linejoin="round" />
+<polygon points="1008,214 1001,210 1001,218" fill="#58636c" />
+<circle cx="948" cy="128" r="2.5" fill="#58636c" />
+<circle cx="948" cy="233" r="2.5" fill="#58636c" />
+<circle cx="948" cy="393" r="2.5" fill="#58636c" />
+<circle cx="948" cy="495" r="2.5" fill="#58636c" />
+<rect x="1008" y="85" width="238" height="272" rx="3" fill="#e7ecef" stroke="#e7ecef" />
+<text x="1030" y="117" style="font:600 18px Arial,Microsoft YaHei;fill:#20272e" font-family="Arial,Microsoft YaHei,sans-serif">停止结果指标</text>
+<text x="1030" y="154" style="font:600 15px Arial;fill:#20272e" font-family="Arial,Microsoft YaHei,sans-serif">SR</text>
+<text x="1030" y="176" style="font:12px Arial,Microsoft YaHei;fill:#43515d" font-family="Arial,Microsoft YaHei,sans-serif">是否停在成功区域</text>
+<text x="1030" y="214" style="font:600 15px Arial;fill:#20272e" font-family="Arial,Microsoft YaHei,sans-serif">SPL</text>
+<text x="1030" y="236" style="font:12px Arial,Microsoft YaHei;fill:#43515d" font-family="Arial,Microsoft YaHei,sans-serif">成功与路径效率</text>
+<text x="1030" y="274" style="font:600 15px Arial;fill:#20272e" font-family="Arial,Microsoft YaHei,sans-serif">OSR · NE · PL</text>
+<text x="1030" y="296" style="font:12px Arial,Microsoft YaHei;fill:#43515d" font-family="Arial,Microsoft YaHei,sans-serif">路线前缀、距离与路径长度</text>
+<path d="M1030 320 H1224" stroke="#abb8c2" />
+<text x="1030" y="340" style="font:11px Arial,Microsoft YaHei;fill:#43515d" font-family="Arial,Microsoft YaHei,sans-serif">240 条 test / 模型 / 世界</text>
+<rect x="1008" y="410" width="238" height="122" rx="3" fill="#f0f3ef" stroke="#9eafa2" />
+<text x="1030" y="440" class="title" font-family="Arial,Microsoft YaHei,sans-serif" font-size="18" font-weight="600" fill="#20272e">距离真值</text>
+<text x="1030" y="467" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">火星 / 月球：&lt;20 m</text>
+<text x="1030" y="490" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">太空舱：&lt;2 m</text>
+<text x="1030" y="515" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">严格阈值 · 仅用于评分</text>
+<path d="M1127 410 V357" fill="none" stroke="#345d49" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" />
+<polygon points="1127,357 1123,364 1131,364" fill="#345d49" />
+<text x="32" y="492" class="cap" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" letter-spacing="1" font-weight="600" fill="#48515a">所有条件保持一致</text>
+<text x="32" y="519" class="body" font-family="Arial,Microsoft YaHei,sans-serif" font-size="13" fill="#353d45">路线 · 目标 · 相机 · 划分</text>
+<text x="32" y="542" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">参数在基准光照 dev 上冻结</text>
+<path d="M32 564 H1246" fill="none" stroke="#cbd2d8" stroke-width="1.6" stroke-linejoin="round" />
+<text x="32" y="586" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">原生 STOP 优先。离线参数回放复用已保存的模型回答。</text>
+<text x="850" y="586" class="s" font-family="Arial,Microsoft YaHei,sans-serif" font-size="11" fill="#48515a">可见性 ≠ 距离判定成功</text>
+</svg>

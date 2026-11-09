@@ -1,0 +1,59 @@
+/* One moving marker follows the reading position; page geometry is unchanged. */
+.site-header {
+  transition: background 280ms ease, border-color 280ms ease, box-shadow 280ms ease;
+}
+.site-header.is-scrolled { box-shadow: 0 6px 22px -12px rgb(0 0 0 / 35%); }
+.site-header.on-paper.is-scrolled { box-shadow: 0 7px 24px -12px rgb(24 47 67 / 24%); }
+.site-nav { isolation: isolate; }
+.site-nav a {
+  z-index: 1;
+  transition: color 220ms ease, text-shadow 220ms ease;
+}
+.site-nav a::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 4px -8px;
+  border-radius: 6px;
+  background: rgb(155 201 228 / 10%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 240ms ease;
+}
+.site-header.on-paper .site-nav a::before { background: rgb(40 95 133 / 6%); }
+.site-nav a[aria-current="location"] { text-shadow: 0 0 0.4px currentColor; }
+.site-nav a[aria-current="location"]::before { opacity: 1; }
+.site-nav.has-moving-indicator a[aria-current]::after { content: none; }
+.site-nav .nav-indicator {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--accent);
+  opacity: 0;
+  pointer-events: none;
+  transform-origin: 0 0;
+  transition: transform 420ms cubic-bezier(.22, 1, .36, 1), opacity 180ms ease, background-color 240ms ease;
+}
+.site-nav .nav-indicator.is-visible { opacity: 1; }
+.site-nav .nav-indicator.is-positioning { transition: none; }
+
+@media (min-width: 801px) {
+  .site-nav { position: relative; }
+}
+@media (max-width: 800px) {
+  .site-nav a::before { inset: 0; }
+  .site-nav .nav-indicator { width: 3px; height: 100px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-header,.site-nav a,.site-nav a::before,.site-nav .nav-indicator { transition: none; }
+  html { scroll-behavior: auto; }
+}
+@media (forced-colors: active) {
+  .site-nav a::before { background: transparent; }
+  .site-nav .nav-indicator { background: Highlight; }
+  .site-nav a[aria-current="location"] { text-shadow: none; text-decoration: underline; }
+}

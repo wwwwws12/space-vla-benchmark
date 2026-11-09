@@ -1,0 +1,35 @@
+/* Entrance motion only. Content is visible even when JavaScript never runs. */
+:root {
+  --reveal-distance: 16px;
+  --reveal-text-duration: 440ms;
+  --reveal-media-duration: 580ms;
+  --reveal-easing: cubic-bezier(.16, 1, .3, 1);
+}
+
+@media (max-width: 720px) {
+  :root {
+    --reveal-distance: 10px;
+    --reveal-text-duration: 360ms;
+    --reveal-media-duration: 460ms;
+  }
+}
+
+/* These overrides also protect focused content while an animation is running. */
+[data-scroll-reveal="playing"]:focus-within {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-scroll-reveal="playing"] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+@media print {
+  [data-scroll-reveal="playing"] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

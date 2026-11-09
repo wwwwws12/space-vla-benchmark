@@ -14,3 +14,6 @@ results/source_inventory.json -text
 site/dist/downloads/*.md -text
 
 *.webm binary
+
+# Keep downloadable editable diagram exports byte-identical to their checksums.
+site/dist/architecture/*.excalidraw -text

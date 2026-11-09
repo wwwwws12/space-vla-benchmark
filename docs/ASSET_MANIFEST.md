@@ -28,3 +28,33 @@ The existing paired-light illustration selection is reused. Posters retain their
 ## README animated preview
 
 - `site/dist/assets/scene-preview.gif`: 1633090 bytes; GIF, 720x405, 5fps, 128 colors, silent looping preview; 14.4s total (first4.8s from each existing Mars/Moon/Cabin MP4). Version `readme-layout-20261105-v1`. Source rights unchanged and pending; see `results/preview.json` for exact sources and SHA256. Output SHA256 `33692a14aaad3e3715455b4ed121b5e821dbfeb1e8d4693ac9d80cbdfb637338`. No rendering or model inference.
+
+
+## Website v13 presentation assets (2026-11-09)
+
+These are explanatory presentation assets. They do not add or alter benchmark
+observations, model responses or results. The user approved publication of v13
+on 2026-11-09. This publication approval does not assign a new general license.
+
+| Asset | Provenance | Format / size | Version / license | Repository path |
+|---|---|---|---|---|
+| Stop-scoring illustration | User-supplied lunar trajectory illustration, edited with the built-in image-generation tool; raster labels removed and replaced by bilingual HTML. Rover is the target; not to scale. | PNG, 1672 × 941, 4,024,839 bytes | v13; user-supplied artwork with generated edits; underlying rights not independently established; no new license assigned | `site/dist/assets/stopping-concept.png` |
+
+Illustration SHA256:
+`9979190fe93a4ea432de10fe5e19e3c3a7e7658fb1e63c58480ea206da261a03`.
+The page uses the protocol's strict distance **< R** criterion, not an inclusive
+boundary. The illustration is not an Isaac rendering or a robot experiment.
+
+The bilingual architecture diagrams and nine line icons were authored from the
+project's fixed-route evaluation protocol. Their editable Excalidraw, SVG, PNG
+and animated GIF exports are in `site/dist/architecture/`; the responsive static
+SVG exports are in `site/dist/assets/pipeline.*.svg`. Diagram-rendering tooling
+comes from `cclank/lanshu-animated-architecture-diagram`; its MIT license and
+copyright notice are retained in `site/dist/architecture/LANSHU-LICENSE.txt`.
+Icons are native project vectors, not external icon-library images. Sizes and
+hashes for each deployed file are recorded in the repository `SHA256SUMS`.
+
+The user-provided website ZIP informed hover zoom, reading progress and count-up
+interactions. Its code, framework, media, data and benchmark claims were not
+imported. Existing videos, scene examples and scientific result exports retain
+their original bytes and attribution.

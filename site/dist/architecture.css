@@ -1,0 +1,71 @@
+/* Local diagram only. The approved website palette and layout stay intact. */
+.architecture-map {
+  --arch-bg: #101a22;
+  --arch-text: #edf4f6;
+  --arch-muted: #afbec7;
+  --arch-rule: #354b5b;
+  color: var(--arch-text);
+  background: var(--arch-bg);
+  border: 1px solid #354b5b;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 34px 0;
+  box-shadow: 0 24px 54px -30px rgb(8 20 30 / 50%), 0 4px 12px rgb(8 20 30 / 9%);
+  isolation: isolate;
+  text-align: left;
+}
+.architecture-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 24px 30px; border-bottom: 1px solid var(--arch-rule); }
+.architecture-heading > div { display: flex; align-items: center; gap: 16px; }
+.architecture-map .architecture-heading h3 { font: 600 20px/1.35 Arial,"Microsoft YaHei",sans-serif; letter-spacing: 0; color: var(--arch-text); margin: 0; }
+.architecture-brand { background: #18392e; border: 1px solid #40664f; color: #b6e8c5; padding: 5px 10px; border-radius: 7px; white-space: nowrap; font: 600 14px/1.5 Arial,sans-serif; }
+.architecture-map .architecture-heading p { margin: 0; font-size: 13px; line-height: 1.5; color: var(--arch-muted); }
+.architecture-viewport { width: 100%; }
+.architecture-svg { display: block; width: 100%; height: auto; max-width: none; }
+.architecture-mobile { display: none; }
+.architecture-map .flow-motion, .architecture-map .icon-motion { visibility: hidden; }
+.architecture-map[data-state="playing"] .flow-motion, .architecture-map[data-state="playing"] .icon-motion { visibility: visible; }
+.architecture-footer { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 14px 20px; padding: 20px 30px; border-top: 1px solid var(--arch-rule); font: 14px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.architecture-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; color: var(--arch-muted); }
+.architecture-legend > span { display: inline-flex; align-items: center; gap: 8px; }
+.arch-key { width: 22px; height: 0; border-top: 2px solid #7cdcc8; }
+.arch-key.truth { border-color: #91baee; border-top-style: dashed; }
+.arch-key.reference { border-color: #e1bd84; border-top-style: dashed; }
+.architecture-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.architecture-map .architecture-actions button,
+.architecture-map .architecture-actions a { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 8px 12px; border: 1px solid #526879; border-radius: 7px; color: var(--arch-text); background: #1b2c39; font: inherit; text-decoration: none; cursor: pointer; }
+.architecture-map .architecture-actions button[hidden] { display: none; }
+.architecture-map .architecture-actions a { background: transparent; border-color: transparent; }
+.architecture-map .architecture-actions button:hover,
+.architecture-map .architecture-actions a:hover { background: #2b4050; color: #ffffff; }
+.architecture-map button:focus-visible,
+.architecture-map a:focus-visible,
+.architecture-map summary:focus-visible { outline: 2px solid #b6e8c5; outline-offset: 4px; }
+.architecture-map .architecture-note { color: var(--arch-muted); font-size: 13px; line-height: 1.6; margin: 0; max-width: none; }
+.architecture-map .architecture-files { justify-self: end; font-size: 13px; color: var(--arch-muted); }
+.architecture-files summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; text-decoration: underline; text-underline-offset: 4px; }
+.architecture-files > div { display: flex; flex-wrap: wrap; gap: 8px; }
+.architecture-map .architecture-files a { color: #b6e8c5; display: inline-flex; min-height: 44px; align-items: center; padding: 4px 6px; text-underline-offset: 4px; }
+.architecture-standalone { margin: 0; padding: 24px; background: #f1f3f3; font-family: Arial,"Microsoft YaHei",sans-serif; }
+.architecture-standalone * { box-sizing: border-box; }
+.architecture-standalone main { max-width: 1440px; margin: 0 auto; }
+.architecture-back { color: #29475c; display: inline-flex; padding: 10px 0; text-decoration: none; }
+.architecture-standalone .architecture-map { margin-top: 12px; }
+@media (max-width: 720px) {
+  .architecture-heading { padding: 20px; display: block; }
+  .architecture-heading > div { flex-wrap: wrap; gap: 10px; }
+  .architecture-map .architecture-heading h3 { font-size: 18px; }
+  .architecture-map .architecture-heading p { margin-top: 10px; }
+  .architecture-desktop { display: none; }
+  .architecture-mobile { display: block; }
+  .architecture-footer { padding: 20px; grid-template-columns: 1fr; gap: 12px; }
+  .architecture-map .architecture-files { justify-self: start; }
+  .architecture-actions { gap: 8px; }
+  .architecture-legend { font-size: 13px; gap: 10px 18px; }
+  .architecture-standalone { padding: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { .architecture-map .flow-motion, .architecture-map .icon-motion { visibility: hidden !important; } }
+@media print {
+  .architecture-map { break-inside: avoid; print-color-adjust: exact; -webkit-print-color-adjust: exact; box-shadow: none; }
+  .architecture-actions, .architecture-files, .architecture-map .flow-motion, .architecture-map .icon-motion { display: none !important; }
+}
+

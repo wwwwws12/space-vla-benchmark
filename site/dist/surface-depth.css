@@ -1,0 +1,79 @@
+/* Soft elevation for photographs and data surfaces. Layout and chart marks stay fixed. */
+:root {
+  --depth-line: rgb(32 58 79 / 13%);
+  --depth-photo: 0 0 0 1px rgb(32 58 79 / 10%),
+                 0 4px 10px rgb(24 47 67 / 6%),
+                 0 20px 36px -18px rgb(24 47 67 / 28%);
+  --depth-panel: 0 2px 5px rgb(24 47 67 / 3%),
+                 0 16px 34px -16px rgb(24 47 67 / 20%);
+  --depth-detail: 0 3px 12px rgb(24 47 67 / 4%);
+}
+
+/* The original image pixels are unchanged; only their surrounding treatment differs. */
+#worlds .environment-pair img {
+  border-radius: 10px;
+  box-shadow: var(--depth-photo);
+}
+
+#protocol .method-diagram,
+#results .chart-card {
+  border-color: var(--depth-line);
+  border-radius: 14px;
+  box-shadow: var(--depth-panel);
+}
+
+/* Shadows belong to the scrolling surface, not individual cells or chart values. */
+#dataset .dataset-table .table-scroll,
+#protocol .timing-example .table-scroll,
+#results .data-detail .table-scroll,
+#results .method-explorer .table-scroll,
+#dataset-downloads .download-catalog {
+  border: 1px solid var(--depth-line);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: var(--depth-panel);
+}
+
+/* Keep the caption inside the table's new frame, without changing its wording. */
+#dataset .dataset-table caption {
+  padding: 17px 22px;
+  background: #fff;
+}
+#dataset .dataset-table thead th:first-child,
+#dataset .dataset-table thead th:last-child,
+#dataset .dataset-table tfoot th:first-child,
+#dataset .dataset-table tfoot td:last-child {
+  border-radius: 0;
+}
+#dataset .dataset-table tfoot th,
+#dataset .dataset-table tfoot td { border-bottom: 0; }
+
+/* The nine-grid uses a lighter shadow so it reads as one collection. */
+#results .heatmap {
+  border-color: var(--depth-line);
+  border-radius: 10px;
+  box-shadow: var(--depth-detail);
+}
+
+@media (max-width: 600px) {
+  :root {
+    --depth-photo: 0 0 0 1px rgb(32 58 79 / 10%),
+                   0 3px 7px rgb(24 47 67 / 5%),
+                   0 12px 22px -12px rgb(24 47 67 / 24%);
+    --depth-panel: 0 2px 4px rgb(24 47 67 / 3%),
+                   0 10px 22px -12px rgb(24 47 67 / 18%);
+  }
+  #dataset .dataset-table caption { padding: 15px 13px; }
+}
+
+@media print, (forced-colors: active) {
+  #worlds .environment-pair img,
+  #protocol .method-diagram,
+  #results .chart-card,
+  #dataset .dataset-table .table-scroll,
+  #protocol .timing-example .table-scroll,
+  #results .data-detail .table-scroll,
+  #results .method-explorer .table-scroll,
+  #dataset-downloads .download-catalog,
+  #results .heatmap { box-shadow: none; }
+}

@@ -12,8 +12,10 @@
   const advanceButton = root.querySelector('[data-video-advance]');
   let autoAdvance = !reducedMotion.matches;
   let active = 0;
-  let inView = false;
+  let inView = !('IntersectionObserver' in window);
   let initialAutoplayAttempted = false;
+  let keyboardInput = false;
+  let keyboardHold = false;
   const media = videos.map(video => ({
     candidates: [
       {url: video.dataset.webm, type: 'video/webm; codecs="vp8"'},
@@ -122,21 +124,57 @@
       if (i === active && media[i].wantsPlay && inView && !document.hidden) playActive();
     });
     videos[i].addEventListener('ended', () => {
-      if (i === active && autoAdvance && inView && !document.hidden) select(active + 1, true);
+      if (i === active) advanceIfFinished();
     });
   });
+  function advanceIfFinished() {
+    if (videos[active].ended && autoAdvance && !keyboardHold && inView && !document.hidden) {
+      select(active + 1, true);
+    }
+  }
   function updateAdvance() {
     if (!advanceButton) return;
     advanceButton.setAttribute('aria-pressed', String(autoAdvance));
     advanceButton.textContent = isChinese
-      ? `播完自动切换：${autoAdvance ? '开' : '关'}`
-      : `Auto-advance: ${autoAdvance ? 'on' : 'off'}`;
+      ? `播完自动播放下一段：${autoAdvance ? '开' : '关'}`
+      : `Play next automatically: ${autoAdvance ? 'on' : 'off'}`;
   }
   if (advanceButton) advanceButton.addEventListener('click', () => {
     autoAdvance = !autoAdvance;
     updateAdvance();
+    if (autoAdvance) {
+      keyboardHold = false;
+      advanceIfFinished();
+    }
   });
   updateAdvance();
+  // Pointer interaction does not silently disable the user's playlist setting.
+  // Keyboard focus temporarily holds the queue, without mutating that setting.
+  document.addEventListener('pointerdown', event => {
+    keyboardInput = false;
+    if (root.contains(event.target)) keyboardHold = false;
+  }, true);
+  document.addEventListener('keydown', event => {
+    if (['Tab', 'ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) keyboardInput = true;
+  }, true);
+  root.addEventListener('focusin', event => {
+    keyboardHold = keyboardInput && event.target !== advanceButton;
+  });
+  root.addEventListener('focusout', () => {
+    queueMicrotask(() => {
+      if (!root.contains(document.activeElement)) {
+        keyboardHold = false;
+        advanceIfFinished();
+      }
+    });
+  });
+  reducedMotion.addEventListener('change', event => {
+    if (event.matches) {
+      autoAdvance = false;
+      updateAdvance();
+      videos.forEach(video => video.pause());
+    }
+  });
   selectors.forEach((button, i) => {
     button.addEventListener('click', () => select(i, true));
     button.addEventListener('keydown', event => {
@@ -151,17 +189,22 @@
   root.querySelector('[data-video-next]').addEventListener('click', () => select(active + 1, true));
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) videos.forEach(video => video.pause());
+    else advanceIfFinished();
   });
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {
       inView = entries[0].isIntersecting && entries[0].intersectionRatio >= 0.35;
       if (!inView) videos.forEach(video => video.pause());
-      else if (!initialAutoplayAttempted && !reducedMotion.matches && !document.hidden) {
-        initialAutoplayAttempted = true;
-        playActive();
+      else {
+        if (videos[active].ended) advanceIfFinished();
+        else if (!initialAutoplayAttempted && !reducedMotion.matches && !document.hidden && !keyboardHold) {
+          initialAutoplayAttempted = true;
+          playActive();
+        }
       }
     }, {threshold: [0, 0.35]});
     observer.observe(root.querySelector('.video-stage'));
   }
   select(0);
+  if (!('IntersectionObserver' in window) && !reducedMotion.matches && !document.hidden) playActive();
 })();
