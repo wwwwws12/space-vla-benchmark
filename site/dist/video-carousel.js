@@ -92,6 +92,9 @@
     root.querySelector('[data-video-title]').textContent = selected.dataset.title;
     root.querySelector('[data-video-target]').textContent = selected.dataset.target;
     root.querySelector('[data-video-meta]').textContent = selected.dataset.meta;
+    root.querySelector('[data-video-explanation]').textContent = selected.dataset.explanation;
+    root.querySelector('[data-video-transcript]').hash = selected.dataset.videoCard;
+    root.dispatchEvent(new CustomEvent('video-scene-change', {detail: {world: selected.dataset.videoCard}}));
     root.querySelector('[data-video-counter]').textContent = `${String(active + 1).padStart(2, '0')} / 03`;
     const download = root.querySelector('[data-video-download]');
     download.href = video.dataset.src;

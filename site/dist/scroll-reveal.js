@@ -12,21 +12,21 @@
   // Animate content blocks, never individual letters, table cells, video cards,
   // chart marks, SVG paths or the fixed navigation. Preserve their own motion.
   const selectors = [
-    '.numbers-band .stat-bar', '.demo-heading', '.demo-carousel',
+    '.numbers-band .stat-bar', '.demo-heading', '.demo-introduction', '.demo-carousel',
     'main .section-head', '.reading-column > .prose > p',
     '.inline-resources', '.environment-nav',
     '.environment-panel > .environment-description', '.environment-pair',
-    '.environment-meta', '.dataset-description', '.dataset-table',
+    '.source-records', '.dataset-description', '.dataset-table',
     '.dataset-contents', '.stop-example', '.architecture-map', '.input-boundary',
-    '.timing-detail', '.rule-definitions', '#protocol > .container > .small',
-    '.protocol-notes > div', '.finding-strip', '.chart-card',
+    '.timing-detail', '.method-reading > h3', '.method-reading > p',
+    '.finding-strip', '.chart-introduction', '.chart-card',
     '.result-observations > p', '.data-detail', '.method-explorer',
-    '.grid-section > .chart-heading', '.grid-section > .small',
+    '.grid-section > .chart-heading', '.grid-section > .body-copy',
     '.heatmap-grid > .heatmap', '.heatmap-legend', '.resource-links',
     '.download-intro', '.download-toolbar', '.download-status',
     '.download-catalog', '.dataset-downloads > .download-scope',
-    '.download-guide', '.release-link', '.code-panel', '.repository-files',
-    '.validation-details > details', '.reading-column > .text-link',
+    '.download-guide', '.release-link', '.code-panel', '.repository-reading > p',
+    '.reading-column > .text-link',
     '.footer-main', '.footer-bottom'
   ].join(',');
   const visual = '.demo-carousel,.environment-pair,.dataset-table,' +

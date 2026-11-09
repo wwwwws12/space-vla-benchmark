@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="490" viewBox="0 0 1080 490" class="st-diagram st-desktop" aria-hidden="true" focusable="false">
+<style>.st-diagram text{font-family:"Segoe UI","Microsoft YaHei",Arial,sans-serif} .st-diagram .st-number{font-variant-numeric:tabular-nums}</style>
+<rect x="0" y="0" width="1080" height="490" rx="0" fill="#ffffff"/>
+<rect x="0" y="0" width="1080" height="54" rx="0" fill="#f7f8f8"/>
+<text x="30" y="33" fill="#59616a" font-family="Arial" font-size="13" font-weight="500" text-anchor="start" class="">Rule / action step</text>
+<text x="310" y="33" fill="#59616a" font-family="Arial" font-size="13" font-weight="500" text-anchor="middle" class="st-number">00</text>
+<text x="429" y="33" fill="#59616a" font-family="Arial" font-size="13" font-weight="500" text-anchor="middle" class="st-number">03</text>
+<text x="548" y="33" fill="#59616a" font-family="Arial" font-size="13" font-weight="500" text-anchor="middle" class="st-number">06</text>
+<text x="667" y="33" fill="#59616a" font-family="Arial" font-size="13" font-weight="500" text-anchor="middle" class="st-number">09</text>
+<text x="786" y="33" fill="#59616a" font-family="Arial" font-size="13" font-weight="500" text-anchor="middle" class="st-number">12</text>
+<text x="905" y="33" fill="#59616a" font-family="Arial" font-size="13" font-weight="500" text-anchor="middle" class="st-number">15</text>
+<text x="1024" y="33" fill="#59616a" font-family="Arial" font-size="13" font-weight="500" text-anchor="middle" class="st-number">18</text>
+<path d="M0 54 L1080 54" fill="none" stroke="#dfe2e4" stroke-width="1" stroke-linecap="round"/>
+<path d="M30 212 L1050 212" fill="none" stroke="#dfe2e4" stroke-width="1" stroke-linecap="round"/>
+<path d="M30 354 L1050 354" fill="none" stroke="#dfe2e4" stroke-width="1" stroke-linecap="round"/>
+<text x="30" y="114" fill="#26333d" font-family="Arial" font-size="20" font-weight="650" text-anchor="start" class="">TRACE</text>
+<text x="30" y="141" fill="#59616a" font-family="Arial" font-size="14" font-weight="400" text-anchor="start" class="">Consecutive confirmation</text>
+<text x="30" y="170" fill="#93482f" font-family="Arial" font-size="14" font-weight="600" text-anchor="start" class="">Stops at step 12</text>
+<text x="30" y="268" fill="#26333d" font-family="Arial" font-size="20" font-weight="650" text-anchor="start" class="">delay-only</text>
+<text x="30" y="295" fill="#59616a" font-family="Arial" font-size="14" font-weight="400" text-anchor="start" class="">Wait after the first Yes</text>
+<text x="30" y="324" fill="#93482f" font-family="Arial" font-size="14" font-weight="600" text-anchor="start" class="">Stops at step 6</text>
+<text x="30" y="407" fill="#26333d" font-family="Arial" font-size="20" font-weight="650" text-anchor="start" class="">Script endpoint</text>
+<text x="30" y="434" fill="#59616a" font-family="Arial" font-size="14" font-weight="400" text-anchor="start" class="">Follow the complete route</text>
+<text x="30" y="463" fill="#93482f" font-family="Arial" font-size="14" font-weight="600" text-anchor="start" class="">Stops at step 18</text>
+<path d="M310 132 L786 132" fill="none" stroke="#a6b0b8" stroke-width="2" stroke-linecap="round"/>
+<rect x="522" y="110" width="290" height="44" rx="12" fill="#f6eeea"/>
+<path d="M548 132 L786 132" fill="none" stroke="#93482f" stroke-width="2" stroke-linecap="round"/>
+<rect x="284" y="116" width="52" height="32" rx="8" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.2"/>
+<text x="310" y="137" fill="#26333d" font-family="Arial" font-size="15" font-weight="500" text-anchor="middle" class="">Yes</text>
+<rect x="403" y="116" width="52" height="32" rx="8" fill="#f6eeea" stroke="#bd9989" stroke-width="1.2"/>
+<text x="429" y="137" fill="#93482f" font-family="Arial" font-size="15" font-weight="500" text-anchor="middle" class="">No</text>
+<rect x="522" y="116" width="52" height="32" rx="8" fill="#ffffff" stroke="#93482f" stroke-width="1.2"/>
+<text x="548" y="137" fill="#26333d" font-family="Arial" font-size="15" font-weight="600" text-anchor="middle" class="">Yes</text>
+<rect x="641" y="116" width="52" height="32" rx="8" fill="#ffffff" stroke="#93482f" stroke-width="1.2"/>
+<text x="667" y="137" fill="#26333d" font-family="Arial" font-size="15" font-weight="600" text-anchor="middle" class="">Yes</text>
+<rect x="755" y="111" width="62" height="42" rx="12" fill="#f6eeea"/>
+<rect x="760" y="116" width="52" height="32" rx="8" fill="#93482f" stroke="#93482f" stroke-width="1.2"/>
+<text x="786" y="137" fill="#ffffff" font-family="Arial" font-size="15" font-weight="600" text-anchor="middle" class="">Yes</text>
+<text x="786" y="104" fill="#93482f" font-family="Arial" font-size="12" font-weight="700" text-anchor="middle" class="">STOP</text>
+<text x="429" y="175" fill="#59616a" font-family="Arial" font-size="13" font-weight="400" text-anchor="middle" class="">Reset</text>
+<path d="M548 163 L548 167" fill="none" stroke="#93482f" stroke-width="1" stroke-linecap="round"/>
+<path d="M548 167 L786 167" fill="none" stroke="#93482f" stroke-width="1" stroke-linecap="round"/>
+<path d="M786 167 L786 163" fill="none" stroke="#93482f" stroke-width="1" stroke-linecap="round"/>
+<text x="667" y="189" fill="#93482f" font-family="Arial" font-size="14" font-weight="500" text-anchor="middle" class="">3 consecutive Yes</text>
+<path d="M310 286 L314 286 M320 286 L324 286 M330 286 L334 286 M340 286 L344 286 M350 286 L354 286 M360 286 L364 286 M370 286 L374 286 M380 286 L384 286 M390 286 L394 286 M400 286 L404 286 M410 286 L414 286 M420 286 L424 286 M430 286 L434 286 M440 286 L444 286 M450 286 L454 286 M460 286 L464 286 M470 286 L474 286 M480 286 L484 286 M490 286 L494 286 M500 286 L504 286 M510 286 L514 286 M520 286 L524 286 M530 286 L534 286 M540 286 L544 286" fill="none" stroke="#93482f" stroke-width="2" stroke-linecap="round"/>
+<rect x="284" y="270" width="52" height="32" rx="8" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.2"/>
+<text x="310" y="291" fill="#26333d" font-family="Arial" font-size="15" font-weight="500" text-anchor="middle" class="">Yes</text>
+<circle cx="429" cy="286" r="4" fill="#ffffff" stroke="#93482f" stroke-width="1.5"/>
+<circle cx="548" cy="286" r="18" fill="#f6eeea"/>
+<circle cx="548" cy="286" r="11" fill="#93482f"/>
+<rect x="544.5" y="282.5" width="7" height="7" rx="1" fill="#ffffff"/>
+<text x="548" y="258" fill="#93482f" font-family="Arial" font-size="12" font-weight="700" text-anchor="middle" class="">STOP</text>
+<text x="429" y="323" fill="#93482f" font-family="Arial" font-size="15" font-weight="500" text-anchor="middle" class="">Wait 6 steps</text>
+<text x="687" y="291" fill="#59616a" font-family="Arial" font-size="15" font-weight="400" text-anchor="start" class="">(K−1)q = 6</text>
+<path d="M310 425 L1024 425" fill="none" stroke="#a6b0b8" stroke-width="2" stroke-linecap="round"/>
+<circle cx="310" cy="425" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="429" cy="425" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="548" cy="425" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="667" cy="425" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="786" cy="425" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="905" cy="425" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="1024" cy="425" r="18" fill="#f6eeea"/>
+<circle cx="1024" cy="425" r="11" fill="#93482f"/>
+<rect x="1020.5" y="421.5" width="7" height="7" rx="1" fill="#ffffff"/>
+<text x="1024" y="397" fill="#93482f" font-family="Arial" font-size="12" font-weight="700" text-anchor="middle" class="">STOP</text>
+</svg>

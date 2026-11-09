@@ -24,7 +24,9 @@
 .architecture-mobile { display: none; }
 .architecture-map .flow-motion, .architecture-map .icon-motion { visibility: hidden; }
 .architecture-map[data-state="playing"] .flow-motion, .architecture-map[data-state="playing"] .icon-motion { visibility: visible; }
-.architecture-footer { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 14px 20px; padding: 20px 30px; border-top: 1px solid var(--arch-rule); font: 14px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.architecture-map[data-state="playing"] [data-icon-animated="true"] .icon-rest { visibility: hidden; }
+.architecture-footer { display: grid; grid-template-columns: 1fr auto auto; align-items: start; gap: 14px 20px; padding: 16px 30px; border-top: 1px solid var(--arch-rule); font: 14px/1.5 Arial,"Microsoft YaHei",sans-serif; }
+.architecture-footer > .architecture-legend { min-height: 44px; }
 .architecture-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; color: var(--arch-muted); }
 .architecture-legend > span { display: inline-flex; align-items: center; gap: 8px; }
 .arch-key { width: 22px; height: 0; border-top: 2px solid #7cdcc8; }
@@ -35,6 +37,10 @@
 .architecture-map .architecture-actions a { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 8px 12px; border: 1px solid #526879; border-radius: 7px; color: var(--arch-text); background: #1b2c39; font: inherit; text-decoration: none; cursor: pointer; }
 .architecture-map .architecture-actions button[hidden] { display: none; }
 .architecture-map .architecture-actions a { background: transparent; border-color: transparent; }
+.architecture-map .architecture-motion-toggle { width: 44px; height: 44px; padding: 0; border-radius: 50%; background: transparent; border-color: transparent; color: var(--arch-muted); }
+.architecture-motion-toggle svg { width: 18px; height: 18px; }
+.architecture-motion-toggle[aria-pressed="true"] .motion-play,
+.architecture-motion-toggle[aria-pressed="false"] .motion-pause { display: none; }
 .architecture-map .architecture-actions button:hover,
 .architecture-map .architecture-actions a:hover { background: #2b4050; color: #ffffff; }
 .architecture-map button:focus-visible,
@@ -42,6 +48,7 @@
 .architecture-map summary:focus-visible { outline: 2px solid #b6e8c5; outline-offset: 4px; }
 .architecture-map .architecture-note { color: var(--arch-muted); font-size: 13px; line-height: 1.6; margin: 0; max-width: none; }
 .architecture-map .architecture-files { justify-self: end; font-size: 13px; color: var(--arch-muted); }
+.architecture-files[open] { max-width: 250px; }
 .architecture-files summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; text-decoration: underline; text-underline-offset: 4px; }
 .architecture-files > div { display: flex; flex-wrap: wrap; gap: 8px; }
 .architecture-map .architecture-files a { color: #b6e8c5; display: inline-flex; min-height: 44px; align-items: center; padding: 4px 6px; text-underline-offset: 4px; }
@@ -63,9 +70,13 @@
   .architecture-legend { font-size: 13px; gap: 10px 18px; }
   .architecture-standalone { padding: 12px; }
 }
-@media (prefers-reduced-motion: reduce) { .architecture-map .flow-motion, .architecture-map .icon-motion { visibility: hidden !important; } }
+@media (prefers-reduced-motion: reduce) {
+  .architecture-map .flow-motion, .architecture-map .icon-motion { visibility: hidden !important; }
+  .architecture-map [data-icon-animated="true"] .icon-rest { visibility: visible !important; }
+}
 @media print {
   .architecture-map { break-inside: avoid; print-color-adjust: exact; -webkit-print-color-adjust: exact; box-shadow: none; }
   .architecture-actions, .architecture-files, .architecture-map .flow-motion, .architecture-map .icon-motion { display: none !important; }
+  .architecture-map [data-icon-animated="true"] .icon-rest { visibility: visible !important; }
 }
 

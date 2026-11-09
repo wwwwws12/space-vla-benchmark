@@ -1,0 +1,75 @@
+/* V20.1 — explicit overlay contrast, isolated from the page's dark strong text. */
+.demo-carousel .video-card { container-type: inline-size; }
+.video-context-overlay {
+  position: absolute; inset: 0 0 auto; z-index: 1;
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 22px; padding: 25px 29px 50px;
+  background: linear-gradient(180deg, rgba(8, 17, 23, .88) 0%, rgba(8, 17, 23, .66) 48%, rgba(8, 17, 23, 0) 100%);
+  color: #fff; pointer-events: none;
+  font-family: var(--sans, 'Segoe UI', sans-serif);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .45);
+}
+.video-context-overlay[hidden],
+.video-card:not(.is-active) .video-context-overlay { display: none; }
+.video-context-target { min-width: 0; padding-top: 2px; }
+.video-context-label { display: block; color: #e0e7e9; font-size: 12px; line-height: 1.4; font-weight: 400; letter-spacing: .02em; }
+.video-context-target strong { display: block; margin-top: 6px; color: #fff; font-size: 22px; line-height: 1.35; font-weight: 600; letter-spacing: -.015em; text-shadow: 0 1px 3px rgba(0, 0, 0, .65); }
+.video-context-distance { flex: 0 0 auto; text-align: right; }
+.video-context-value { display: flex; justify-content: flex-end; align-items: baseline; gap: 6px; margin: 3px 0 4px; white-space: nowrap; }
+.video-context-value b { font-size: 34px; line-height: 1.15; font-weight: 500; letter-spacing: -.035em; font-variant-numeric: tabular-nums lining-nums; }
+.video-context-value span { font-size: 17px; font-weight: 400; color: #e0e7e9; }
+.video-context-state { display: flex; justify-content: flex-end; align-items: center; gap: 7px; color: #eef2f4; font-size: 12px; line-height: 1.5; white-space: nowrap; }
+.video-context-state::before { content: ''; flex: 0 0 auto; width: 5px; height: 5px; border-radius: 50%; background: #c0cbd0; }
+.video-context-overlay[data-range='inside'] .video-context-state { color: #bdedcf; }
+.video-context-overlay[data-range='inside'] .video-context-state::before { background: #a5dfbf; box-shadow: 0 0 0 3px rgba(165, 223, 191, .13); }
+
+/* Native captions remain available when the browser fullscreens the video alone. */
+.demo-carousel video::cue { color: #fff; background-color: rgba(10, 19, 25, .82); font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; font-size: clamp(14px, 1.5vw, 23px); font-weight: 500; text-shadow: 0 1px 2px #0008; }
+.demo-carousel video::cue(.inside) { color: #bdedcf; }
+.demo-carousel video:fullscreen::cue { font-size: clamp(20px, 2vw, 34px); }
+
+/* Keep the explanation together, at the same width as the centre player. */
+.demo-carousel .demo-caption { width: 76%; max-width: none; margin-inline: auto; text-align: left; }
+.demo-carousel .demo-caption .scene-description { margin: 0; color: var(--ink); line-height: 1.5; }
+.demo-carousel .scene-description strong { font-size: 22px; font-weight: 600; letter-spacing: -.02em; }
+.demo-carousel .scene-description [data-video-target] { display: block; margin-top: 6px; color: var(--muted); font-size: 16px; font-weight: 400; }
+.demo-carousel .demo-caption .video-explanation { margin: 17px 0 0; color: var(--body); font-size: 17px; line-height: 1.85; text-wrap: pretty; }
+.demo-carousel .video-controls { margin-bottom: 22px; }
+.demo-carousel .playback-options { width: 76%; max-width: none; margin: 23px auto 0; padding-top: 12px; border-top: 1px solid #e1e5e8; align-items: flex-start; justify-content: flex-start; column-gap: 24px; row-gap: 4px; }
+.demo-carousel .playback-options > button,
+.demo-carousel .recording-details > summary { min-height: 44px; padding: 8px 0; font: 400 14px/28px var(--sans); color: var(--muted); }
+.demo-carousel .playback-options > button:hover,
+.demo-carousel .recording-details > summary:hover { color: var(--ink); }
+.demo-carousel .recording-details { max-width: 100%; margin-left: auto; }
+.demo-carousel .recording-details[open] { margin-left: 0; }
+.demo-carousel .recording-details[open] > summary { text-align: left; }
+.demo-carousel .recording-panel { margin-top: 6px; padding: 18px 22px; border-radius: 12px; background: #f5f6f6; }
+.demo-carousel .video-recording-copy { margin: 12px 0; font: 400 15px/1.8 var(--sans); color: var(--body); }
+.demo-carousel .video-transcript { font-size: 15px; text-decoration: underline; text-underline-offset: 3px; }
+.demo-carousel [data-distance-captions][hidden] { display: none; }
+
+@container (max-width: 600px) {
+  .video-context-overlay { gap: 16px; padding: 18px 20px 38px; }
+  .video-context-target strong { font-size: 18px; margin-top: 5px; }
+  .video-context-value b { font-size: 29px; }
+  .video-context-value span { font-size: 15px; }
+  .video-context-label,.video-context-state { font-size: 11px; }
+}
+@container (max-width: 400px) {
+  .video-context-overlay { gap: 12px; padding: 12px 14px 28px; }
+  .video-context-target { max-width: 52%; }
+  .video-context-target strong { font-size: 16px; line-height: 1.35; }
+  .video-context-value { gap: 4px; margin: 2px 0 2px; }
+  .video-context-value b { font-size: 24px; }
+  .video-context-value span { font-size: 12px; }
+  .video-context-label,.video-context-state { font-size: 10px; }
+  .video-context-state { gap: 5px; }
+}
+@media (max-width: 620px) {
+  .demo-carousel .demo-caption,.demo-carousel .playback-options { width: 100%; }
+  .demo-carousel .scene-description strong { font-size: 20px; }
+  .demo-carousel .scene-description [data-video-target] { font-size: 15px; }
+  .demo-carousel .demo-caption .video-explanation { font-size: 16px; line-height: 1.8; margin-top: 14px; }
+  .demo-carousel .playback-options { margin-top: 19px; column-gap: 18px; }
+  .demo-carousel .recording-details { margin-left: 0; }
+}

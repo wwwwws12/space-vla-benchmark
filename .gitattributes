@@ -17,3 +17,6 @@ site/dist/downloads/*.md -text
 
 # Keep downloadable editable diagram exports byte-identical to their checksums.
 site/dist/architecture/*.excalidraw -text
+
+# Preserve downloadable result CSV bytes and its published checksum.
+site/dist/downloads/primary-results.csv -text

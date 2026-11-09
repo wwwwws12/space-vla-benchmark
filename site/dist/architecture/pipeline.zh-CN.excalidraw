@@ -712,7 +712,7 @@
       "id": "line-0019",
       "type": "line",
       "x": 352,
-      "y": 231,
+      "y": 210,
       "width": 198,
       "height": 0,
       "angle": 0,
@@ -754,7 +754,7 @@
       "id": "line-0020",
       "type": "line",
       "x": 352,
-      "y": 266,
+      "y": 248,
       "width": 198,
       "height": 0,
       "angle": 0,
@@ -796,7 +796,7 @@
       "id": "line-0021",
       "type": "line",
       "x": 352,
-      "y": 301,
+      "y": 286,
       "width": 198,
       "height": 0,
       "angle": 0,
@@ -1111,9 +1111,9 @@
     {
       "id": "text-0029",
       "type": "text",
-      "x": 99,
+      "x": 105,
       "y": 108,
-      "width": 167,
+      "width": 161,
       "height": 25.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
@@ -1149,9 +1149,9 @@
       "id": "text-0030",
       "type": "text",
       "x": 56,
-      "y": 180,
+      "y": 184,
       "width": 204,
-      "height": 22.5,
+      "height": 25.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -1173,11 +1173,11 @@
       "link": null,
       "locked": false,
       "text": "当前 RGB 图像",
-      "fontSize": 18,
+      "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 22,
+      "baseline": 25,
       "containerId": null,
       "originalText": "当前 RGB 图像",
       "lineHeight": 1.25
@@ -1186,11 +1186,11 @@
       "id": "text-0031",
       "type": "text",
       "x": 56,
-      "y": 208,
+      "y": 230,
       "width": 204,
-      "height": 20.0,
+      "height": 25.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#7cdcc8",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1209,25 +1209,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "1920 × 1080",
-      "fontSize": 16,
+      "text": "+ 目标短语",
+      "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 20,
+      "baseline": 25,
       "containerId": null,
-      "originalText": "1920 × 1080",
+      "originalText": "+ 目标短语",
       "lineHeight": 1.25
     },
     {
       "id": "text-0032",
       "type": "text",
-      "x": 56,
-      "y": 243,
-      "width": 204,
-      "height": 22.5,
+      "x": 401,
+      "y": 108,
+      "width": 155,
+      "height": 25.0,
       "angle": 0,
-      "strokeColor": "#7cdcc8",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1246,25 +1246,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "+ 目标短语",
-      "fontSize": 18,
+      "text": "视觉 Judger",
+      "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 22,
+      "baseline": 25,
       "containerId": null,
-      "originalText": "+ 目标短语",
+      "originalText": "视觉 Judger",
       "lineHeight": 1.25
     },
     {
       "id": "text-0033",
       "type": "text",
-      "x": 56,
-      "y": 294,
-      "width": 204,
-      "height": 17.5,
+      "x": 352,
+      "y": 180,
+      "width": 198,
+      "height": 25.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1283,25 +1283,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "同一路线 · 两种光照",
-      "fontSize": 14,
+      "text": "Qwen2.5-VL-3B",
+      "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 18,
+      "baseline": 25,
       "containerId": null,
-      "originalText": "同一路线 · 两种光照",
+      "originalText": "Qwen2.5-VL-3B",
       "lineHeight": 1.25
     },
     {
       "id": "text-0034",
       "type": "text",
-      "x": 56,
-      "y": 320,
-      "width": 204,
-      "height": 17.5,
+      "x": 352,
+      "y": 218,
+      "width": 198,
+      "height": 25.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1320,22 +1320,22 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "Isaac Sim 提供观察帧",
-      "fontSize": 14,
+      "text": "Lance_3B",
+      "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 18,
+      "baseline": 25,
       "containerId": null,
-      "originalText": "Isaac Sim 提供观察帧",
+      "originalText": "Lance_3B",
       "lineHeight": 1.25
     },
     {
       "id": "text-0035",
       "type": "text",
-      "x": 395,
-      "y": 108,
-      "width": 161,
+      "x": 352,
+      "y": 256,
+      "width": 198,
       "height": 25.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
@@ -1357,25 +1357,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "视觉 Judger",
+      "text": "Nova Lite 1.0",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "视觉 Judger",
+      "originalText": "Nova Lite 1.0",
       "lineHeight": 1.25
     },
     {
       "id": "text-0036",
       "type": "text",
       "x": 352,
-      "y": 167,
+      "y": 317,
       "width": 198,
       "height": 18.75,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#7cdcc8",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1394,23 +1394,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "每次评测使用一个模型",
+      "text": "保存 Yes / No 回答",
       "fontSize": 15,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 19,
       "containerId": null,
-      "originalText": "每次评测使用一个模型",
+      "originalText": "保存 Yes / No 回答",
       "lineHeight": 1.25
     },
     {
       "id": "text-0037",
       "type": "text",
-      "x": 352,
-      "y": 204,
-      "width": 198,
-      "height": 22.5,
+      "x": 731,
+      "y": 104,
+      "width": 193,
+      "height": 25.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -1431,23 +1431,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "Qwen2.5-VL-3B",
-      "fontSize": 18,
+      "text": "TRACE",
+      "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 22,
+      "baseline": 25,
       "containerId": null,
-      "originalText": "Qwen2.5-VL-3B",
+      "originalText": "TRACE",
       "lineHeight": 1.25
     },
     {
       "id": "text-0038",
       "type": "text",
-      "x": 352,
-      "y": 239,
-      "width": 198,
-      "height": 22.5,
+      "x": 682,
+      "y": 143,
+      "width": 236,
+      "height": 21.25,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -1468,25 +1468,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "Lance_3B",
-      "fontSize": 18,
+      "text": "连续 K 次 Yes",
+      "fontSize": 17,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 22,
+      "baseline": 21,
       "containerId": null,
-      "originalText": "Lance_3B",
+      "originalText": "连续 K 次 Yes",
       "lineHeight": 1.25
     },
     {
       "id": "text-0039",
       "type": "text",
-      "x": 352,
-      "y": 274,
-      "width": 198,
-      "height": 22.5,
+      "x": 682,
+      "y": 171,
+      "width": 236,
+      "height": 18.75,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#afbec7",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1505,25 +1505,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "Nova Lite 1.0",
-      "fontSize": 18,
+      "text": "每 q 个动作步查询",
+      "fontSize": 15,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 22,
+      "baseline": 19,
       "containerId": null,
-      "originalText": "Nova Lite 1.0",
+      "originalText": "每 q 个动作步查询",
       "lineHeight": 1.25
     },
     {
       "id": "text-0040",
       "type": "text",
-      "x": 352,
-      "y": 317,
-      "width": 198,
-      "height": 18.75,
+      "x": 731,
+      "y": 252,
+      "width": 193,
+      "height": 25.0,
       "angle": 0,
-      "strokeColor": "#7cdcc8",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1542,23 +1542,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "保存 Yes / No 回答",
-      "fontSize": 15,
+      "text": "delay-only",
+      "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 19,
+      "baseline": 25,
       "containerId": null,
-      "originalText": "保存 Yes / No 回答",
+      "originalText": "delay-only",
       "lineHeight": 1.25
     },
     {
       "id": "text-0041",
       "type": "text",
-      "x": 725,
-      "y": 104,
-      "width": 199,
-      "height": 25.0,
+      "x": 682,
+      "y": 288,
+      "width": 236,
+      "height": 20.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -1579,23 +1579,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "TRACE",
-      "fontSize": 20,
+      "text": "首次 Yes → 等待 (K−1)q 步",
+      "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 25,
+      "baseline": 20,
       "containerId": null,
-      "originalText": "TRACE",
+      "originalText": "首次 Yes → 等待 (K−1)q 步",
       "lineHeight": 1.25
     },
     {
       "id": "text-0042",
       "type": "text",
-      "x": 682,
-      "y": 143,
-      "width": 236,
-      "height": 21.25,
+      "x": 105,
+      "y": 446,
+      "width": 161,
+      "height": 22.5,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -1616,22 +1616,22 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "连续 K 次 Yes",
-      "fontSize": 17,
+      "text": "可见性真值",
+      "fontSize": 18,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 21,
+      "baseline": 22,
       "containerId": null,
-      "originalText": "连续 K 次 Yes",
+      "originalText": "可见性真值",
       "lineHeight": 1.25
     },
     {
       "id": "text-0043",
       "type": "text",
-      "x": 682,
-      "y": 171,
-      "width": 236,
+      "x": 56,
+      "y": 488,
+      "width": 204,
       "height": 18.75,
       "angle": 0,
       "strokeColor": "#afbec7",
@@ -1653,25 +1653,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "每 q 个动作步查询",
+      "text": "目标像素 · 月球亮度条件",
       "fontSize": 15,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 19,
       "containerId": null,
-      "originalText": "每 q 个动作步查询",
+      "originalText": "目标像素 · 月球亮度条件",
       "lineHeight": 1.25
     },
     {
       "id": "text-0044",
       "type": "text",
-      "x": 725,
-      "y": 252,
-      "width": 199,
-      "height": 25.0,
+      "x": 56,
+      "y": 522,
+      "width": 204,
+      "height": 20.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#91baee",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1690,23 +1690,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "delay-only",
-      "fontSize": 20,
+      "text": "仅用于评测",
+      "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 25,
+      "baseline": 20,
       "containerId": null,
-      "originalText": "delay-only",
+      "originalText": "仅用于评测",
       "lineHeight": 1.25
     },
     {
       "id": "text-0045",
       "type": "text",
-      "x": 682,
-      "y": 288,
-      "width": 236,
-      "height": 20.0,
+      "x": 731,
+      "y": 446,
+      "width": 193,
+      "height": 22.5,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -1727,25 +1727,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "首次 Yes → 等待 (K−1)q 步",
-      "fontSize": 16,
+      "text": "可见性 Oracle",
+      "fontSize": 18,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 20,
+      "baseline": 22,
       "containerId": null,
-      "originalText": "首次 Yes → 等待 (K−1)q 步",
+      "originalText": "可见性 Oracle",
       "lineHeight": 1.25
     },
     {
       "id": "text-0046",
       "type": "text",
       "x": 682,
-      "y": 315,
+      "y": 488,
       "width": 236,
-      "height": 18.75,
+      "height": 21.25,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1764,25 +1764,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "不要求再次确认",
-      "fontSize": 15,
+      "text": "真值 → TRACE 回放",
+      "fontSize": 17,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 19,
+      "baseline": 21,
       "containerId": null,
-      "originalText": "不要求再次确认",
+      "originalText": "真值 → TRACE 回放",
       "lineHeight": 1.25
     },
     {
       "id": "text-0047",
       "type": "text",
-      "x": 99,
-      "y": 446,
-      "width": 167,
-      "height": 22.5,
+      "x": 682,
+      "y": 522,
+      "width": 236,
+      "height": 18.75,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#afbec7",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1801,25 +1801,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "可见性真值",
-      "fontSize": 18,
+      "text": "使用同一组冻结 K/q",
+      "fontSize": 15,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 22,
+      "baseline": 19,
       "containerId": null,
-      "originalText": "可见性真值",
+      "originalText": "使用同一组冻结 K/q",
       "lineHeight": 1.25
     },
     {
       "id": "text-0048",
       "type": "text",
-      "x": 56,
-      "y": 488,
-      "width": 204,
-      "height": 18.75,
+      "x": 731,
+      "y": 630,
+      "width": 193,
+      "height": 25.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1838,25 +1838,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "目标像素 · 月球亮度条件",
-      "fontSize": 15,
+      "text": "脚本终点",
+      "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 19,
+      "baseline": 25,
       "containerId": null,
-      "originalText": "目标像素 · 月球亮度条件",
+      "originalText": "脚本终点",
       "lineHeight": 1.25
     },
     {
       "id": "text-0049",
       "type": "text",
-      "x": 56,
-      "y": 522,
-      "width": 204,
+      "x": 682,
+      "y": 668,
+      "width": 236,
       "height": 20.0,
       "angle": 0,
-      "strokeColor": "#91baee",
+      "strokeColor": "#afbec7",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -1875,23 +1875,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "仅用于评测",
+      "text": "固定路线 → 原生 STOP",
       "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 20,
       "containerId": null,
-      "originalText": "仅用于评测",
+      "originalText": "固定路线 → 原生 STOP",
       "lineHeight": 1.25
     },
     {
       "id": "text-0050",
       "type": "text",
-      "x": 725,
-      "y": 446,
-      "width": 199,
-      "height": 22.5,
+      "x": 1081,
+      "y": 108,
+      "width": 149,
+      "height": 25.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -1912,23 +1912,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "可见性 Oracle",
-      "fontSize": 18,
+      "text": "停止结果指标",
+      "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 22,
+      "baseline": 25,
       "containerId": null,
-      "originalText": "可见性 Oracle",
+      "originalText": "停止结果指标",
       "lineHeight": 1.25
     },
     {
       "id": "text-0051",
       "type": "text",
-      "x": 682,
-      "y": 488,
-      "width": 236,
-      "height": 21.25,
+      "x": 1032,
+      "y": 180,
+      "width": 192,
+      "height": 28.75,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -1949,22 +1949,22 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "真值 → TRACE 回放",
-      "fontSize": 17,
+      "text": "SR",
+      "fontSize": 23,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 21,
+      "baseline": 29,
       "containerId": null,
-      "originalText": "真值 → TRACE 回放",
+      "originalText": "SR",
       "lineHeight": 1.25
     },
     {
       "id": "text-0052",
       "type": "text",
-      "x": 682,
-      "y": 522,
-      "width": 236,
+      "x": 1032,
+      "y": 213,
+      "width": 192,
       "height": 18.75,
       "angle": 0,
       "strokeColor": "#afbec7",
@@ -1986,23 +1986,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "使用同一组冻结 K/q",
+      "text": "是否停在成功区域",
       "fontSize": 15,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 19,
       "containerId": null,
-      "originalText": "使用同一组冻结 K/q",
+      "originalText": "是否停在成功区域",
       "lineHeight": 1.25
     },
     {
       "id": "text-0053",
       "type": "text",
-      "x": 725,
-      "y": 630,
-      "width": 199,
-      "height": 25.0,
+      "x": 1032,
+      "y": 267,
+      "width": 192,
+      "height": 28.75,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -2023,23 +2023,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "脚本终点",
-      "fontSize": 20,
+      "text": "SPL",
+      "fontSize": 23,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 25,
+      "baseline": 29,
       "containerId": null,
-      "originalText": "脚本终点",
+      "originalText": "SPL",
       "lineHeight": 1.25
     },
     {
       "id": "text-0054",
       "type": "text",
-      "x": 682,
-      "y": 668,
-      "width": 236,
-      "height": 20.0,
+      "x": 1032,
+      "y": 300,
+      "width": 192,
+      "height": 18.75,
       "angle": 0,
       "strokeColor": "#afbec7",
       "backgroundColor": "transparent",
@@ -2060,22 +2060,22 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "固定路线 → 原生 STOP",
-      "fontSize": 16,
+      "text": "成功与路径效率",
+      "fontSize": 15,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 20,
+      "baseline": 19,
       "containerId": null,
-      "originalText": "固定路线 → 原生 STOP",
+      "originalText": "成功与路径效率",
       "lineHeight": 1.25
     },
     {
       "id": "text-0055",
       "type": "text",
-      "x": 1075,
-      "y": 108,
-      "width": 155,
+      "x": 1032,
+      "y": 354,
+      "width": 192,
       "height": 25.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
@@ -2097,25 +2097,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "停止结果指标",
+      "text": "OSR · NE · PL",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 25,
       "containerId": null,
-      "originalText": "停止结果指标",
+      "originalText": "OSR · NE · PL",
       "lineHeight": 1.25
     },
     {
       "id": "text-0056",
       "type": "text",
       "x": 1032,
-      "y": 180,
+      "y": 389,
       "width": 192,
-      "height": 28.75,
+      "height": 18.75,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#afbec7",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -2134,25 +2134,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "SR",
-      "fontSize": 23,
+      "text": "路线前缀、距离、路径长度",
+      "fontSize": 15,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 29,
+      "baseline": 19,
       "containerId": null,
-      "originalText": "SR",
+      "originalText": "路线前缀、距离、路径长度",
       "lineHeight": 1.25
     },
     {
       "id": "text-0057",
       "type": "text",
       "x": 1032,
-      "y": 213,
+      "y": 477,
       "width": 192,
-      "height": 18.75,
+      "height": 23.75,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -2171,25 +2171,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "是否停在成功区域",
-      "fontSize": 15,
+      "text": "240 条 test 路线",
+      "fontSize": 19,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 19,
+      "baseline": 24,
       "containerId": null,
-      "originalText": "是否停在成功区域",
+      "originalText": "240 条 test 路线",
       "lineHeight": 1.25
     },
     {
       "id": "text-0058",
       "type": "text",
       "x": 1032,
-      "y": 267,
+      "y": 510,
       "width": 192,
-      "height": 28.75,
+      "height": 18.75,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#afbec7",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -2208,25 +2208,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "SPL",
-      "fontSize": 23,
+      "text": "每个模型 / 世界",
+      "fontSize": 15,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 29,
+      "baseline": 19,
       "containerId": null,
-      "originalText": "SPL",
+      "originalText": "每个模型 / 世界",
       "lineHeight": 1.25
     },
     {
       "id": "text-0059",
       "type": "text",
-      "x": 1032,
-      "y": 300,
-      "width": 192,
-      "height": 18.75,
+      "x": 1081,
+      "y": 630,
+      "width": 149,
+      "height": 22.5,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -2245,25 +2245,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "成功与路径效率",
-      "fontSize": 15,
+      "text": "距离真值",
+      "fontSize": 18,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 19,
+      "baseline": 22,
       "containerId": null,
-      "originalText": "成功与路径效率",
+      "originalText": "距离真值",
       "lineHeight": 1.25
     },
     {
       "id": "text-0060",
       "type": "text",
       "x": 1032,
-      "y": 354,
+      "y": 665,
       "width": 192,
-      "height": 25.0,
+      "height": 20.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#afbec7",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -2282,23 +2282,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "OSR · NE · PL",
-      "fontSize": 20,
+      "text": "火星 / 月球 <20 m",
+      "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 25,
+      "baseline": 20,
       "containerId": null,
-      "originalText": "OSR · NE · PL",
+      "originalText": "火星 / 月球 <20 m",
       "lineHeight": 1.25
     },
     {
       "id": "text-0061",
       "type": "text",
       "x": 1032,
-      "y": 389,
+      "y": 690,
       "width": 192,
-      "height": 18.75,
+      "height": 20.0,
       "angle": 0,
       "strokeColor": "#afbec7",
       "backgroundColor": "transparent",
@@ -2319,25 +2319,25 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "路线前缀、距离、路径长度",
-      "fontSize": 15,
+      "text": "太空舱 <2 m",
+      "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 19,
+      "baseline": 20,
       "containerId": null,
-      "originalText": "路线前缀、距离、路径长度",
+      "originalText": "太空舱 <2 m",
       "lineHeight": 1.25
     },
     {
       "id": "text-0062",
       "type": "text",
-      "x": 1032,
-      "y": 477,
-      "width": 192,
-      "height": 23.75,
+      "x": 332,
+      "y": 460,
+      "width": 260,
+      "height": 20.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#91baee",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 1,
@@ -2356,22 +2356,22 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "240 条 test 路线",
-      "fontSize": 19,
+      "text": "独立参照分支",
+      "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 24,
+      "baseline": 20,
       "containerId": null,
-      "originalText": "240 条 test 路线",
+      "originalText": "独立参照分支",
       "lineHeight": 1.25
     },
     {
       "id": "text-0063",
       "type": "text",
-      "x": 1032,
-      "y": 510,
-      "width": 192,
+      "x": 332,
+      "y": 508,
+      "width": 260,
       "height": 18.75,
       "angle": 0,
       "strokeColor": "#afbec7",
@@ -2393,23 +2393,23 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "每个模型 / 世界",
+      "text": "不进入 Judger",
       "fontSize": 15,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 19,
       "containerId": null,
-      "originalText": "每个模型 / 世界",
+      "originalText": "不进入 Judger",
       "lineHeight": 1.25
     },
     {
       "id": "text-0064",
       "type": "text",
-      "x": 1075,
-      "y": 630,
-      "width": 155,
-      "height": 22.5,
+      "x": 34,
+      "y": 623,
+      "width": 540,
+      "height": 21.25,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
@@ -2430,22 +2430,22 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "距离真值",
-      "fontSize": 18,
+      "text": "两种光照保持一致",
+      "fontSize": 17,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
-      "baseline": 22,
+      "baseline": 21,
       "containerId": null,
-      "originalText": "距离真值",
+      "originalText": "两种光照保持一致",
       "lineHeight": 1.25
     },
     {
       "id": "text-0065",
       "type": "text",
-      "x": 1032,
-      "y": 665,
-      "width": 192,
+      "x": 34,
+      "y": 657,
+      "width": 540,
       "height": 20.0,
       "angle": 0,
       "strokeColor": "#afbec7",
@@ -2467,22 +2467,22 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "火星 / 月球 <20 m",
+      "text": "路线 · 目标 · 相机 · dev/test 划分",
       "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 20,
       "containerId": null,
-      "originalText": "火星 / 月球 <20 m",
+      "originalText": "路线 · 目标 · 相机 · dev/test 划分",
       "lineHeight": 1.25
     },
     {
       "id": "text-0066",
       "type": "text",
-      "x": 1032,
-      "y": 690,
-      "width": 192,
+      "x": 56,
+      "y": 293,
+      "width": 204,
       "height": 20.0,
       "angle": 0,
       "strokeColor": "#afbec7",
@@ -2504,35 +2504,37 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "太空舱 <2 m",
+      "text": "固定脚本轨迹",
       "fontSize": 16,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "baseline": 20,
       "containerId": null,
-      "originalText": "太空舱 <2 m",
+      "originalText": "固定脚本轨迹",
       "lineHeight": 1.25
     },
     {
-      "id": "text-0067",
-      "type": "text",
-      "x": 332,
-      "y": 460,
-      "width": 260,
-      "height": 20.0,
+      "id": "rect-0067",
+      "type": "rectangle",
+      "x": 57.0,
+      "y": 113.0,
+      "width": 32.0,
+      "height": 23.0,
       "angle": 0,
-      "strokeColor": "#91baee",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0067",
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 1306479091,
       "version": 1,
       "versionNonce": 1740684920,
@@ -2540,36 +2542,29 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "text": "独立参照分支",
-      "fontSize": 16,
-      "fontFamily": 5,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "baseline": 20,
-      "containerId": null,
-      "originalText": "独立参照分支",
-      "lineHeight": 1.25
+      "locked": false
     },
     {
-      "id": "text-0068",
-      "type": "text",
-      "x": 332,
-      "y": 508,
-      "width": 260,
-      "height": 18.75,
+      "id": "line-0068",
+      "type": "line",
+      "x": 63.0,
+      "y": 108.0,
+      "width": 15.0,
+      "height": 5.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0068",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 456619744,
       "version": 1,
       "versionNonce": 756385126,
@@ -2578,28 +2573,39 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "不进入 Judger",
-      "fontSize": 15,
-      "fontFamily": 5,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "baseline": 19,
-      "containerId": null,
-      "originalText": "不进入 Judger",
-      "lineHeight": 1.25
+      "points": [
+        [
+          0.0,
+          5.0
+        ],
+        [
+          3.0,
+          0.0
+        ],
+        [
+          12.0,
+          0.0
+        ],
+        [
+          15.0,
+          5.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
-      "id": "text-0069",
-      "type": "text",
-      "x": 34,
-      "y": 623,
-      "width": 540,
-      "height": 21.25,
+      "id": "ellipse-0069",
+      "type": "ellipse",
+      "x": 69.0,
+      "y": 117.0,
+      "width": 14.0,
+      "height": 14.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -2614,29 +2620,20 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "text": "两种光照保持一致",
-      "fontSize": 17,
-      "fontFamily": 5,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "baseline": 21,
-      "containerId": null,
-      "originalText": "两种光照保持一致",
-      "lineHeight": 1.25
+      "locked": false
     },
     {
-      "id": "text-0070",
-      "type": "text",
-      "x": 34,
-      "y": 657,
-      "width": 540,
-      "height": 20.0,
+      "id": "ellipse-0070",
+      "type": "ellipse",
+      "x": 74.0,
+      "y": 122.0,
+      "width": 4.0,
+      "height": 4.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
-      "backgroundColor": "transparent",
+      "strokeColor": "#3b6766",
+      "backgroundColor": "#3b6766",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -2651,36 +2648,29 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "text": "路线 · 目标 · 相机 · dev/test 划分",
-      "fontSize": 16,
-      "fontFamily": 5,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "baseline": 20,
-      "containerId": null,
-      "originalText": "路线 · 目标 · 相机 · dev/test 划分",
-      "lineHeight": 1.25
+      "locked": false
     },
     {
-      "id": "text-0071",
-      "type": "text",
-      "x": 34,
-      "y": 688,
-      "width": 540,
-      "height": 18.75,
+      "id": "line-0071",
+      "type": "line",
+      "x": 61.0,
+      "y": 119.0,
+      "width": 3.0,
+      "height": 0.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#7cdcc8",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 2.3,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0071",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 1576989742,
       "version": 1,
       "versionNonce": 2037861379,
@@ -2689,35 +2679,40 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "K/q 在基准光照 dev 上选择并冻结",
-      "fontSize": 15,
-      "fontFamily": 5,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "baseline": 19,
-      "containerId": null,
-      "originalText": "K/q 在基准光照 dev 上选择并冻结",
-      "lineHeight": 1.25
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
-      "id": "text-0072",
-      "type": "text",
-      "x": 34,
-      "y": 752,
-      "width": 620,
-      "height": 18.75,
+      "id": "rect-0072",
+      "type": "rectangle",
+      "x": 358.0,
+      "y": 111.0,
+      "width": 22.0,
+      "height": 22.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0072",
-      "roundness": null,
+      "roundness": {
+        "type": 3
+      },
       "seed": 1669650384,
       "version": 1,
       "versionNonce": 999924656,
@@ -2725,36 +2720,29 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "text": "所有规则均保留原生 STOP 优先级。",
-      "fontSize": 15,
-      "fontFamily": 5,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "baseline": 19,
-      "containerId": null,
-      "originalText": "所有规则均保留原生 STOP 优先级。",
-      "lineHeight": 1.25
+      "locked": false
     },
     {
-      "id": "text-0073",
-      "type": "text",
-      "x": 722,
-      "y": 752,
-      "width": 524,
-      "height": 18.75,
+      "id": "line-0073",
+      "type": "line",
+      "x": 363.0,
+      "y": 106.0,
+      "width": 0.0,
+      "height": 5.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0073",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 233930211,
       "version": 1,
       "versionNonce": 163500741,
@@ -2763,35 +2751,40 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "可见性 ≠ 距离判定成功",
-      "fontSize": 15,
-      "fontFamily": 5,
-      "textAlign": "right",
-      "verticalAlign": "top",
-      "baseline": 19,
-      "containerId": null,
-      "originalText": "可见性 ≠ 距离判定成功",
-      "lineHeight": 1.25
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
-      "id": "text-0074",
-      "type": "text",
-      "x": 56,
-      "y": 271,
-      "width": 204,
-      "height": 17.5,
+      "id": "line-0074",
+      "type": "line",
+      "x": 363.0,
+      "y": 133.0,
+      "width": 0.0,
+      "height": 5.0,
       "angle": 0,
-      "strokeColor": "#afbec7",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0074",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 718967304,
       "version": 1,
       "versionNonce": 1611432298,
@@ -2800,28 +2793,31 @@
       "updated": 1782475200000,
       "link": null,
       "locked": false,
-      "text": "固定脚本轨迹",
-      "fontSize": 14,
-      "fontFamily": 5,
-      "textAlign": "left",
-      "verticalAlign": "top",
-      "baseline": 18,
-      "containerId": null,
-      "originalText": "固定脚本轨迹",
-      "lineHeight": 1.25
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
-      "id": "rect-0075",
-      "type": "rectangle",
-      "x": 56.4,
-      "y": 111.35,
-      "width": 27.2,
-      "height": 19.55,
+      "id": "line-0075",
+      "type": "line",
+      "x": 353.0,
+      "y": 116.0,
+      "width": 5.0,
+      "height": 0.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -2829,7 +2825,7 @@
       "frameId": null,
       "index": "a0075",
       "roundness": {
-        "type": 3
+        "type": 2
       },
       "seed": 1292123066,
       "version": 1,
@@ -2838,20 +2834,32 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          5.0,
+          0.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
       "id": "line-0076",
       "type": "line",
-      "x": 61.5,
-      "y": 107.1,
-      "width": 12.75,
-      "height": 4.25,
+      "x": 380.0,
+      "y": 116.0,
+      "width": 5.0,
+      "height": 0.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -2872,43 +2880,37 @@
       "points": [
         [
           0.0,
-          4.25
-        ],
-        [
-          2.55,
           0.0
         ],
         [
-          10.2,
+          5.0,
           0.0
-        ],
-        [
-          12.75,
-          4.25
         ]
       ],
       "startBinding": null,
       "endBinding": null
     },
     {
-      "id": "ellipse-0077",
-      "type": "ellipse",
-      "x": 66.6,
-      "y": 114.75,
-      "width": 11.9,
-      "height": 11.9,
+      "id": "line-0077",
+      "type": "line",
+      "x": 369.0,
+      "y": 106.0,
+      "width": 0.0,
+      "height": 5.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0077",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 433553351,
       "version": 1,
       "versionNonce": 1475900431,
@@ -2916,20 +2918,32 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
       "id": "line-0078",
       "type": "line",
-      "x": 59.8,
-      "y": 116.45,
-      "width": 2.55,
-      "height": 0.0,
+      "x": 369.0,
+      "y": 133.0,
+      "width": 0.0,
+      "height": 5.0,
       "angle": 0,
-      "strokeColor": "#7cdcc8",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.7,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -2953,25 +2967,25 @@
           0.0
         ],
         [
-          2.55,
-          0.0
+          0.0,
+          5.0
         ]
       ],
       "startBinding": null,
       "endBinding": null
     },
     {
-      "id": "rect-0079",
-      "type": "rectangle",
-      "x": 356.65,
-      "y": 109.65,
-      "width": 18.7,
-      "height": 18.7,
+      "id": "line-0079",
+      "type": "line",
+      "x": 353.0,
+      "y": 122.0,
+      "width": 5.0,
+      "height": 0.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -2979,7 +2993,7 @@
       "frameId": null,
       "index": "a0079",
       "roundness": {
-        "type": 3
+        "type": 2
       },
       "seed": 299822100,
       "version": 1,
@@ -2988,20 +3002,32 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          5.0,
+          0.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
       "id": "line-0080",
       "type": "line",
-      "x": 360.9,
-      "y": 105.4,
-      "width": 0.0,
-      "height": 4.25,
+      "x": 380.0,
+      "y": 122.0,
+      "width": 5.0,
+      "height": 0.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3025,8 +3051,8 @@
           0.0
         ],
         [
-          0.0,
-          4.25
+          5.0,
+          0.0
         ]
       ],
       "startBinding": null,
@@ -3035,15 +3061,15 @@
     {
       "id": "line-0081",
       "type": "line",
-      "x": 360.9,
-      "y": 128.35,
+      "x": 375.0,
+      "y": 106.0,
       "width": 0.0,
-      "height": 4.25,
+      "height": 5.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3068,7 +3094,7 @@
         ],
         [
           0.0,
-          4.25
+          5.0
         ]
       ],
       "startBinding": null,
@@ -3077,15 +3103,15 @@
     {
       "id": "line-0082",
       "type": "line",
-      "x": 352.4,
-      "y": 113.9,
-      "width": 4.25,
-      "height": 0.0,
+      "x": 375.0,
+      "y": 133.0,
+      "width": 0.0,
+      "height": 5.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3109,8 +3135,8 @@
           0.0
         ],
         [
-          4.25,
-          0.0
+          0.0,
+          5.0
         ]
       ],
       "startBinding": null,
@@ -3119,15 +3145,15 @@
     {
       "id": "line-0083",
       "type": "line",
-      "x": 375.35,
-      "y": 113.9,
-      "width": 4.25,
+      "x": 353.0,
+      "y": 128.0,
+      "width": 5.0,
       "height": 0.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3151,7 +3177,7 @@
           0.0
         ],
         [
-          4.25,
+          5.0,
           0.0
         ]
       ],
@@ -3161,15 +3187,15 @@
     {
       "id": "line-0084",
       "type": "line",
-      "x": 366.0,
-      "y": 105.4,
-      "width": 0.0,
-      "height": 4.25,
+      "x": 380.0,
+      "y": 128.0,
+      "width": 5.0,
+      "height": 0.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3193,34 +3219,32 @@
           0.0
         ],
         [
-          0.0,
-          4.25
+          5.0,
+          0.0
         ]
       ],
       "startBinding": null,
       "endBinding": null
     },
     {
-      "id": "line-0085",
-      "type": "line",
-      "x": 366.0,
-      "y": 128.35,
-      "width": 0.0,
-      "height": 4.25,
+      "id": "ellipse-0085",
+      "type": "ellipse",
+      "x": 362.0,
+      "y": 118.0,
+      "width": 14.0,
+      "height": 8.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0085",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 706930579,
       "version": 1,
       "versionNonce": 777230635,
@@ -3228,41 +3252,27 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          4.25
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
-      "id": "line-0086",
-      "type": "line",
-      "x": 352.4,
-      "y": 119.0,
-      "width": 4.25,
-      "height": 0.0,
+      "id": "ellipse-0086",
+      "type": "ellipse",
+      "x": 367.0,
+      "y": 120.0,
+      "width": 4.0,
+      "height": 4.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
-      "backgroundColor": "transparent",
+      "strokeColor": "#7cdcc8",
+      "backgroundColor": "#7cdcc8",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.5,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0086",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 410065849,
       "version": 1,
       "versionNonce": 1028228725,
@@ -3270,32 +3280,20 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          4.25,
-          0.0
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
       "id": "line-0087",
       "type": "line",
-      "x": 375.35,
-      "y": 119.0,
-      "width": 4.25,
+      "x": 686.0,
+      "y": 120.0,
+      "width": 26.0,
       "height": 0.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#344b58",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.5,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3319,7 +3317,7 @@
           0.0
         ],
         [
-          4.25,
+          26.0,
           0.0
         ]
       ],
@@ -3327,26 +3325,24 @@
       "endBinding": null
     },
     {
-      "id": "line-0088",
-      "type": "line",
-      "x": 371.1,
-      "y": 105.4,
-      "width": 0.0,
-      "height": 4.25,
+      "id": "ellipse-0088",
+      "type": "ellipse",
+      "x": 682.8,
+      "y": 115.8,
+      "width": 8.4,
+      "height": 8.4,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0088",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 558950291,
       "version": 1,
       "versionNonce": 911777911,
@@ -3354,41 +3350,27 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          4.25
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
-      "id": "line-0089",
-      "type": "line",
-      "x": 371.1,
-      "y": 128.35,
-      "width": 0.0,
-      "height": 4.25,
+      "id": "ellipse-0089",
+      "type": "ellipse",
+      "x": 694.8,
+      "y": 115.8,
+      "width": 8.4,
+      "height": 8.4,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0089",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 1497222789,
       "version": 1,
       "versionNonce": 1627620285,
@@ -3396,41 +3378,27 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          4.25
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
-      "id": "line-0090",
-      "type": "line",
-      "x": 352.4,
-      "y": 124.1,
-      "width": 4.25,
-      "height": 0.0,
+      "id": "ellipse-0090",
+      "type": "ellipse",
+      "x": 706.8,
+      "y": 115.8,
+      "width": 8.4,
+      "height": 8.4,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0090",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 168390554,
       "version": 1,
       "versionNonce": 1348796821,
@@ -3438,41 +3406,27 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          4.25,
-          0.0
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
-      "id": "line-0091",
-      "type": "line",
-      "x": 375.35,
-      "y": 124.1,
-      "width": 4.25,
-      "height": 0.0,
+      "id": "ellipse-0091",
+      "type": "ellipse",
+      "x": 687.0,
+      "y": 258.0,
+      "width": 24.0,
+      "height": 24.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0091",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 700007306,
       "version": 1,
       "versionNonce": 2027762629,
@@ -3480,39 +3434,29 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          4.25,
-          0.0
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
-      "id": "ellipse-0092",
-      "type": "ellipse",
-      "x": 360.05,
-      "y": 115.6,
-      "width": 11.9,
-      "height": 6.8,
+      "id": "line-0092",
+      "type": "line",
+      "x": 695.0,
+      "y": 252.0,
+      "width": 8.0,
+      "height": 0.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0092",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 580382530,
       "version": 1,
       "versionNonce": 555502018,
@@ -3520,27 +3464,41 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          0.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
-      "id": "ellipse-0093",
-      "type": "ellipse",
-      "x": 364.3,
-      "y": 117.3,
-      "width": 3.4,
-      "height": 3.4,
+      "id": "line-0093",
+      "type": "line",
+      "x": 699.0,
+      "y": 252.0,
+      "width": 0.0,
+      "height": 6.0,
       "angle": 0,
-      "strokeColor": "#7cdcc8",
-      "backgroundColor": "#7cdcc8",
+      "strokeColor": "#edf4f6",
+      "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0093",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 108246644,
       "version": 1,
       "versionNonce": 933636916,
@@ -3548,20 +3506,32 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
       "id": "line-0094",
       "type": "line",
-      "x": 684.95,
-      "y": 116.85,
-      "width": 22.1,
+      "x": 699.0,
+      "y": 270.0,
+      "width": 6.0,
       "height": 0.0,
       "angle": 0,
-      "strokeColor": "#344b58",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.19,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3585,7 +3555,7 @@
           0.0
         ],
         [
-          22.1,
+          6.0,
           0.0
         ]
       ],
@@ -3593,24 +3563,26 @@
       "endBinding": null
     },
     {
-      "id": "ellipse-0095",
-      "type": "ellipse",
-      "x": 682.23,
-      "y": 113.28,
-      "width": 7.14,
-      "height": 7.14,
+      "id": "line-0095",
+      "type": "line",
+      "x": 699.0,
+      "y": 261.0,
+      "width": 0.0,
+      "height": 9.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#7cdcc8",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 2.7,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0095",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 553392670,
       "version": 1,
       "versionNonce": 726756891,
@@ -3618,20 +3590,32 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          9.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
       "id": "ellipse-0096",
       "type": "ellipse",
-      "x": 692.43,
-      "y": 113.28,
-      "width": 7.14,
-      "height": 7.14,
+      "x": 697.4,
+      "y": 268.4,
+      "width": 3.2,
+      "height": 3.2,
       "angle": 0,
-      "strokeColor": "#edf4f6",
-      "backgroundColor": "transparent",
+      "strokeColor": "#7cdcc8",
+      "backgroundColor": "#7cdcc8",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3649,24 +3633,26 @@
       "locked": false
     },
     {
-      "id": "ellipse-0097",
-      "type": "ellipse",
-      "x": 702.63,
-      "y": 113.28,
-      "width": 7.14,
-      "height": 7.14,
+      "id": "line-0097",
+      "type": "line",
+      "x": 58.0,
+      "y": 453.0,
+      "width": 30.0,
+      "height": 8.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0097",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 1216624845,
       "version": 1,
       "versionNonce": 1928644664,
@@ -3674,27 +3660,117 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          8.0
+        ],
+        [
+          1.5,
+          6.75
+        ],
+        [
+          3.0,
+          5.53
+        ],
+        [
+          4.5,
+          4.37
+        ],
+        [
+          6.0,
+          3.3
+        ],
+        [
+          7.5,
+          2.34
+        ],
+        [
+          9.0,
+          1.53
+        ],
+        [
+          10.5,
+          0.87
+        ],
+        [
+          12.0,
+          0.39
+        ],
+        [
+          13.5,
+          0.1
+        ],
+        [
+          15.0,
+          0.0
+        ],
+        [
+          16.5,
+          0.1
+        ],
+        [
+          18.0,
+          0.39
+        ],
+        [
+          19.5,
+          0.87
+        ],
+        [
+          21.0,
+          1.53
+        ],
+        [
+          22.5,
+          2.34
+        ],
+        [
+          24.0,
+          3.3
+        ],
+        [
+          25.5,
+          4.37
+        ],
+        [
+          27.0,
+          5.53
+        ],
+        [
+          28.5,
+          6.75
+        ],
+        [
+          30.0,
+          8.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
-      "id": "ellipse-0098",
-      "type": "ellipse",
-      "x": 685.8,
-      "y": 256.35,
-      "width": 20.4,
-      "height": 20.4,
+      "id": "line-0098",
+      "type": "line",
+      "x": 58.0,
+      "y": 461.0,
+      "width": 30.0,
+      "height": 8.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0098",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 1532453358,
       "version": 1,
       "versionNonce": 1837530432,
@@ -3702,29 +3778,115 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.5,
+          1.25
+        ],
+        [
+          3.0,
+          2.47
+        ],
+        [
+          4.5,
+          3.63
+        ],
+        [
+          6.0,
+          4.7
+        ],
+        [
+          7.5,
+          5.66
+        ],
+        [
+          9.0,
+          6.47
+        ],
+        [
+          10.5,
+          7.13
+        ],
+        [
+          12.0,
+          7.61
+        ],
+        [
+          13.5,
+          7.9
+        ],
+        [
+          15.0,
+          8.0
+        ],
+        [
+          16.5,
+          7.9
+        ],
+        [
+          18.0,
+          7.61
+        ],
+        [
+          19.5,
+          7.13
+        ],
+        [
+          21.0,
+          6.47
+        ],
+        [
+          22.5,
+          5.66
+        ],
+        [
+          24.0,
+          4.7
+        ],
+        [
+          25.5,
+          3.63
+        ],
+        [
+          27.0,
+          2.47
+        ],
+        [
+          28.5,
+          1.25
+        ],
+        [
+          30.0,
+          0.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
-      "id": "line-0099",
-      "type": "line",
-      "x": 692.6,
-      "y": 251.25,
-      "width": 6.8,
-      "height": 0.0,
+      "id": "ellipse-0099",
+      "type": "ellipse",
+      "x": 69.0,
+      "y": 457.0,
+      "width": 8.0,
+      "height": 8.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#91baee",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 2.0,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0099",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 1555049401,
       "version": 1,
       "versionNonce": 210535746,
@@ -3732,41 +3894,27 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          6.8,
-          0.0
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
-      "id": "line-0100",
-      "type": "line",
-      "x": 696.0,
-      "y": 251.25,
-      "width": 0.0,
-      "height": 5.1,
+      "id": "ellipse-0100",
+      "type": "ellipse",
+      "x": 71.4,
+      "y": 459.4,
+      "width": 3.2,
+      "height": 3.2,
       "angle": 0,
-      "strokeColor": "#edf4f6",
-      "backgroundColor": "transparent",
+      "strokeColor": "#91baee",
+      "backgroundColor": "#91baee",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0100",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 1354717261,
       "version": 1,
       "versionNonce": 1532285818,
@@ -3774,32 +3922,20 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          5.1
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
       "id": "line-0101",
       "type": "line",
-      "x": 696.0,
-      "y": 259.75,
-      "width": 5.1,
-      "height": 6.8,
+      "x": 684.0,
+      "y": 453.0,
+      "width": 30.0,
+      "height": 8.0,
       "angle": 0,
-      "strokeColor": "#7cdcc8",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.7,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3820,15 +3956,87 @@
       "points": [
         [
           0.0,
+          8.0
+        ],
+        [
+          1.5,
+          6.75
+        ],
+        [
+          3.0,
+          5.53
+        ],
+        [
+          4.5,
+          4.37
+        ],
+        [
+          6.0,
+          3.3
+        ],
+        [
+          7.5,
+          2.34
+        ],
+        [
+          9.0,
+          1.53
+        ],
+        [
+          10.5,
+          0.87
+        ],
+        [
+          12.0,
+          0.39
+        ],
+        [
+          13.5,
+          0.1
+        ],
+        [
+          15.0,
           0.0
         ],
         [
-          0.0,
-          6.8
+          16.5,
+          0.1
         ],
         [
-          5.1,
-          6.8
+          18.0,
+          0.39
+        ],
+        [
+          19.5,
+          0.87
+        ],
+        [
+          21.0,
+          1.53
+        ],
+        [
+          22.5,
+          2.34
+        ],
+        [
+          24.0,
+          3.3
+        ],
+        [
+          25.5,
+          4.37
+        ],
+        [
+          27.0,
+          5.53
+        ],
+        [
+          28.5,
+          6.75
+        ],
+        [
+          30.0,
+          8.0
         ]
       ],
       "startBinding": null,
@@ -3837,15 +4045,15 @@
     {
       "id": "line-0102",
       "type": "line",
-      "x": 57.25,
-      "y": 451.2,
-      "width": 25.5,
-      "height": 6.8,
+      "x": 684.0,
+      "y": 461.0,
+      "width": 30.0,
+      "height": 8.0,
       "angle": 0,
       "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -3866,113 +4074,111 @@
       "points": [
         [
           0.0,
-          6.8
-        ],
-        [
-          1.27,
-          5.74
-        ],
-        [
-          2.55,
-          4.7
-        ],
-        [
-          3.83,
-          3.71
-        ],
-        [
-          5.1,
-          2.8
-        ],
-        [
-          6.38,
-          1.99
-        ],
-        [
-          7.65,
-          1.3
-        ],
-        [
-          8.92,
-          0.74
-        ],
-        [
-          10.2,
-          0.33
-        ],
-        [
-          11.47,
-          0.08
-        ],
-        [
-          12.75,
           0.0
         ],
         [
-          14.03,
-          0.08
+          1.5,
+          1.25
         ],
         [
-          15.3,
-          0.33
+          3.0,
+          2.47
         ],
         [
-          16.58,
-          0.74
+          4.5,
+          3.63
         ],
         [
-          17.85,
-          1.3
-        ],
-        [
-          19.12,
-          1.99
-        ],
-        [
-          20.4,
-          2.8
-        ],
-        [
-          21.67,
-          3.71
-        ],
-        [
-          22.95,
+          6.0,
           4.7
         ],
         [
-          24.22,
-          5.74
+          7.5,
+          5.66
+        ],
+        [
+          9.0,
+          6.47
+        ],
+        [
+          10.5,
+          7.13
+        ],
+        [
+          12.0,
+          7.61
+        ],
+        [
+          13.5,
+          7.9
+        ],
+        [
+          15.0,
+          8.0
+        ],
+        [
+          16.5,
+          7.9
+        ],
+        [
+          18.0,
+          7.61
+        ],
+        [
+          19.5,
+          7.13
+        ],
+        [
+          21.0,
+          6.47
+        ],
+        [
+          22.5,
+          5.66
+        ],
+        [
+          24.0,
+          4.7
         ],
         [
           25.5,
-          6.8
+          3.63
+        ],
+        [
+          27.0,
+          2.47
+        ],
+        [
+          28.5,
+          1.25
+        ],
+        [
+          30.0,
+          0.0
         ]
       ],
       "startBinding": null,
       "endBinding": null
     },
     {
-      "id": "line-0103",
-      "type": "line",
-      "x": 57.25,
-      "y": 458.0,
-      "width": 25.5,
-      "height": 6.8,
+      "id": "ellipse-0103",
+      "type": "ellipse",
+      "x": 695.0,
+      "y": 457.0,
+      "width": 8.0,
+      "height": 8.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#91baee",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 2.0,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0103",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 695914862,
       "version": 1,
       "versionNonce": 1677742203,
@@ -3980,108 +4186,20 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          1.27,
-          1.06
-        ],
-        [
-          2.55,
-          2.1
-        ],
-        [
-          3.83,
-          3.09
-        ],
-        [
-          5.1,
-          4.0
-        ],
-        [
-          6.38,
-          4.81
-        ],
-        [
-          7.65,
-          5.5
-        ],
-        [
-          8.92,
-          6.06
-        ],
-        [
-          10.2,
-          6.47
-        ],
-        [
-          11.47,
-          6.72
-        ],
-        [
-          12.75,
-          6.8
-        ],
-        [
-          14.03,
-          6.72
-        ],
-        [
-          15.3,
-          6.47
-        ],
-        [
-          16.58,
-          6.06
-        ],
-        [
-          17.85,
-          5.5
-        ],
-        [
-          19.12,
-          4.81
-        ],
-        [
-          20.4,
-          4.0
-        ],
-        [
-          21.67,
-          3.09
-        ],
-        [
-          22.95,
-          2.1
-        ],
-        [
-          24.22,
-          1.06
-        ],
-        [
-          25.5,
-          0.0
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
       "id": "ellipse-0104",
       "type": "ellipse",
-      "x": 66.6,
-      "y": 454.6,
-      "width": 6.8,
-      "height": 6.8,
+      "x": 697.4,
+      "y": 459.4,
+      "width": 3.2,
+      "height": 3.2,
       "angle": 0,
       "strokeColor": "#91baee",
-      "backgroundColor": "transparent",
+      "backgroundColor": "#91baee",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4101,15 +4219,15 @@
     {
       "id": "line-0105",
       "type": "line",
-      "x": 683.25,
-      "y": 451.2,
-      "width": 25.5,
-      "height": 6.8,
+      "x": 706.0,
+      "y": 466.0,
+      "width": 9.0,
+      "height": 7.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#344b58",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4130,87 +4248,15 @@
       "points": [
         [
           0.0,
-          6.8
+          4.0
         ],
         [
-          1.27,
-          5.74
+          3.0,
+          7.0
         ],
         [
-          2.55,
-          4.7
-        ],
-        [
-          3.83,
-          3.71
-        ],
-        [
-          5.1,
-          2.8
-        ],
-        [
-          6.38,
-          1.99
-        ],
-        [
-          7.65,
-          1.3
-        ],
-        [
-          8.92,
-          0.74
-        ],
-        [
-          10.2,
-          0.33
-        ],
-        [
-          11.48,
-          0.08
-        ],
-        [
-          12.75,
+          9.0,
           0.0
-        ],
-        [
-          14.02,
-          0.08
-        ],
-        [
-          15.3,
-          0.33
-        ],
-        [
-          16.58,
-          0.74
-        ],
-        [
-          17.85,
-          1.3
-        ],
-        [
-          19.12,
-          1.99
-        ],
-        [
-          20.4,
-          2.8
-        ],
-        [
-          21.67,
-          3.71
-        ],
-        [
-          22.95,
-          4.7
-        ],
-        [
-          24.23,
-          5.74
-        ],
-        [
-          25.5,
-          6.8
         ]
       ],
       "startBinding": null,
@@ -4219,15 +4265,15 @@
     {
       "id": "line-0106",
       "type": "line",
-      "x": 683.25,
-      "y": 458.0,
-      "width": 25.5,
-      "height": 6.8,
+      "x": 706.0,
+      "y": 466.0,
+      "width": 9.0,
+      "height": 7.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#5b7899",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 2.6,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4248,86 +4294,14 @@
       "points": [
         [
           0.0,
-          0.0
-        ],
-        [
-          1.27,
-          1.06
-        ],
-        [
-          2.55,
-          2.1
-        ],
-        [
-          3.83,
-          3.09
-        ],
-        [
-          5.1,
           4.0
         ],
         [
-          6.38,
-          4.81
+          3.0,
+          7.0
         ],
         [
-          7.65,
-          5.5
-        ],
-        [
-          8.92,
-          6.06
-        ],
-        [
-          10.2,
-          6.47
-        ],
-        [
-          11.48,
-          6.72
-        ],
-        [
-          12.75,
-          6.8
-        ],
-        [
-          14.02,
-          6.72
-        ],
-        [
-          15.3,
-          6.47
-        ],
-        [
-          16.58,
-          6.06
-        ],
-        [
-          17.85,
-          5.5
-        ],
-        [
-          19.12,
-          4.81
-        ],
-        [
-          20.4,
-          4.0
-        ],
-        [
-          21.67,
-          3.09
-        ],
-        [
-          22.95,
-          2.1
-        ],
-        [
-          24.23,
-          1.06
-        ],
-        [
-          25.5,
+          9.0,
           0.0
         ]
       ],
@@ -4335,24 +4309,26 @@
       "endBinding": null
     },
     {
-      "id": "ellipse-0107",
-      "type": "ellipse",
-      "x": 692.6,
-      "y": 454.6,
-      "width": 6.8,
-      "height": 6.8,
+      "id": "line-0107",
+      "type": "line",
+      "x": 689.0,
+      "y": 631.0,
+      "width": 22.0,
+      "height": 28.0,
       "angle": 0,
-      "strokeColor": "#91baee",
+      "strokeColor": "#edf4f6",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0107",
-      "roundness": null,
+      "roundness": {
+        "type": 2
+      },
       "seed": 55113246,
       "version": 1,
       "versionNonce": 977810807,
@@ -4360,20 +4336,48 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          28.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          22.0,
+          0.0
+        ],
+        [
+          17.0,
+          8.0
+        ],
+        [
+          22.0,
+          16.0
+        ],
+        [
+          0.0,
+          16.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
     },
     {
       "id": "line-0108",
       "type": "line",
-      "x": 701.95,
-      "y": 462.25,
-      "width": 7.65,
-      "height": 5.95,
+      "x": 685.0,
+      "y": 659.0,
+      "width": 10.0,
+      "height": 0.0,
       "angle": 0,
-      "strokeColor": "#91baee",
+      "strokeColor": "#e1bd84",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 2.0,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4394,14 +4398,10 @@
       "points": [
         [
           0.0,
-          3.4
+          0.0
         ],
         [
-          2.55,
-          5.95
-        ],
-        [
-          7.65,
+          10.0,
           0.0
         ]
       ],
@@ -4409,26 +4409,24 @@
       "endBinding": null
     },
     {
-      "id": "line-0109",
-      "type": "line",
-      "x": 687.5,
-      "y": 630.1,
-      "width": 18.7,
-      "height": 23.8,
+      "id": "ellipse-0109",
+      "type": "ellipse",
+      "x": 1033.2,
+      "y": 110.2,
+      "width": 3.6,
+      "height": 3.6,
       "angle": 0,
-      "strokeColor": "#edf4f6",
-      "backgroundColor": "transparent",
+      "strokeColor": "#7cdcc8",
+      "backgroundColor": "#7cdcc8",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0109",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 427654198,
       "version": 1,
       "versionNonce": 990031924,
@@ -4436,48 +4434,20 @@
       "boundElements": null,
       "updated": 1782475200000,
       "link": null,
-      "locked": false,
-      "points": [
-        [
-          0.0,
-          23.8
-        ],
-        [
-          0.0,
-          0.0
-        ],
-        [
-          18.7,
-          0.0
-        ],
-        [
-          14.45,
-          6.8
-        ],
-        [
-          18.7,
-          13.6
-        ],
-        [
-          0.0,
-          13.6
-        ]
-      ],
-      "startBinding": null,
-      "endBinding": null
+      "locked": false
     },
     {
       "id": "line-0110",
       "type": "line",
-      "x": 684.1,
-      "y": 653.9,
-      "width": 8.5,
+      "x": 1041.0,
+      "y": 112.0,
+      "width": 20.0,
       "height": 0.0,
       "angle": 0,
-      "strokeColor": "#e1bd84",
+      "strokeColor": "#344b58",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 2.1,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4501,7 +4471,7 @@
           0.0
         ],
         [
-          8.5,
+          20.0,
           0.0
         ]
       ],
@@ -4509,57 +4479,29 @@
       "endBinding": null
     },
     {
-      "id": "ellipse-0111",
-      "type": "ellipse",
-      "x": 1032.82,
-      "y": 109.22,
-      "width": 2.55,
-      "height": 2.55,
+      "id": "line-0111",
+      "type": "line",
+      "x": 1041.0,
+      "y": 112.0,
+      "width": 5.0,
+      "height": 0.0,
       "angle": 0,
       "strokeColor": "#7cdcc8",
-      "backgroundColor": "#7cdcc8",
+      "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 3.0,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
       "index": "a0111",
-      "roundness": null,
-      "seed": 218352350,
-      "version": 1,
-      "versionNonce": 12042541,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1782475200000,
-      "link": null,
-      "locked": false
-    },
-    {
-      "id": "line-0112",
-      "type": "line",
-      "x": 1039.2,
-      "y": 110.5,
-      "width": 17.0,
-      "height": 0.0,
-      "angle": 0,
-      "strokeColor": "#edf4f6",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": null,
-      "index": "a0112",
       "roundness": {
         "type": 2
       },
-      "seed": 2135286912,
+      "seed": 218352350,
       "version": 1,
-      "versionNonce": 1673355007,
+      "versionNonce": 12042541,
       "isDeleted": false,
       "boundElements": null,
       "updated": 1782475200000,
@@ -4571,7 +4513,7 @@
           0.0
         ],
         [
-          17.0,
+          5.0,
           0.0
         ]
       ],
@@ -4579,27 +4521,27 @@
       "endBinding": null
     },
     {
-      "id": "ellipse-0113",
+      "id": "ellipse-0112",
       "type": "ellipse",
-      "x": 1032.82,
-      "y": 117.72,
-      "width": 2.55,
-      "height": 2.55,
+      "x": 1033.2,
+      "y": 120.2,
+      "width": 3.6,
+      "height": 3.6,
       "angle": 0,
       "strokeColor": "#7cdcc8",
       "backgroundColor": "#7cdcc8",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": null,
-      "index": "a0113",
+      "index": "a0112",
       "roundness": null,
-      "seed": 1943378908,
+      "seed": 2135286912,
       "version": 1,
-      "versionNonce": 1309548957,
+      "versionNonce": 1673355007,
       "isDeleted": false,
       "boundElements": null,
       "updated": 1782475200000,
@@ -4607,17 +4549,59 @@
       "locked": false
     },
     {
-      "id": "line-0114",
+      "id": "line-0113",
       "type": "line",
-      "x": 1039.2,
-      "y": 119.0,
-      "width": 11.05,
+      "x": 1041.0,
+      "y": 122.0,
+      "width": 13.0,
       "height": 0.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#344b58",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 2.1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0113",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1943378908,
+      "version": 1,
+      "versionNonce": 1309548957,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782475200000,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          13.0,
+          0.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
+    },
+    {
+      "id": "line-0114",
+      "type": "line",
+      "x": 1041.0,
+      "y": 122.0,
+      "width": 3.25,
+      "height": 0.0,
+      "angle": 0,
+      "strokeColor": "#7cdcc8",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 3.0,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4641,7 +4625,7 @@
           0.0
         ],
         [
-          11.05,
+          3.25,
           0.0
         ]
       ],
@@ -4651,15 +4635,15 @@
     {
       "id": "ellipse-0115",
       "type": "ellipse",
-      "x": 1032.82,
-      "y": 126.22,
-      "width": 2.55,
-      "height": 2.55,
+      "x": 1033.2,
+      "y": 130.2,
+      "width": 3.6,
+      "height": 3.6,
       "angle": 0,
       "strokeColor": "#7cdcc8",
       "backgroundColor": "#7cdcc8",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4679,15 +4663,15 @@
     {
       "id": "line-0116",
       "type": "line",
-      "x": 1039.2,
-      "y": 127.5,
-      "width": 19.55,
+      "x": 1041.0,
+      "y": 132.0,
+      "width": 23.0,
       "height": 0.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#344b58",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 2.1,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4711,7 +4695,7 @@
           0.0
         ],
         [
-          19.55,
+          23.0,
           0.0
         ]
       ],
@@ -4719,17 +4703,17 @@
       "endBinding": null
     },
     {
-      "id": "rect-0117",
-      "type": "rectangle",
-      "x": 1032.4,
-      "y": 635.2,
-      "width": 27.2,
-      "height": 14.45,
+      "id": "line-0117",
+      "type": "line",
+      "x": 1041.0,
+      "y": 132.0,
+      "width": 5.75,
+      "height": 0.0,
       "angle": 0,
-      "strokeColor": "#edf4f6",
+      "strokeColor": "#7cdcc8",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 3.0,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4737,41 +4721,11 @@
       "frameId": null,
       "index": "a0117",
       "roundness": {
-        "type": 3
+        "type": 2
       },
       "seed": 904069382,
       "version": 1,
       "versionNonce": 728521258,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1782475200000,
-      "link": null,
-      "locked": false
-    },
-    {
-      "id": "line-0118",
-      "type": "line",
-      "x": 1037.5,
-      "y": 635.2,
-      "width": 0.0,
-      "height": 5.95,
-      "angle": 0,
-      "strokeColor": "#91baee",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": null,
-      "index": "a0118",
-      "roundness": {
-        "type": 2
-      },
-      "seed": 1758738494,
-      "version": 1,
-      "versionNonce": 1736564302,
       "isDeleted": false,
       "boundElements": null,
       "updated": 1782475200000,
@@ -4783,25 +4737,55 @@
           0.0
         ],
         [
-          0.0,
-          5.95
+          5.75,
+          0.0
         ]
       ],
       "startBinding": null,
       "endBinding": null
     },
     {
+      "id": "rect-0118",
+      "type": "rectangle",
+      "x": 1033.0,
+      "y": 637.0,
+      "width": 32.0,
+      "height": 17.0,
+      "angle": 0,
+      "strokeColor": "#edf4f6",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1.8,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0118",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1758738494,
+      "version": 1,
+      "versionNonce": 1736564302,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782475200000,
+      "link": null,
+      "locked": false
+    },
+    {
       "id": "line-0119",
       "type": "line",
-      "x": 1042.6,
-      "y": 635.2,
+      "x": 1039.0,
+      "y": 637.0,
       "width": 0.0,
-      "height": 4.25,
+      "height": 7.0,
       "angle": 0,
       "strokeColor": "#91baee",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4826,7 +4810,7 @@
         ],
         [
           0.0,
-          4.25
+          7.0
         ]
       ],
       "startBinding": null,
@@ -4835,15 +4819,15 @@
     {
       "id": "line-0120",
       "type": "line",
-      "x": 1047.7,
-      "y": 635.2,
+      "x": 1045.0,
+      "y": 637.0,
       "width": 0.0,
-      "height": 5.95,
+      "height": 5.0,
       "angle": 0,
       "strokeColor": "#91baee",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4868,7 +4852,7 @@
         ],
         [
           0.0,
-          5.95
+          5.0
         ]
       ],
       "startBinding": null,
@@ -4877,15 +4861,15 @@
     {
       "id": "line-0121",
       "type": "line",
-      "x": 1052.8,
-      "y": 635.2,
+      "x": 1051.0,
+      "y": 637.0,
       "width": 0.0,
-      "height": 4.25,
+      "height": 7.0,
       "angle": 0,
       "strokeColor": "#91baee",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
-      "strokeWidth": 1.4449999999999998,
+      "strokeWidth": 1.8,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
@@ -4910,7 +4894,49 @@
         ],
         [
           0.0,
-          4.25
+          7.0
+        ]
+      ],
+      "startBinding": null,
+      "endBinding": null
+    },
+    {
+      "id": "line-0122",
+      "type": "line",
+      "x": 1057.0,
+      "y": 637.0,
+      "width": 0.0,
+      "height": 5.0,
+      "angle": 0,
+      "strokeColor": "#91baee",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1.8,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0122",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 504092470,
+      "version": 1,
+      "versionNonce": 1686682517,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1782475200000,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.0
         ]
       ],
       "startBinding": null,

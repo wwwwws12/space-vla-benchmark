@@ -1,9 +1,13 @@
 {
-  "version": "v13",
-  "approved_at": "2026-11-09T05:04:05.912032+00:00",
+  "version": "v22",
+  "base": "v21",
+  "scope": "Restore original architecture text styling by isolating result-chart SVG CSS",
+  "results_visualization": "v21 retained",
+  "palette": "v13/v15 original",
+  "local_only": false,
+  "approved_at": "2026-11-09T10:43:25.363809+00:00",
   "languages": [
     "en",
     "zh-CN"
-  ],
-  "site": "Space VLA Benchmark"
+  ]
 }

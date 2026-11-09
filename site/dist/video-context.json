@@ -1,0 +1,1012 @@
+{
+  "version": "v19",
+  "distance_is_model_input": false,
+  "distance_source": "Recorded evaluation truth; 3D camera-to-target distance, meters",
+  "model_stop_predictions_shown": false,
+  "success_test": "distance_m < success_radius_m",
+  "presentation": "Native WebVTT captions, one cue per saved source frame; no interpolation",
+  "clips": [
+    {
+      "world": "mars",
+      "scene_id": "isaac_mars_a",
+      "route_id": "mars_a_formal_007",
+      "target_description": "the blue container",
+      "success_radius_m": 20,
+      "distance_definition": "3D Euclidean distance from recorded camera position to target goal_m",
+      "source_record_sha256": "e8956310ead34fd7164b28e786cd9e2d37514fbffdd0e7608aa58d7564691686",
+      "source_frame_seconds": 0.6,
+      "duration_ms": 19800,
+      "media_sha256": {
+        "videos/mars-dev.mp4": "2e66aee52fd5add5018ec3ff4abbced702004356a0985de98e7c9d256c0f09de",
+        "videos/mars-dev.webm": "6c55b2e6c6b2a3dc7d06a990109fda95cb8e7c1f459596e5e5f82845e0d81dd9"
+      },
+      "start_poster": {
+        "file": "videos/mars-start.png",
+        "frame_idx": 0,
+        "sha256": "dc6b140c9bef6974b1a00ef16f478cd22923b0be582bc16694a3d400c9b2fd83"
+      },
+      "frames": [
+        {
+          "frame_idx": 0,
+          "start_ms": 0,
+          "end_ms": 600,
+          "distance_m": 106.52929821200287,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "dc6b140c9bef6974b1a00ef16f478cd22923b0be582bc16694a3d400c9b2fd83"
+        },
+        {
+          "frame_idx": 1,
+          "start_ms": 600,
+          "end_ms": 1200,
+          "distance_m": 97.52892608639074,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "c2ebe3c9535fbc281d0f30e0fa78170070a0b9885ddfc44cce745c9a6516da04"
+        },
+        {
+          "frame_idx": 2,
+          "start_ms": 1200,
+          "end_ms": 1800,
+          "distance_m": 88.52956231639554,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "c502f16a4e40a767c62e94ec52de2cf4cf7f489c9c8b84699c50045401ee9387"
+        },
+        {
+          "frame_idx": 3,
+          "start_ms": 1800,
+          "end_ms": 2400,
+          "distance_m": 79.53061612364884,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "0c22677a6be687b27cce8ee939e02c93495da082a26ec2c3b482db638db3713b"
+        },
+        {
+          "frame_idx": 4,
+          "start_ms": 2400,
+          "end_ms": 3000,
+          "distance_m": 70.5305399736469,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "36a86f0415b3006de0216341f8150d034ddc9b12c752f988236e95a4b1968c88"
+        },
+        {
+          "frame_idx": 5,
+          "start_ms": 3000,
+          "end_ms": 3600,
+          "distance_m": 61.52892703614773,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "88b2bb878d093f24b68ede111e1bedb9aac815c7dcfb4085f583f9786873ebbd"
+        },
+        {
+          "frame_idx": 6,
+          "start_ms": 3600,
+          "end_ms": 4200,
+          "distance_m": 52.53054336105911,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "fc259dcadec9b1d4dc450e83c73ebb6706c58bc850c4228d75026e76521592e7"
+        },
+        {
+          "frame_idx": 7,
+          "start_ms": 4200,
+          "end_ms": 4800,
+          "distance_m": 43.533910959369976,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "976fd2d7adb311caf2641a5008a1f680601ba50445e1993aecf477faa06a82d9"
+        },
+        {
+          "frame_idx": 8,
+          "start_ms": 4800,
+          "end_ms": 5400,
+          "distance_m": 37.53628291473468,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "0d36fae02c0815ef5a68803ebc7d32d4731c2342889c0ca7ed151a836104cdf5"
+        },
+        {
+          "frame_idx": 9,
+          "start_ms": 5400,
+          "end_ms": 6000,
+          "distance_m": 28.53427029147774,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "0afd978b2c90743e993928777744381293e2426656ff7514fa765c66fd4a9491"
+        },
+        {
+          "frame_idx": 10,
+          "start_ms": 6000,
+          "end_ms": 6600,
+          "distance_m": 25.533514505944172,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "be64425fe04848d601b8a1eb3fa262b9d13b26d6ed6d081130fdc7237234e40a"
+        },
+        {
+          "frame_idx": 11,
+          "start_ms": 6600,
+          "end_ms": 7200,
+          "distance_m": 22.53307141288604,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "a5d065b3ac11d04a11af11de87b9b6d9446ee85d24ba5b8740886f71eb952e97"
+        },
+        {
+          "frame_idx": 12,
+          "start_ms": 7200,
+          "end_ms": 7800,
+          "distance_m": 19.53399150432385,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "95923c197ac5147de81011988425b1c19e966ff68f1ae4938b79976c26605e0f"
+        },
+        {
+          "frame_idx": 13,
+          "start_ms": 7800,
+          "end_ms": 8400,
+          "distance_m": 16.536176339930286,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "85ff5755ce2dc26c84d2e70e2706968cea33b4024028d61103289d9fe5eaba36"
+        },
+        {
+          "frame_idx": 14,
+          "start_ms": 8400,
+          "end_ms": 9000,
+          "distance_m": 13.53724572861107,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "a2a562faf888e5f11507a068b0babbb5ec2e9e0addca175a8c09d4d51737daf5"
+        },
+        {
+          "frame_idx": 15,
+          "start_ms": 9000,
+          "end_ms": 9600,
+          "distance_m": 10.536807372883146,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "aab7cb3eb47a21be978627f3e9eb06c88a898e18ff21c19bb6a25c1e812d253b"
+        },
+        {
+          "frame_idx": 16,
+          "start_ms": 9600,
+          "end_ms": 10200,
+          "distance_m": 7.539846753094109,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "d21da63805ced5e226383b3843d98f52c304e3a8cc498a9033c8da0319738520"
+        },
+        {
+          "frame_idx": 17,
+          "start_ms": 10200,
+          "end_ms": 10800,
+          "distance_m": 4.544529679374207,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "531b37253f075dcdb49618f6d47d8c28dbde00f3d28b80e2de744d8c94f54542"
+        },
+        {
+          "frame_idx": 18,
+          "start_ms": 10800,
+          "end_ms": 11400,
+          "distance_m": 1.5642629473228364,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "66cc3d89e4cc177e859aec984b95d3e1694c54b343d99a1de4a232252921b49b"
+        },
+        {
+          "frame_idx": 19,
+          "start_ms": 11400,
+          "end_ms": 12000,
+          "distance_m": 1.5096231843161425,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "ef6d78df7c8a0d3e9742f3231a50f37a46efb7f9469a6dadbe89c3d7537aa7df"
+        },
+        {
+          "frame_idx": 20,
+          "start_ms": 12000,
+          "end_ms": 12600,
+          "distance_m": 4.484667696766327,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "48bfd87ee703f499733a16a31a2477903deac69dc9309af626e3f0784cdd85ee"
+        },
+        {
+          "frame_idx": 21,
+          "start_ms": 12600,
+          "end_ms": 13200,
+          "distance_m": 7.479711358439408,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "87ed1d1018384f35b0778751c34d3cdf3fe0f87d885cf5de017d8cdfa0d9d41d"
+        },
+        {
+          "frame_idx": 22,
+          "start_ms": 13200,
+          "end_ms": 13800,
+          "distance_m": 10.477366460432727,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "6efa7d88f665e65e45b86b18c039cb3cc4634bb392660f757b839d4c122e115c"
+        },
+        {
+          "frame_idx": 23,
+          "start_ms": 13800,
+          "end_ms": 14400,
+          "distance_m": 13.476730291380997,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "d719dc3655eb3a072bc669c4fbb31c64d6bf0967b7f8a331cf56d04cba13c05b"
+        },
+        {
+          "frame_idx": 24,
+          "start_ms": 14400,
+          "end_ms": 15000,
+          "distance_m": 16.47554122630778,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "7eaaade957838d7ffec3d4789e6ccb6cbdf14276a0fb0970be89e8c285d263d4"
+        },
+        {
+          "frame_idx": 25,
+          "start_ms": 15000,
+          "end_ms": 15600,
+          "distance_m": 19.474921168106235,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "7f51fd2ec8cedc3c1012685aae7102840addb3aea412849636f3339bf46ca8ba"
+        },
+        {
+          "frame_idx": 26,
+          "start_ms": 15600,
+          "end_ms": 16200,
+          "distance_m": 22.474515785581474,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "f6d55d6a642f6fb890de9273f041746a06f31561c9b395025d095dd072ce74b7"
+        },
+        {
+          "frame_idx": 27,
+          "start_ms": 16200,
+          "end_ms": 16800,
+          "distance_m": 25.47429187220167,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "88f99787bd5ca38d4e276fdf4f65c22ac61a4e3c25db17dfbda7df80366f3720"
+        },
+        {
+          "frame_idx": 28,
+          "start_ms": 16800,
+          "end_ms": 17400,
+          "distance_m": 28.47457664992296,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "27b8f0d7ce07d53401d7036f914eab25971611af36e7225aa0c33fa94b2d3481"
+        },
+        {
+          "frame_idx": 29,
+          "start_ms": 17400,
+          "end_ms": 18000,
+          "distance_m": 31.47424927242568,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "793b2f44eaef250c0b97638ca448020e37549c76661a1e4d8f4c8aa049a7a900"
+        },
+        {
+          "frame_idx": 30,
+          "start_ms": 18000,
+          "end_ms": 18600,
+          "distance_m": 34.473890689609604,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "524770b5b99ec504f38f84d4197cafd2a7f27123a894b2605ffdde0f370c828b"
+        },
+        {
+          "frame_idx": 31,
+          "start_ms": 18600,
+          "end_ms": 19200,
+          "distance_m": 37.473524714215095,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "bf422879def7b784f4a2c8f673025bceb49189cf86557c993b9628286107b0f6"
+        },
+        {
+          "frame_idx": 32,
+          "start_ms": 19200,
+          "end_ms": 19800,
+          "distance_m": 40.473527387570854,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "c33888e594cf7ae8af5d7a9878ab87fa991b20b0a1e29d211d4df373cecced09"
+        }
+      ]
+    },
+    {
+      "world": "moon",
+      "scene_id": "isaac_moon_c",
+      "route_id": "moon_c_formal_003",
+      "target_description": "the tall lunar lander with a ladder and four legs",
+      "success_radius_m": 20,
+      "distance_definition": "3D Euclidean distance from recorded camera position to target goal_m",
+      "source_record_sha256": "ce82701c41069ce220efca1af47ff74287953061dee4c6d7e221860ffc347cd0",
+      "source_frame_seconds": 0.6,
+      "duration_ms": 20400,
+      "media_sha256": {
+        "videos/moon-dev.mp4": "7865583a8713261586662a3848ff5b48ec6f5c9e3094599ca31397f1adca13e8",
+        "videos/moon-dev.webm": "188d38b733923e3d4191b5e20c42243cf9eed9c52e5c3cd82b6281eafd8f03b8"
+      },
+      "start_poster": {
+        "file": "videos/moon-start.png",
+        "frame_idx": 0,
+        "sha256": "312ff2090dd9bf968b2f666d0992adc3e5d4cd1b532c9c4ffadd2d0776e66126"
+      },
+      "frames": [
+        {
+          "frame_idx": 0,
+          "start_ms": 0,
+          "end_ms": 600,
+          "distance_m": 90.52076409257067,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "312ff2090dd9bf968b2f666d0992adc3e5d4cd1b532c9c4ffadd2d0776e66126"
+        },
+        {
+          "frame_idx": 1,
+          "start_ms": 600,
+          "end_ms": 1200,
+          "distance_m": 90.52076409257067,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "7d51b3d713ece13e1fb5c08698fd6b8e97be13ba5238aaf4114aa80466275584"
+        },
+        {
+          "frame_idx": 2,
+          "start_ms": 1200,
+          "end_ms": 1800,
+          "distance_m": 81.55823026142616,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "4fee4a5e95822c7e2c49d1d942f448e0191b95394b3cd3b52aa847cdfb6dae60"
+        },
+        {
+          "frame_idx": 3,
+          "start_ms": 1800,
+          "end_ms": 2400,
+          "distance_m": 72.60561790430748,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "0e4c5ab508a63130ea9cfad8d56feabb83ba01937ec99d6411be9339d18f0519"
+        },
+        {
+          "frame_idx": 4,
+          "start_ms": 2400,
+          "end_ms": 3000,
+          "distance_m": 63.66352574256625,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "06369e2d0970954ecdbe061fb3841f93d0bc5b8a2422cdcab2fc6d28b9d2a63a"
+        },
+        {
+          "frame_idx": 5,
+          "start_ms": 3000,
+          "end_ms": 3600,
+          "distance_m": 54.73882556305383,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "1a38ddfde6368828b66a5619b10aeec1d6901f05417d17fad3a3f1712b4848d6"
+        },
+        {
+          "frame_idx": 6,
+          "start_ms": 3600,
+          "end_ms": 4200,
+          "distance_m": 45.84566174017349,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "84af96d03caff8d65f5ac7e3c2776f007762002c3da46b93df1542019210b87d"
+        },
+        {
+          "frame_idx": 7,
+          "start_ms": 4200,
+          "end_ms": 4800,
+          "distance_m": 37.00485010275283,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "ff05426dea4c120d408527eda044161a8ccd8ddab857c3f4978b536e765905b9"
+        },
+        {
+          "frame_idx": 8,
+          "start_ms": 4800,
+          "end_ms": 5400,
+          "distance_m": 34.07665368821702,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "6ef0ae899a455285617f5a52df9ee93ace20fe4097ac433d7cd8e3b1ed463095"
+        },
+        {
+          "frame_idx": 9,
+          "start_ms": 5400,
+          "end_ms": 6000,
+          "distance_m": 31.16205651796774,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "f119df573f5a6281ab8a8f0cbfd2aa4fe032430f8ffba6d347031f17fd948f6b"
+        },
+        {
+          "frame_idx": 10,
+          "start_ms": 6000,
+          "end_ms": 6600,
+          "distance_m": 28.265394291230795,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "8d7f327d2399b7c0c4b258272fcd19b21b7f2903989f7b735ed9c7d128ba8353"
+        },
+        {
+          "frame_idx": 11,
+          "start_ms": 6600,
+          "end_ms": 7200,
+          "distance_m": 25.39276664992005,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "d0d65550c954e1768e426188e8a501290bd6f46aab5a16fc2cf5c8635ba4d0b8"
+        },
+        {
+          "frame_idx": 12,
+          "start_ms": 7200,
+          "end_ms": 7800,
+          "distance_m": 22.55463789011769,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "0b14914697548323603fc84dc60702727172f6d738a0fbe6769d615c7546080f"
+        },
+        {
+          "frame_idx": 13,
+          "start_ms": 7800,
+          "end_ms": 8400,
+          "distance_m": 19.76521991227057,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "e2a1dfdaea0f27b355e3165fdfe01882225eaaf6fd6a32533342d6d7501ba5a4"
+        },
+        {
+          "frame_idx": 14,
+          "start_ms": 8400,
+          "end_ms": 9000,
+          "distance_m": 17.04513295561371,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "a0b8842109cb1e7062d9f8352d060d3309dfdcf3318af03f391e049062a6e5d4"
+        },
+        {
+          "frame_idx": 15,
+          "start_ms": 9000,
+          "end_ms": 9600,
+          "distance_m": 14.434411088789062,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "5a10e8cc0430b70ef55f26cb1bb0da81bda5a409719b587254a9d9f53d5e4452"
+        },
+        {
+          "frame_idx": 16,
+          "start_ms": 9600,
+          "end_ms": 10200,
+          "distance_m": 12.005029669559951,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "111a6f8c99b0ca475b7d325c632c4634137e5dd6335481f8d55890db49e79ade"
+        },
+        {
+          "frame_idx": 17,
+          "start_ms": 10200,
+          "end_ms": 10800,
+          "distance_m": 9.898535201526363,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "c9363942543ab263fc5fed622a35cb8755cf0685ed1ba202b43178f921f60e5b"
+        },
+        {
+          "frame_idx": 18,
+          "start_ms": 10800,
+          "end_ms": 11400,
+          "distance_m": 8.354570589195225,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "2093997746b8ffc4cd05352945d10d88db841cc2f13ce5110aa94a1d805781f0"
+        },
+        {
+          "frame_idx": 19,
+          "start_ms": 11400,
+          "end_ms": 12000,
+          "distance_m": 7.721956898247063,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "fa8221afce200a8169c6bea2788988931fcc86dc0898b74b0150ea50c01eeb34"
+        },
+        {
+          "frame_idx": 20,
+          "start_ms": 12000,
+          "end_ms": 12600,
+          "distance_m": 8.213519470307324,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "504e04295104ef5602ea2cc2cb9809b283a6b1f49f6d42c5c1d4d39da91efd38"
+        },
+        {
+          "frame_idx": 21,
+          "start_ms": 12600,
+          "end_ms": 13200,
+          "distance_m": 9.660169035836693,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "035b61267b5b117ea8442b42780335527ea656900e4c071d3ceca0deabdf7d95"
+        },
+        {
+          "frame_idx": 22,
+          "start_ms": 13200,
+          "end_ms": 13800,
+          "distance_m": 11.711868287847423,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "575dbcc9c6c7816fd57950537a7d9c13a17d43f2592a419ebd403991755cce8b"
+        },
+        {
+          "frame_idx": 23,
+          "start_ms": 13800,
+          "end_ms": 14400,
+          "distance_m": 14.108501603358759,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "35939f9eeebfff46f54ff2a44129363338afa697af99332d621c21fa4224e425"
+        },
+        {
+          "frame_idx": 24,
+          "start_ms": 14400,
+          "end_ms": 15000,
+          "distance_m": 16.69958729386267,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "745624e2e9c8777d41211968d755fb3cd8e792addaabda9bd03abb325c78c691"
+        },
+        {
+          "frame_idx": 25,
+          "start_ms": 15000,
+          "end_ms": 15600,
+          "distance_m": 19.40978269432851,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "3d76a7ad773a0898d3f0c4189b33050d35c4e0f2604cbd266801ab3a923ff8ff"
+        },
+        {
+          "frame_idx": 26,
+          "start_ms": 15600,
+          "end_ms": 16200,
+          "distance_m": 22.194359231229736,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "a5a11c958c82a6c9f8af5b745ced89d1b49c734ae56588db1a7ab2abfff684d7"
+        },
+        {
+          "frame_idx": 27,
+          "start_ms": 16200,
+          "end_ms": 16800,
+          "distance_m": 25.02917769601844,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "b2f7b357dc6ecac071a4a9961ecfae78afd1a8f4e12528aa33e9237d004b4189"
+        },
+        {
+          "frame_idx": 28,
+          "start_ms": 16800,
+          "end_ms": 17400,
+          "distance_m": 27.898087425234053,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "3ca19999386e259a4dd996e9c5fb43ea1a3804ffda890fa7dcc5bc2d16619052"
+        },
+        {
+          "frame_idx": 29,
+          "start_ms": 17400,
+          "end_ms": 18000,
+          "distance_m": 30.792357924526527,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "33bb6513d87052e2fd9317320a33dea1c7c1403784671895ef6af09089354f56"
+        },
+        {
+          "frame_idx": 30,
+          "start_ms": 18000,
+          "end_ms": 18600,
+          "distance_m": 33.70490347688062,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "23d829f1c2971dd75ddf05f0d7103e22439a44382ee164e51adf17e00d63a852"
+        },
+        {
+          "frame_idx": 31,
+          "start_ms": 18600,
+          "end_ms": 19200,
+          "distance_m": 36.63169558877747,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "7c70c44057eefb8277bb83078c4cec5ad95311bbe4e2c279ac56b0cb82a6f3e3"
+        },
+        {
+          "frame_idx": 32,
+          "start_ms": 19200,
+          "end_ms": 19800,
+          "distance_m": 39.569350176945335,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "83fa9eebfccdd2a148e1caf3cb21054711b96a40f7fa2c92790abae56abba9c5"
+        },
+        {
+          "frame_idx": 33,
+          "start_ms": 19800,
+          "end_ms": 20400,
+          "distance_m": 42.51552327959992,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "11e9df7961c6d80f9d891e32f941b100bc0e52e9e9214cb6bb77edd9322d97f4"
+        }
+      ]
+    },
+    {
+      "world": "cabin",
+      "scene_id": "isaac_cabin_a",
+      "route_id": "cabin_a_formal_v2_000",
+      "target_description": "the yellow cube shaped Astrobee robot",
+      "success_radius_m": 2,
+      "distance_definition": "3D Euclidean distance from recorded camera position to target goal_m",
+      "source_record_sha256": "a99a81257d0f9652c987499c9e6491b1bac366f8907ad64d2fd902582d0e9044",
+      "source_frame_seconds": 0.6,
+      "duration_ms": 22200,
+      "media_sha256": {
+        "videos/cabin-dev.mp4": "0504073da84ac54db1eeaccb1542506dc900773c520f29803874c4829bff8896",
+        "videos/cabin-dev.webm": "d9b7c599742cba17ed1a02467da285a46a0e02e4aa6addfe0fd8df8eba17dce6"
+      },
+      "start_poster": {
+        "file": "videos/cabin-start.png",
+        "frame_idx": 0,
+        "sha256": "c0266ec6e4f934bb033e150bb6129cf2362616a5b8577c5433abf02425fe02f5"
+      },
+      "frames": [
+        {
+          "frame_idx": 0,
+          "start_ms": 0,
+          "end_ms": 600,
+          "distance_m": 5.8728187440104085,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "c0266ec6e4f934bb033e150bb6129cf2362616a5b8577c5433abf02425fe02f5"
+        },
+        {
+          "frame_idx": 1,
+          "start_ms": 600,
+          "end_ms": 1200,
+          "distance_m": 5.300943312279428,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "08c8dbea872f95fc90c6a97ce4f5ea35841a5e110276fdbead18e913c222e78a"
+        },
+        {
+          "frame_idx": 2,
+          "start_ms": 1200,
+          "end_ms": 1800,
+          "distance_m": 4.830113870293329,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "c2b1356e63ac4f1322554a98a183fae70d922b2a05936f899ff492f97b17cb83"
+        },
+        {
+          "frame_idx": 3,
+          "start_ms": 1800,
+          "end_ms": 2400,
+          "distance_m": 4.49221548904324,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "48bc6c0c0337987840b6b7a7885f7532ff06ef0228c670c74b6e921271989b64"
+        },
+        {
+          "frame_idx": 4,
+          "start_ms": 2400,
+          "end_ms": 3000,
+          "distance_m": 4.318564576337836,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "678749af81683f2883026f7ee6474e72c18b66f621f796a79c681a347cd3c119"
+        },
+        {
+          "frame_idx": 5,
+          "start_ms": 3000,
+          "end_ms": 3600,
+          "distance_m": 4.318564576337836,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "43faecf0ec0177b691206ce80bdab07f8e78805caba4a0cdea35f0cd55586f7a"
+        },
+        {
+          "frame_idx": 6,
+          "start_ms": 3600,
+          "end_ms": 4200,
+          "distance_m": 4.318564576337836,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "c549f9f251d373e6c04b8cc2cf23c4ba6761ea01e75050e9b09380b6c117c95c"
+        },
+        {
+          "frame_idx": 7,
+          "start_ms": 4200,
+          "end_ms": 4800,
+          "distance_m": 4.318564576337836,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "be421f9e1def796a967a69dc95457a770009dead53b7dd79804b12400b8ae1ca"
+        },
+        {
+          "frame_idx": 8,
+          "start_ms": 4800,
+          "end_ms": 5400,
+          "distance_m": 3.423448553724737,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "d4e3667971afc17149e015ddd41bbe4cb127b0406e95e7a9caaee37e2098c993"
+        },
+        {
+          "frame_idx": 9,
+          "start_ms": 5400,
+          "end_ms": 6000,
+          "distance_m": 3.125699921617556,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "fee32d27aaa9fdad02f77b9d06c374e2f8c8ac8fe0717b12af6c47e06bbe2134"
+        },
+        {
+          "frame_idx": 10,
+          "start_ms": 6000,
+          "end_ms": 6600,
+          "distance_m": 2.8284271247461894,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "192db8b96917913e78ac15b6ccd3b5425370a1814a94b032146f8f00a00170e8"
+        },
+        {
+          "frame_idx": 11,
+          "start_ms": 6600,
+          "end_ms": 7200,
+          "distance_m": 2.531797780234432,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "9a42f89ada21aedf1c71866f201caeae9cdb5f2f984bffe125d4767df3b91fe3"
+        },
+        {
+          "frame_idx": 12,
+          "start_ms": 7200,
+          "end_ms": 7800,
+          "distance_m": 2.236067977499789,
+          "inside_R": false,
+          "state": "before",
+          "rgb_sha256": "3d9d993f2ff2608a8b30572742113007209e6e48ba60fdc4dd779f7d854c9f29"
+        },
+        {
+          "frame_idx": 13,
+          "start_ms": 7800,
+          "end_ms": 8400,
+          "distance_m": 1.9416487838947594,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "2f32c208491d2cd4081152742db06d806c850021cf52dad8d74a65886f55196b"
+        },
+        {
+          "frame_idx": 14,
+          "start_ms": 8400,
+          "end_ms": 9000,
+          "distance_m": 1.6492422502470638,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "ee63a8f0e93de4bcadafcf7da80a1ae27ad7af52c8793a395b836d1acac26146"
+        },
+        {
+          "frame_idx": 15,
+          "start_ms": 9000,
+          "end_ms": 9600,
+          "distance_m": 1.360147050873544,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "8f5a7179779117855447b00d9fae54b4650a618881c6c5c0ddf77a6a3c892d75"
+        },
+        {
+          "frame_idx": 16,
+          "start_ms": 9600,
+          "end_ms": 10200,
+          "distance_m": 1.0770329614269005,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "d2fd5ebc45b2620ad986354055210496ccd6d459634260f66a86df8da28a0f80"
+        },
+        {
+          "frame_idx": 17,
+          "start_ms": 10200,
+          "end_ms": 10800,
+          "distance_m": 0.8062257748298548,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "d9a785c46c7cf7351e4c8290f633cb6d6af9cac3493ce0fb4035fb97f66560ff"
+        },
+        {
+          "frame_idx": 18,
+          "start_ms": 10800,
+          "end_ms": 11400,
+          "distance_m": 0.5656854249492379,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "6fc3636d1297458f731b47d0426239e3635b92fb718662e510901f531557e3d5"
+        },
+        {
+          "frame_idx": 19,
+          "start_ms": 11400,
+          "end_ms": 12000,
+          "distance_m": 0.5656854249492379,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "459851638eb04f0172e55ccbf4a425b9272ae6586a942dd0b2dda09bd816f35f"
+        },
+        {
+          "frame_idx": 20,
+          "start_ms": 12000,
+          "end_ms": 12600,
+          "distance_m": 0.5656854249492379,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "469a58662d316fe7e650a7793ca1189ff46604bd5d63664613cbc587909a25ca"
+        },
+        {
+          "frame_idx": 21,
+          "start_ms": 12600,
+          "end_ms": 13200,
+          "distance_m": 0.5656854249492379,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "f984f207b5e1f12018fb865c865013858ff1cca071d04822b13074e67362a791"
+        },
+        {
+          "frame_idx": 22,
+          "start_ms": 13200,
+          "end_ms": 13800,
+          "distance_m": 0.5656854249492379,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "b270cfd8e42565d349c3f2d2fe9a69a65baca95ab0caa9c398e02452e871ed51"
+        },
+        {
+          "frame_idx": 23,
+          "start_ms": 13800,
+          "end_ms": 14400,
+          "distance_m": 0.5656854249492379,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "d754fad5929d2f3ab72ac73ae15e580ef9e9dd53ebff8bc7c4a507a30f4f6ac7"
+        },
+        {
+          "frame_idx": 24,
+          "start_ms": 14400,
+          "end_ms": 15000,
+          "distance_m": 0.5656854249492379,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "6d4c2cacd2934c5d9ae7749cdda2bdac7ec35c506ab6bbe348e6ee738efea72b"
+        },
+        {
+          "frame_idx": 25,
+          "start_ms": 15000,
+          "end_ms": 15600,
+          "distance_m": 0.8062257748298548,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "2c4b08ba1c8d605bacdaf21c41b36f44c317899defab4f2409df629a7180a538"
+        },
+        {
+          "frame_idx": 26,
+          "start_ms": 15600,
+          "end_ms": 16200,
+          "distance_m": 1.0770329614269005,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "d307a40e5798c0fe3e9601f9f558f9700861ef51bd23fc7206dd848df821057b"
+        },
+        {
+          "frame_idx": 27,
+          "start_ms": 16200,
+          "end_ms": 16800,
+          "distance_m": 1.360147050873544,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "362d155a52666783b80319c5869afbd1a9cb35f2123c9164c26ae3717e0c2aa9"
+        },
+        {
+          "frame_idx": 28,
+          "start_ms": 16800,
+          "end_ms": 17400,
+          "distance_m": 1.6492422502470638,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "dc3b3f9d260027be15824e4b06a0bf2044ebf5db76d2c25e7b20d93e974fa96d"
+        },
+        {
+          "frame_idx": 29,
+          "start_ms": 17400,
+          "end_ms": 18000,
+          "distance_m": 1.9416487838947594,
+          "inside_R": true,
+          "state": "inside",
+          "rgb_sha256": "3e19fae2d7db23985cf48f5679d38a900d4e4e843c284481b993a348be74a2b0"
+        },
+        {
+          "frame_idx": 30,
+          "start_ms": 18000,
+          "end_ms": 18600,
+          "distance_m": 2.236067977499789,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "e5971bcac78fda6f204640624310ffb6e09a2b4d50582a144a176ee8903294ed"
+        },
+        {
+          "frame_idx": 31,
+          "start_ms": 18600,
+          "end_ms": 19200,
+          "distance_m": 2.531797780234432,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "dca4788f36776b1c04b5145fa2fe7a5cafa09ad60d7327f1535403d1f7525f70"
+        },
+        {
+          "frame_idx": 32,
+          "start_ms": 19200,
+          "end_ms": 19800,
+          "distance_m": 2.8284271247461894,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "e01d4568e98d67ed87dc94f16f4eebb9e89f4f30ba6f119ca5731c429c70601b"
+        },
+        {
+          "frame_idx": 33,
+          "start_ms": 19800,
+          "end_ms": 20400,
+          "distance_m": 3.125699921617556,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "beb2c18b7905055ac91f316d7bbe4e353882d1e3fcef5825281f0acb8525c733"
+        },
+        {
+          "frame_idx": 34,
+          "start_ms": 20400,
+          "end_ms": 21000,
+          "distance_m": 3.423448553724737,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "b481194964071eb69b7ec3cad18a616f01b0d4752ae35b8f261de583ea06a3e1"
+        },
+        {
+          "frame_idx": 35,
+          "start_ms": 21000,
+          "end_ms": 21600,
+          "distance_m": 3.7215588131856783,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "292e7f07770ed7c2642d68c57a3abedb285bf5caa45cbbd6ceb16af0461a598b"
+        },
+        {
+          "frame_idx": 36,
+          "start_ms": 21600,
+          "end_ms": 22200,
+          "distance_m": 4.019950248448356,
+          "inside_R": false,
+          "state": "after",
+          "rgb_sha256": "5ddc0564aa8deb340227900932a104a4e5525612c3dd2d8e19b8040755cbaa03"
+        }
+      ]
+    }
+  ]
+}

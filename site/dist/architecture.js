@@ -6,10 +6,8 @@
   document.querySelectorAll('[data-architecture]').forEach(root => {
     const diagrams = [...root.querySelectorAll('[data-architecture-svg]')];
     const button = root.querySelector('[data-architecture-toggle]');
-    const label = root.querySelector('[data-architecture-label]');
-    const icon = root.querySelector('[data-architecture-icon]');
     const supported = diagrams.every(svg => ['pauseAnimations','unpauseAnimations','setCurrentTime','getCurrentTime'].every(name => typeof svg[name] === 'function'));
-    if (!button || !label || !supported) return;
+    if (!button || !supported) return;
     let enabled = !reduced.matches;
     let onscreen = !('IntersectionObserver' in window);
     diagrams.forEach(svg => { svg.pauseAnimations(); svg.setCurrentTime(0); });
@@ -25,8 +23,9 @@
       });
       button.hidden = reduced.matches;
       button.setAttribute('aria-pressed', String(allowed));
-      label.textContent = allowed ? button.dataset.pause : button.dataset.play;
-      if (icon) icon.textContent = allowed ? 'Ⅱ' : '▶';
+      const action = allowed ? button.dataset.pause : button.dataset.play;
+      button.setAttribute('aria-label', action);
+      button.title = action;
     };
     button.addEventListener('click', () => { enabled = !enabled; update(); });
     document.addEventListener('visibilitychange', update);

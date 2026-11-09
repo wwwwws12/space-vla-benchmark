@@ -1,0 +1,175 @@
+WEBVTT
+
+NOTE Recorded distances for a complete scripted dev-route replay.
+Not model predictions. Classification uses full-precision distance < R.
+
+frame-000
+00:00:00.000 --> 00:00:00.600 line:8% position:50% size:94% align:center
+Lunar lander · 90.52 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-001
+00:00:00.600 --> 00:00:01.200 line:8% position:50% size:94% align:center
+Lunar lander · 90.52 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-002
+00:00:01.200 --> 00:00:01.800 line:8% position:50% size:94% align:center
+Lunar lander · 81.56 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-003
+00:00:01.800 --> 00:00:02.400 line:8% position:50% size:94% align:center
+Lunar lander · 72.61 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-004
+00:00:02.400 --> 00:00:03.000 line:8% position:50% size:94% align:center
+Lunar lander · 63.66 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-005
+00:00:03.000 --> 00:00:03.600 line:8% position:50% size:94% align:center
+Lunar lander · 54.74 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-006
+00:00:03.600 --> 00:00:04.200 line:8% position:50% size:94% align:center
+Lunar lander · 45.85 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-007
+00:00:04.200 --> 00:00:04.800 line:8% position:50% size:94% align:center
+Lunar lander · 37.00 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-008
+00:00:04.800 --> 00:00:05.400 line:8% position:50% size:94% align:center
+Lunar lander · 34.08 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-009
+00:00:05.400 --> 00:00:06.000 line:8% position:50% size:94% align:center
+Lunar lander · 31.16 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-010
+00:00:06.000 --> 00:00:06.600 line:8% position:50% size:94% align:center
+Lunar lander · 28.27 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-011
+00:00:06.600 --> 00:00:07.200 line:8% position:50% size:94% align:center
+Lunar lander · 25.39 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-012
+00:00:07.200 --> 00:00:07.800 line:8% position:50% size:94% align:center
+Lunar lander · 22.55 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-013
+00:00:07.800 --> 00:00:08.400 line:8% position:50% size:94% align:center
+Lunar lander · 19.77 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-014
+00:00:08.400 --> 00:00:09.000 line:8% position:50% size:94% align:center
+Lunar lander · 17.05 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-015
+00:00:09.000 --> 00:00:09.600 line:8% position:50% size:94% align:center
+Lunar lander · 14.43 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-016
+00:00:09.600 --> 00:00:10.200 line:8% position:50% size:94% align:center
+Lunar lander · 12.01 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-017
+00:00:10.200 --> 00:00:10.800 line:8% position:50% size:94% align:center
+Lunar lander · 9.90 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-018
+00:00:10.800 --> 00:00:11.400 line:8% position:50% size:94% align:center
+Lunar lander · 8.35 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-019
+00:00:11.400 --> 00:00:12.000 line:8% position:50% size:94% align:center
+Lunar lander · 7.72 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-020
+00:00:12.000 --> 00:00:12.600 line:8% position:50% size:94% align:center
+Lunar lander · 8.21 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-021
+00:00:12.600 --> 00:00:13.200 line:8% position:50% size:94% align:center
+Lunar lander · 9.66 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-022
+00:00:13.200 --> 00:00:13.800 line:8% position:50% size:94% align:center
+Lunar lander · 11.71 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-023
+00:00:13.800 --> 00:00:14.400 line:8% position:50% size:94% align:center
+Lunar lander · 14.11 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-024
+00:00:14.400 --> 00:00:15.000 line:8% position:50% size:94% align:center
+Lunar lander · 16.70 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-025
+00:00:15.000 --> 00:00:15.600 line:8% position:50% size:94% align:center
+Lunar lander · 19.41 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-026
+00:00:15.600 --> 00:00:16.200 line:8% position:50% size:94% align:center
+Lunar lander · 22.19 m away
+<c.after>Outside 20 m range again</c>
+
+frame-027
+00:00:16.200 --> 00:00:16.800 line:8% position:50% size:94% align:center
+Lunar lander · 25.03 m away
+<c.after>Outside 20 m range again</c>
+
+frame-028
+00:00:16.800 --> 00:00:17.400 line:8% position:50% size:94% align:center
+Lunar lander · 27.90 m away
+<c.after>Outside 20 m range again</c>
+
+frame-029
+00:00:17.400 --> 00:00:18.000 line:8% position:50% size:94% align:center
+Lunar lander · 30.79 m away
+<c.after>Outside 20 m range again</c>
+
+frame-030
+00:00:18.000 --> 00:00:18.600 line:8% position:50% size:94% align:center
+Lunar lander · 33.70 m away
+<c.after>Outside 20 m range again</c>
+
+frame-031
+00:00:18.600 --> 00:00:19.200 line:8% position:50% size:94% align:center
+Lunar lander · 36.63 m away
+<c.after>Outside 20 m range again</c>
+
+frame-032
+00:00:19.200 --> 00:00:19.800 line:8% position:50% size:94% align:center
+Lunar lander · 39.57 m away
+<c.after>Outside 20 m range again</c>
+
+frame-033
+00:00:19.800 --> 00:00:20.400 line:8% position:50% size:94% align:center
+Lunar lander · 42.52 m away
+<c.after>Outside 20 m range again</c>
+

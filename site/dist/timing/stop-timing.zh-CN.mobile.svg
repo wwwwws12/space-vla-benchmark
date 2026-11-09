@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="604" viewBox="0 0 360 604" class="st-diagram st-mobile" aria-hidden="true" focusable="false">
+<style>.st-diagram text{font-family:"Segoe UI","Microsoft YaHei",Arial,sans-serif} .st-diagram .st-number{font-variant-numeric:tabular-nums}</style>
+<rect x="0" y="0" width="360" height="604" rx="0" fill="#ffffff"/>
+<text x="20" y="31" fill="#26333d" font-family="Arial" font-size="19" font-weight="650" text-anchor="start" class="">TRACE</text>
+<text x="340" y="31" fill="#93482f" font-family="Arial" font-size="16" font-weight="500" text-anchor="end" class="">第 12 步停止</text>
+<text x="20" y="57" fill="#59616a" font-family="Arial" font-size="16" font-weight="400" text-anchor="start" class="">连续确认</text>
+<text x="30" y="84" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">00</text>
+<text x="80" y="84" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">03</text>
+<text x="130" y="84" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">06</text>
+<text x="180" y="84" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">09</text>
+<text x="230" y="84" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">12</text>
+<text x="280" y="84" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">15</text>
+<text x="330" y="84" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">18</text>
+<path d="M20 224 L340 224" fill="none" stroke="#dfe2e4" stroke-width="1" stroke-linecap="round"/>
+<text x="20" y="258" fill="#26333d" font-family="Arial" font-size="19" font-weight="650" text-anchor="start" class="">delay-only</text>
+<text x="340" y="258" fill="#93482f" font-family="Arial" font-size="16" font-weight="500" text-anchor="end" class="">第 6 步停止</text>
+<text x="20" y="284" fill="#59616a" font-family="Arial" font-size="16" font-weight="400" text-anchor="start" class="">首次 Yes 后计时</text>
+<text x="30" y="311" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">00</text>
+<text x="80" y="311" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">03</text>
+<text x="130" y="311" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">06</text>
+<text x="180" y="311" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">09</text>
+<text x="230" y="311" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">12</text>
+<text x="280" y="311" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">15</text>
+<text x="330" y="311" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">18</text>
+<path d="M20 421 L340 421" fill="none" stroke="#dfe2e4" stroke-width="1" stroke-linecap="round"/>
+<text x="20" y="455" fill="#26333d" font-family="Arial" font-size="19" font-weight="650" text-anchor="start" class="">脚本终点</text>
+<text x="340" y="455" fill="#93482f" font-family="Arial" font-size="16" font-weight="500" text-anchor="end" class="">第 18 步停止</text>
+<text x="20" y="481" fill="#59616a" font-family="Arial" font-size="16" font-weight="400" text-anchor="start" class="">沿脚本路线走到终点</text>
+<text x="30" y="508" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">00</text>
+<text x="80" y="508" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">03</text>
+<text x="130" y="508" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">06</text>
+<text x="180" y="508" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">09</text>
+<text x="230" y="508" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">12</text>
+<text x="280" y="508" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">15</text>
+<text x="330" y="508" fill="#59616a" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="st-number">18</text>
+<path d="M30 137 L230 137" fill="none" stroke="#a6b0b8" stroke-width="2" stroke-linecap="round"/>
+<rect x="104" y="115" width="152" height="44" rx="12" fill="#f6eeea"/>
+<path d="M130 137 L230 137" fill="none" stroke="#93482f" stroke-width="2" stroke-linecap="round"/>
+<rect x="11" y="121" width="38" height="32" rx="8" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.2"/>
+<text x="30" y="142" fill="#26333d" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="">Yes</text>
+<rect x="61" y="121" width="38" height="32" rx="8" fill="#f6eeea" stroke="#bd9989" stroke-width="1.2"/>
+<text x="80" y="142" fill="#93482f" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="">No</text>
+<rect x="111" y="121" width="38" height="32" rx="8" fill="#ffffff" stroke="#93482f" stroke-width="1.2"/>
+<text x="130" y="142" fill="#26333d" font-family="Arial" font-size="16" font-weight="600" text-anchor="middle" class="">Yes</text>
+<rect x="161" y="121" width="38" height="32" rx="8" fill="#ffffff" stroke="#93482f" stroke-width="1.2"/>
+<text x="180" y="142" fill="#26333d" font-family="Arial" font-size="16" font-weight="600" text-anchor="middle" class="">Yes</text>
+<rect x="206" y="116" width="48" height="42" rx="12" fill="#f6eeea"/>
+<rect x="211" y="121" width="38" height="32" rx="8" fill="#93482f" stroke="#93482f" stroke-width="1.2"/>
+<text x="230" y="142" fill="#ffffff" font-family="Arial" font-size="16" font-weight="600" text-anchor="middle" class="">Yes</text>
+<text x="230" y="109" fill="#93482f" font-family="Arial" font-size="15" font-weight="700" text-anchor="middle" class="">STOP</text>
+<text x="80" y="180" fill="#59616a" font-family="Arial" font-size="16" font-weight="400" text-anchor="middle" class="">计数清零</text>
+<path d="M130 168 L130 172" fill="none" stroke="#93482f" stroke-width="1" stroke-linecap="round"/>
+<path d="M130 172 L230 172" fill="none" stroke="#93482f" stroke-width="1" stroke-linecap="round"/>
+<path d="M230 172 L230 168" fill="none" stroke="#93482f" stroke-width="1" stroke-linecap="round"/>
+<text x="180" y="194" fill="#93482f" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="">连续 3 次 Yes</text>
+<path d="M30 364 L34 364 M40 364 L44 364 M50 364 L54 364 M60 364 L64 364 M70 364 L74 364 M80 364 L84 364 M90 364 L94 364 M100 364 L104 364 M110 364 L114 364 M120 364 L124 364" fill="none" stroke="#93482f" stroke-width="2" stroke-linecap="round"/>
+<rect x="11" y="348" width="38" height="32" rx="8" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.2"/>
+<text x="30" y="369" fill="#26333d" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="">Yes</text>
+<circle cx="80" cy="364" r="4" fill="#ffffff" stroke="#93482f" stroke-width="1.5"/>
+<circle cx="130" cy="364" r="18" fill="#f6eeea"/>
+<circle cx="130" cy="364" r="11" fill="#93482f"/>
+<rect x="126.5" y="360.5" width="7" height="7" rx="1" fill="#ffffff"/>
+<text x="130" y="336" fill="#93482f" font-family="Arial" font-size="15" font-weight="700" text-anchor="middle" class="">STOP</text>
+<text x="80" y="401" fill="#93482f" font-family="Arial" font-size="16" font-weight="500" text-anchor="middle" class="">等待 6 步</text>
+<path d="M30 561 L330 561" fill="none" stroke="#a6b0b8" stroke-width="2" stroke-linecap="round"/>
+<circle cx="30" cy="561" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="80" cy="561" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="130" cy="561" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="180" cy="561" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="230" cy="561" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="280" cy="561" r="4.5" fill="#ffffff" stroke="#a6b0b8" stroke-width="1.7"/>
+<circle cx="330" cy="561" r="18" fill="#f6eeea"/>
+<circle cx="330" cy="561" r="11" fill="#93482f"/>
+<rect x="326.5" y="557.5" width="7" height="7" rx="1" fill="#ffffff"/>
+<text x="330" y="533" fill="#93482f" font-family="Arial" font-size="15" font-weight="700" text-anchor="middle" class="">STOP</text>
+</svg>

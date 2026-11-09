@@ -58,3 +58,22 @@ The user-provided website ZIP informed hover zoom, reading progress and count-up
 interactions. Its code, framework, media, data and benchmark claims were not
 imported. Existing videos, scene examples and scientific result exports retain
 their original bytes and attribution.
+
+
+## Website V22 presentation assets (2026-11-09)
+
+V22 presents the existing frozen benchmark results in interactive charts and
+retains the original architecture colors with isolated SVG styles. This update
+adds no experiment runs and changes no observations, model responses or metrics.
+The existing project license status applies; no additional license is assigned.
+
+| Asset | Provenance | Format / size | Version / license | Repository path |
+|---|---|---|---|---|
+| Paired-lighting charts | Generated directly from the unchanged `results/summary.json` primary results | SVG; 11,949 bytes | V22; existing project license status | `site/dist/downloads/paired-lighting.en.svg` |
+| Paired-lighting chart, Chinese | Same frozen results; Chinese labels | SVG; 11,970 bytes | V22; existing project license status | `site/dist/downloads/paired-lighting.zh-CN.svg` |
+| Online agreement chart | Existing Qwen dev online confirmation, 60 routes per world | SVG; 2,577 bytes | V22; existing project license status | `site/dist/downloads/online-agreement.en.svg` |
+| Online agreement chart, Chinese | Same online confirmation counts; Chinese labels | SVG; 2,571 bytes | V22; existing project license status | `site/dist/downloads/online-agreement.zh-CN.svg` |
+| Primary result download | Lossless export of the 72 existing primary result records | CSV; 9,278 bytes | V22; existing project license status | `site/dist/downloads/primary-results.csv` |
+| Video frame context | Existing route records: camera-to-goal distance at each displayed frame; no model predictions | JSON; 33,692 bytes | V22; existing project license status | `site/dist/video-context.json` |
+
+All media bytes, attribution files and dataset Release links retain their existing provenance. Per-file SHA256 values are recorded in the repository `SHA256SUMS`.

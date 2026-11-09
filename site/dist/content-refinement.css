@@ -1,0 +1,119 @@
+/* V17: explanations form the main reading flow; compact text is reserved for
+   chart labels, controls and optional file-level provenance. V15 palette kept. */
+:root { --editorial-measure: 840px; }
+.editorial-prose, .body-copy {
+  color: var(--body);
+  font: 400 17px/1.9 var(--sans);
+  text-align: left;
+  text-wrap: pretty;
+}
+.editorial-prose p { margin: 0; }
+.editorial-prose p + p { margin-top: 24px; }
+.editorial-prose strong, .body-copy strong { color: var(--ink); font-weight: 600; }
+.editorial-prose i { font-style: italic; }
+.editorial-prose h3 {
+  margin: 0 0 25px;
+  color: var(--ink);
+  font: 600 25px/1.4 var(--sans);
+  letter-spacing: -.02em;
+}
+.prose, .section-head > p { line-height: 1.9; text-wrap: pretty; }
+.prose p + p { margin-top: 24px; }
+.reading-column { max-width: var(--editorial-measure); }
+
+/* A visible introduction explains what the clips show once, above the media. */
+.demo-introduction { max-width: var(--editorial-measure); margin: 0 auto 30px; }
+.demo-heading .section-head { margin-bottom: 26px; }
+.demo-carousel .demo-caption { margin-top: 3px; }
+.demo-carousel .recording-panel .video-meta { font: 15px/1.8 var(--sans); margin: 0; }
+.demo-carousel .video-meta a { font-size: 14px; }
+.playback-options > button, .recording-details > summary { font-size: 14px; }
+.playback-options { margin-top: 10px; }
+
+.environment-description { font-size: 17px; line-height: 1.9; margin-bottom: 28px; }
+.environment-pair figcaption { font-size: 14px; padding-top: 15px; }
+.environment-pair figcaption strong { font-size: 15px; }
+.source-records { margin-top: 27px; font-size: 15px; line-height: 1.85; }
+.source-records > summary { width: fit-content; min-height: 44px; padding: 8px 0; color: var(--blue); cursor: pointer; }
+.source-records > p { padding-top: 8px; color: var(--body); }
+.source-records code { font-size: .85em; overflow-wrap: anywhere; }
+.dataset-contents { margin-top: 34px; }
+
+/* One illustration with a full-size caption; no repeated legends or corner notes. */
+.stop-example { gap: 38px; grid-template-columns: minmax(0, 1.65fr) minmax(300px, 1fr); }
+.stop-example-caption > p { font-size: 16px; line-height: 1.85; }
+.stop-example-caption > p + p { margin-top: 20px; }
+.stop-example-caption strong { font-weight: 600; color: var(--ink); }
+.method-reading {
+  width: 100%;
+  max-width: var(--editorial-measure);
+  margin: 56px auto 38px;
+}
+.parameter-reading { margin-top: 55px; margin-bottom: 0; }
+#protocol .stop-comparison { margin-top: 36px; margin-bottom: 40px; }
+#protocol .stop-comparison figcaption {
+  display: block;
+  padding: 22px 30px 10px;
+  border: 0;
+  color: var(--body);
+  font: 400 16px/1.85 var(--sans);
+  text-align: left;
+}
+#protocol .stop-comparison figcaption p { margin: 0; }
+
+.finding-strip { margin-bottom: 28px; }
+.finding-comment { align-self: center; }
+.finding-comment b { font-size: 19px; font-weight: 500; }
+.chart-introduction { margin: 0 0 25px; }
+.result-observations { margin: 34px 0; }
+.result-observations p { font-size: 17px; line-height: 1.9; }
+.result-observations p + p { margin-top: 24px; }
+.method-explorer > .body-copy, .grid-section > .body-copy { margin: 0 0 27px; }
+.method-explorer .chart-heading, .grid-section .chart-heading { margin-bottom: 18px; }
+.method-explorer { margin-top: 55px; }
+.grid-section { margin-top: 58px; }
+
+.dataset-downloads .download-intro { font: 400 17px/1.9 var(--sans); color: var(--body); margin: 0 0 28px; }
+.dataset-downloads .download-guide { margin-top: 28px; }
+.dataset-downloads .download-guide > summary { font-size: 16px; }
+.dataset-downloads .download-guide p, .dataset-downloads .download-guide li,
+.dataset-downloads .download-scope { font: 400 16px/1.85 var(--sans); color: var(--body); }
+.dataset-downloads .download-guide ol { margin: 18px 0; }
+.dataset-downloads .download-guide li + li { margin-top: 10px; }
+.dataset-downloads .download-status { font-size: 14px; }
+.repository-reading { margin: 32px 0 22px; }
+.repository-reading code { font-size: .9em; }
+.repository-reading a { text-decoration: underline; text-underline-offset: 4px; text-decoration-color: #a7b1b8; }
+.repository-reading a:hover { text-decoration-color: var(--blue); }
+.footer-main > p { font-size: 15px; line-height: 1.8; }
+.footer-bottom > p { font-size: 14px; line-height: 1.8; }
+.footer-bottom { align-items: start; }
+
+@media (max-width: 920px) {
+  .stop-example { grid-template-columns: minmax(0, 1fr); gap: 26px; }
+}
+@media (max-width: 800px) {
+  .editorial-prose, .body-copy, .environment-description,
+  .result-observations p, .dataset-downloads .download-intro { font-size: 16px; line-height: 1.85; }
+  .method-reading { margin-top: 42px; }
+  .editorial-prose h3 { font-size: 23px; }
+}
+@media (max-width: 600px) {
+  .editorial-prose h3 { font-size: 22px; margin-bottom: 22px; }
+  .editorial-prose p + p, .prose p + p, .result-observations p + p { margin-top: 21px; }
+  .demo-introduction { margin-bottom: 22px; }
+  .playback-options > button, .recording-details > summary { font-size: 13px; }
+  .source-records { font-size: 14px; }
+  .environment-pair figcaption { font-size: 13px; }
+  #protocol .stop-comparison figcaption { padding: 19px 20px 10px; font-size: 15px; }
+  .method-reading { margin-top: 36px; margin-bottom: 28px; }
+  .parameter-reading { margin-bottom: 0; }
+  .finding-comment b { font-size: 17px; }
+  .method-explorer, .grid-section { margin-top: 42px; }
+  .footer-bottom > p { font-size: 14px; }
+}
+@media print {
+  .method-reading { max-width: none; margin-block: 24px; }
+  .editorial-prose, .body-copy { color: #20272e; }
+  .source-records > p { display: block; }
+}

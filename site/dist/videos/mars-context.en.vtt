@@ -1,0 +1,170 @@
+WEBVTT
+
+NOTE Recorded distances for a complete scripted dev-route replay.
+Not model predictions. Classification uses full-precision distance < R.
+
+frame-000
+00:00:00.000 --> 00:00:00.600 line:8% position:50% size:94% align:center
+Blue container · 106.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-001
+00:00:00.600 --> 00:00:01.200 line:8% position:50% size:94% align:center
+Blue container · 97.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-002
+00:00:01.200 --> 00:00:01.800 line:8% position:50% size:94% align:center
+Blue container · 88.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-003
+00:00:01.800 --> 00:00:02.400 line:8% position:50% size:94% align:center
+Blue container · 79.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-004
+00:00:02.400 --> 00:00:03.000 line:8% position:50% size:94% align:center
+Blue container · 70.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-005
+00:00:03.000 --> 00:00:03.600 line:8% position:50% size:94% align:center
+Blue container · 61.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-006
+00:00:03.600 --> 00:00:04.200 line:8% position:50% size:94% align:center
+Blue container · 52.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-007
+00:00:04.200 --> 00:00:04.800 line:8% position:50% size:94% align:center
+Blue container · 43.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-008
+00:00:04.800 --> 00:00:05.400 line:8% position:50% size:94% align:center
+Blue container · 37.54 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-009
+00:00:05.400 --> 00:00:06.000 line:8% position:50% size:94% align:center
+Blue container · 28.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-010
+00:00:06.000 --> 00:00:06.600 line:8% position:50% size:94% align:center
+Blue container · 25.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-011
+00:00:06.600 --> 00:00:07.200 line:8% position:50% size:94% align:center
+Blue container · 22.53 m away
+<c.before>Outside 20 m stop range</c>
+
+frame-012
+00:00:07.200 --> 00:00:07.800 line:8% position:50% size:94% align:center
+Blue container · 19.53 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-013
+00:00:07.800 --> 00:00:08.400 line:8% position:50% size:94% align:center
+Blue container · 16.54 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-014
+00:00:08.400 --> 00:00:09.000 line:8% position:50% size:94% align:center
+Blue container · 13.54 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-015
+00:00:09.000 --> 00:00:09.600 line:8% position:50% size:94% align:center
+Blue container · 10.54 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-016
+00:00:09.600 --> 00:00:10.200 line:8% position:50% size:94% align:center
+Blue container · 7.54 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-017
+00:00:10.200 --> 00:00:10.800 line:8% position:50% size:94% align:center
+Blue container · 4.54 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-018
+00:00:10.800 --> 00:00:11.400 line:8% position:50% size:94% align:center
+Blue container · 1.56 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-019
+00:00:11.400 --> 00:00:12.000 line:8% position:50% size:94% align:center
+Blue container · 1.51 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-020
+00:00:12.000 --> 00:00:12.600 line:8% position:50% size:94% align:center
+Blue container · 4.48 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-021
+00:00:12.600 --> 00:00:13.200 line:8% position:50% size:94% align:center
+Blue container · 7.48 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-022
+00:00:13.200 --> 00:00:13.800 line:8% position:50% size:94% align:center
+Blue container · 10.48 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-023
+00:00:13.800 --> 00:00:14.400 line:8% position:50% size:94% align:center
+Blue container · 13.48 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-024
+00:00:14.400 --> 00:00:15.000 line:8% position:50% size:94% align:center
+Blue container · 16.48 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-025
+00:00:15.000 --> 00:00:15.600 line:8% position:50% size:94% align:center
+Blue container · 19.47 m away
+<c.inside>Within 20 m stop range</c>
+
+frame-026
+00:00:15.600 --> 00:00:16.200 line:8% position:50% size:94% align:center
+Blue container · 22.47 m away
+<c.after>Outside 20 m range again</c>
+
+frame-027
+00:00:16.200 --> 00:00:16.800 line:8% position:50% size:94% align:center
+Blue container · 25.47 m away
+<c.after>Outside 20 m range again</c>
+
+frame-028
+00:00:16.800 --> 00:00:17.400 line:8% position:50% size:94% align:center
+Blue container · 28.47 m away
+<c.after>Outside 20 m range again</c>
+
+frame-029
+00:00:17.400 --> 00:00:18.000 line:8% position:50% size:94% align:center
+Blue container · 31.47 m away
+<c.after>Outside 20 m range again</c>
+
+frame-030
+00:00:18.000 --> 00:00:18.600 line:8% position:50% size:94% align:center
+Blue container · 34.47 m away
+<c.after>Outside 20 m range again</c>
+
+frame-031
+00:00:18.600 --> 00:00:19.200 line:8% position:50% size:94% align:center
+Blue container · 37.47 m away
+<c.after>Outside 20 m range again</c>
+
+frame-032
+00:00:19.200 --> 00:00:19.800 line:8% position:50% size:94% align:center
+Blue container · 40.47 m away
+<c.after>Outside 20 m range again</c>
+

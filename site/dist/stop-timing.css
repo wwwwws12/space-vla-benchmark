@@ -1,0 +1,94 @@
+/* V16: a focused refinement of the existing rule example. */
+#protocol .stop-comparison {
+  margin: 34px 0 38px;
+  border: 1px solid var(--ink-rule);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 20px 44px -28px rgb(28 40 50 / 34%), 0 2px 6px rgb(28 40 50 / 4%);
+  overflow: hidden;
+  scroll-margin-top: 110px;
+}
+#protocol .stop-comparison > summary {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 80px;
+  padding: 20px 30px;
+  list-style: none;
+  color: var(--ink);
+  background: #fff;
+  transition: background 180ms ease;
+}
+#protocol .stop-comparison > summary::-webkit-details-marker { display: none; }
+#protocol .stop-comparison > summary::marker { content: ''; }
+#protocol .stop-comparison > summary:hover { background: #f9faf9; }
+#protocol .stop-comparison > summary:focus-visible { outline-offset: -5px; border-radius: 14px; }
+#protocol .stop-comparison .st-heading { font: 600 21px/1.4 var(--sans); letter-spacing: -.02em; }
+#protocol .stop-comparison .st-parameters { display: flex; gap: 8px; margin-left: auto; white-space: nowrap; }
+#protocol .stop-comparison .st-parameters > span {
+  padding: 5px 11px;
+  border: 1px solid var(--ink-rule);
+  border-radius: 6px;
+  background: #f7f8f8;
+  font: 500 13px/1.5 var(--sans);
+  color: var(--body);
+  font-variant-numeric: tabular-nums;
+}
+#protocol .stop-comparison .st-parameters i { font-style: normal; color: var(--muted); }
+#protocol .stop-comparison .st-chevron { width: 20px; height: 20px; color: var(--muted); transform: rotate(-90deg); transition: transform 180ms ease; }
+#protocol .stop-comparison[open] .st-chevron { transform: rotate(0); }
+#protocol .stop-comparison .st-body { position: relative; margin: 0; border-top: 1px solid var(--ink-rule); }
+#protocol .stop-comparison .st-visual { width: 100%; }
+#protocol .stop-comparison .st-diagram { display: block; width: 100%; height: auto; max-width: none; }
+#protocol .stop-comparison .st-mobile { display: none; }
+#protocol .stop-comparison figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 28px;
+  margin: 0;
+  padding: 15px 30px;
+  border-top: 1px solid var(--ink-rule);
+  color: var(--muted);
+  font: 13px/1.6 var(--sans);
+  text-align: left;
+}
+/* The illustration has an equivalent semantic table for screen readers. */
+#protocol .stop-comparison .st-accessible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+@media (max-width: 900px) {
+  #protocol .stop-comparison { border-radius: 14px; margin-block: 28px; }
+  #protocol .stop-comparison > summary { flex-wrap: wrap; gap: 10px; padding: 18px 20px; min-height: 76px; }
+  #protocol .stop-comparison .st-heading { font-size: 19px; }
+  #protocol .stop-comparison .st-parameters { gap: 6px; }
+  #protocol .stop-comparison .st-parameters > span { font-size: 12px; padding: 4px 8px; }
+  #protocol .stop-comparison .st-desktop { display: none; }
+  #protocol .stop-comparison .st-mobile { display: block; max-width: 480px; margin-inline: auto; }
+  #protocol .stop-comparison figcaption { display: block; padding: 14px 20px; font-size: 12px; }
+  #protocol .stop-comparison figcaption > span { display: block; }
+  #protocol .stop-comparison figcaption > span + span { margin-top: 5px; }
+}
+@media (max-width: 460px) {
+  #protocol .stop-comparison .st-heading { flex: 1 1 calc(100% - 30px); }
+  #protocol .stop-comparison .st-chevron { order: 2; }
+  #protocol .stop-comparison .st-parameters { order: 3; margin-left: 0; flex-basis: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #protocol .stop-comparison > summary,
+  #protocol .stop-comparison .st-chevron { transition: none; }
+}
+@media print {
+  #protocol .stop-comparison { box-shadow: none; break-inside: avoid; }
+  #protocol .stop-comparison > summary { display: flex !important; }
+  #protocol .stop-comparison .st-body { display: block !important; }
+}
